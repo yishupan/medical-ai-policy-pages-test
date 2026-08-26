@@ -12,14 +12,16 @@ on:
     branches: [main]
     paths:
       - index.html
-      - data/**
+      - data/policies.json
+      - data/sources.json
       - scripts/**
+      - tests/**
       - .github/workflows/policy-radar-pages.yml
   schedule:
-    - cron: '30 23 * * 0-4'
+    - cron: '30 23 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -35,10 +37,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Generate run status
-        run: node scripts/build-run.mjs
+      - name: Test monitoring parser
+        run: python3 -m unittest discover -s tests -v
       - name: Validate required files
-        run: test -s index.html && test -s data/policies.json && test -s data/run.json
+        run: test -s index.html && test -s data/policies.json && test -s data/sources.json && test -s data/candidates.json
 
   build-and-deploy:
     if: github.event_name != 'pull_request'
@@ -51,13 +53,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Test monitoring parser
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch official monitoring sources
+        run: python3 scripts/monitor_sources.py
+      - name: Commit changed candidate facts
+        run: |
+          if git diff --quiet -- data/candidates.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidates.json
+          git commit -m "data: refresh monitored policy candidates"
+          git push
       - name: Generate run status
         run: node scripts/build-run.mjs
       - name: Prepare public-only site
         run: |
           mkdir -p site/data
           cp index.html site/index.html
-          cp data/policies.json data/run.json site/data/
+          cp data/policies.json data/candidates.json data/run.json site/data/
           test ! -e site/policies
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
