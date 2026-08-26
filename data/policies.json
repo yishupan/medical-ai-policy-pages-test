@@ -1,76 +1,790 @@
 {
+  "schema_version": 1,
+  "generated_at": "2026-08-26 10:54:43 +08:00",
+  "policy_count": 87,
   "policies": [
     {
-      "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
-      "issuer": "全国人民代表大会",
-      "document_no": "无文号",
-      "issue_date": "2026-03-13",
-      "region": "全国",
-      "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062633.htm",
-      "source_label": "中国政府网"
+      "title": "赣州市公共数据资源授权运营实施方案",
+      "issuer": "赣州市人民政府办公室",
+      "document_no": "赣市府办字〔2026〕35号",
+      "published_date": "2026-07-22",
+      "region": "江西",
+      "category": "地方政策",
+      "source_url": "https://www.ganzhou.gov.cn/zfxxgk/c101854/202607/f45a7eec8c9b423f9e70af24ace86df1.shtml"
     },
     {
-      "title": "关于进一步健全城市社区卫生服务体系 提升服务能力的通知",
-      "issuer": "国家卫生健康委办公厅",
-      "document_no": "国卫办基层发〔2026〕7号",
-      "issue_date": "2026-05-29",
+      "title": "资产管理 数据资产登记指南（GB/T 47950—2026）",
+      "issuer": "国家市场监督管理总局、国家标准化管理委员会",
+      "document_no": "GB/T 47950—2026",
+      "published_date": "2026-07-02",
       "region": "全国",
-      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml",
-      "source_label": "辽宁省卫生健康委转载"
+      "category": "医疗数据利用与流通",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=39D486E7240CCAD9F0BE93574CCD2AE7"
     },
     {
-      "title": "WS/T 891—2026《紧密型县域医共体医学影像中心设置标准》",
+      "title": "国家数据局综合司关于印发数据产权登记工作指引（试行）的通知",
+      "issuer": "国家数据局综合司",
+      "document_no": "国数综政策〔2026〕35号",
+      "published_date": "2026-07-01",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0703/20260703230745065425855_pc.html"
+    },
+    {
+      "title": "放射诊断实践中放射防护与辐射剂量管理标准",
       "issuer": "国家卫生健康委员会",
-      "document_no": "WS/T 891—2026",
-      "issue_date": "2026-03-17",
+      "document_no": "WS/T 908—2026",
+      "published_date": "2026-06-26",
       "region": "全国",
-      "source_url": "https://www.nhc.gov.cn/wjw/c100309/202603/c201f9460a7a446dadf2896663d93724/files/WST%20891%E2%80%942026-20260331175249901.pdf",
-      "source_label": "国家卫生健康委PDF"
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/fzs/c100048/202607/985c9a82b46349d38816cdaf1189ba35/files/WST%20908%E2%80%942026.pdf"
     },
     {
-      "title": "紧密型县域医共体医学影像中心建设与服务指南（试行）",
-      "issuer": "国家卫生健康委办公厅",
-      "document_no": "附件未单列文号",
-      "issue_date": "2026-05-27",
+      "title": "国家医疗保障局发布“医保影像云”基础规范",
+      "issuer": "国家医疗保障局",
+      "document_no": "无明确文号",
+      "published_date": "2026-06-22",
       "region": "全国",
-      "source_url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/1.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf",
-      "source_label": "国家卫生健康委PDF"
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2026/6/22/art_109_21057.html"
     },
     {
       "title": "人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）",
-      "issuer": "国家药品监督管理局医疗器械技术审评中心",
-      "document_no": "不适用（征求意见稿）",
-      "issue_date": "2026-06-17",
+      "issuer": "国家药监局医疗器械技术审评检查长三角分中心",
+      "document_no": "—（征求意见稿）",
+      "published_date": "2026-06-17",
       "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/881",
-      "source_label": "长三角分中心"
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.ydcmdei.org.cn/article/881"
     },
     {
       "title": "关于推进行业高质量数据集建设行动的实施方案",
       "issuer": "国家数据局",
       "document_no": "国数科基〔2026〕25号",
-      "issue_date": "2026-06-03",
+      "published_date": "2026-06-03",
       "region": "全国",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0608/20260608172117399715004_pc.html",
-      "source_label": "国家数据局"
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0608/20260608172117399715004_pc.html"
+    },
+    {
+      "title": "国家药监局关于发布医疗器械分类目录动态调整工作程序的公告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局公告2026年第53号",
+      "published_date": "2026-06-01",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260601173941178.html"
+    },
+    {
+      "title": "国家药监局关于医疗器械分类调整有关工作的公告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局公告2026年第52号",
+      "published_date": "2026-06-01",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/fgwj/xzhgfxwj/20260601172053198.html"
+    },
+    {
+      "title": "关于进一步健全城市社区卫生服务体系 提升服务能力的通知",
+      "issuer": "国家卫生健康委办公厅",
+      "document_no": "国卫办基层发〔2026〕7号",
+      "published_date": "2026-05-29",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml"
+    },
+    {
+      "title": "紧密型县域医共体医学影像中心建设与服务指南（试行）",
+      "issuer": "国家卫生健康委办公厅",
+      "document_no": "未在所收录附件中单列",
+      "published_date": "2026-05-27",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/1.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf"
+    },
+    {
+      "title": "国家医疗保障局关于印发医疗保障基金监督检查五年行动计划（2026年—2030年）的通知",
+      "issuer": "国家医疗保障局",
+      "document_no": "医保发〔2026〕11号",
+      "published_date": "2026-05-13",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2026/5/13/art_104_20494.html"
+    },
+    {
+      "title": "北京市互联网信息办公室等三部门关于印发中国（北京）自由贸易试验区、国家服务业扩大开放综合示范区数据出境负面清单（2025版）及管理办法的通知",
+      "issuer": "北京市互联网信息办公室、北京市商务局、北京市政务服务和数据管理局",
+      "document_no": "",
+      "published_date": "2026-05-11",
+      "region": "北京",
+      "category": "地方政策",
+      "source_url": "https://sw.beijing.gov.cn/tzgg/202605/t20260511_4645197.html"
+    },
+    {
+      "title": "WS/T 891—2026紧密型县域医共体医学影像中心设置标准",
+      "issuer": "国家卫生健康委员会",
+      "document_no": "WS/T 891—2026",
+      "published_date": "2026-03-17",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/wjw/c100309/202603/c201f9460a7a446dadf2896663d93724/files/WST%20891%E2%80%942026-20260331175249901.pdf"
+    },
+    {
+      "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
+      "issuer": "全国人民代表大会",
+      "document_no": "不适用（全国人大规划纲要，公开文本未设行政文号）",
+      "published_date": "2026-03-13",
+      "region": "全国",
+      "category": "十五五与产业支持",
+      "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062633.htm"
     },
     {
       "title": "医疗卫生机构数据安全和个人信息保护管理办法（试行）",
       "issuer": "国家卫生健康委、公安部、国家互联网信息办公室、国家中医药管理局、国家疾病预防控制局",
       "document_no": "国卫规划发〔2026〕6号",
-      "issue_date": "2026-02-12",
+      "published_date": "2026-02-12",
       "region": "全国",
-      "source_url": "https://www.whcdc.org/yewuzhidao/falvfagui/guizhang/2026-03-13/10924.html",
-      "source_label": "武汉市疾病预防控制中心"
+      "category": "数据安全与跨境",
+      "source_url": "https://www.whcdc.org/yewuzhidao/falvfagui/guizhang/2026-03-13/10924.html"
+    },
+    {
+      "title": "广西深入实施“人工智能＋”三年行动方案（2026—2028年）",
+      "issuer": "广西壮族自治区人民政府办公厅",
+      "document_no": "桂政办发〔2025〕61号",
+      "published_date": "2026-01-08",
+      "region": "广西",
+      "category": "地方政策",
+      "source_url": "https://www.gxzf.gov.cn/zfwj/zxwj/t27094468.shtml"
+    },
+    {
+      "title": "国家药监局关于调整医疗器械分类目录部分内容的公告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局公告2025年第132号",
+      "published_date": "2026-01-04",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260104173409116.html"
+    },
+    {
+      "title": "病理类医疗服务价格项目立项指南（试行）",
+      "issuer": "国家医疗保障局",
+      "document_no": "无明确文号",
+      "published_date": "2025-12-31",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2025/12/31/art_201_19203.html"
+    },
+    {
+      "title": "中华人民共和国网络安全法",
+      "issuer": "全国人民代表大会常务委员会",
+      "document_no": "—（2025年修正）",
+      "published_date": "2025-12-29",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm"
+    },
+    {
+      "title": "国家医保局关于加快医疗保障领域场景培育和开放 支持新场景大规模应用的通知",
+      "issuer": "国家医疗保障局",
+      "document_no": "医保发〔2025〕38号",
+      "published_date": "2025-12-19",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057134.htm"
+    },
+    {
+      "title": "江西省人民政府关于印发江西省“人工智能+”行动方案的通知",
+      "issuer": "江西省人民政府",
+      "document_no": "",
+      "published_date": "2025-12-18",
+      "region": "江西",
+      "category": "地方政策",
+      "source_url": "https://jx.mof.gov.cn/xxgk/zhengcefagui/202512/t20251225_3980167.htm"
+    },
+    {
+      "title": "浙江省医疗保障局关于公布器官移植、临床量表评估、中医及放射检查等9类医疗服务价格项目及医保支付政策的通知",
+      "issuer": "浙江省医疗保障局",
+      "document_no": "浙医保发〔2025〕31号",
+      "published_date": "2025-11-17",
+      "region": "浙江",
+      "category": "地方政策",
+      "source_url": "https://www.zjszsyy.com/zh/news_detail/17612/5/34"
+    },
+    {
+      "title": "国务院办公厅关于加快场景培育和开放推动新场景大规模应用的实施意见",
+      "issuer": "国务院办公厅",
+      "document_no": "国办发〔2025〕37号",
+      "published_date": "2025-11-07",
+      "region": "全国",
+      "category": "十五五与产业支持",
+      "source_url": "https://www.gov.cn/zhengce/content/202511/content_7047419.htm"
+    },
+    {
+      "title": "关于促进和规范“人工智能+医疗卫生”应用发展的实施意见",
+      "issuer": "国家卫生健康委办公厅、国家发展改革委办公厅、工业和信息化部办公厅、国家中医药局综合司、国家疾控局综合司",
+      "document_no": "国卫办规划发〔2025〕30号",
+      "published_date": "2025-11-04",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202511/d1a42ae835c743b9b3e83ac0253c3e9f.shtml"
+    },
+    {
+      "title": "个人信息出境认证办法",
+      "issuer": "国家互联网信息办公室、国家市场监督管理总局",
+      "document_no": "国家互联网信息办公室、国家市场监督管理总局令第21号",
+      "published_date": "2025-10-14",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-10/17/c_1762449728720008.htm"
     },
     {
       "title": "浙江省人民政府办公厅关于印发浙江省公共数据资源授权运营管理办法的通知",
       "issuer": "浙江省人民政府办公厅",
       "document_no": "浙政办发〔2025〕30号",
-      "issue_date": "2025-10-09",
-      "region": "浙江省",
-      "source_url": "https://www.zj.gov.cn/col/col1229017139/art/2025/art_016b668227be4777a1d18a27e090f3a4.html",
-      "source_label": "浙江省人民政府"
+      "published_date": "2025-10-09",
+      "region": "浙江",
+      "category": "地方政策",
+      "source_url": "https://www.zj.gov.cn/col/col1229017139/art/2025/art_016b668227be4777a1d18a27e090f3a4.html"
+    },
+    {
+      "title": "广西全面深化药品医疗器械监管改革促进医药产业高质量发展行动方案（2025—2027年）",
+      "issuer": "广西壮族自治区人民政府",
+      "document_no": "",
+      "published_date": "2025-09-28",
+      "region": "广西",
+      "category": "地方政策",
+      "source_url": "http://tzcjj.gxzf.gov.cn/gzdt/t26099170.shtml"
+    },
+    {
+      "title": "国家网络安全事件报告管理办法",
+      "issuer": "国家互联网信息办公室",
+      "document_no": "国家互联网信息办公室令第20号",
+      "published_date": "2025-09-11",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm"
+    },
+    {
+      "title": "上海市人民政府办公厅关于印发上海市促进高端医疗器械产业全链条发展行动方案的通知",
+      "issuer": "上海市人民政府办公厅",
+      "document_no": "沪府办发〔2025〕17号",
+      "published_date": "2025-09-04",
+      "region": "上海",
+      "category": "地方政策",
+      "source_url": "https://www.shanghai.gov.cn/202518bgtwj/20250925/5da0a9358ed34c888ebbd01f6ccccbcb.html"
+    },
+    {
+      "title": "国务院关于深入实施“人工智能+”行动的意见",
+      "issuer": "国务院",
+      "document_no": "国发〔2025〕11号",
+      "published_date": "2025-08-26",
+      "region": "全国",
+      "category": "十五五与产业支持",
+      "source_url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
+    },
+    {
+      "title": "国家药监局关于发布应用纳米材料的医疗器械产品分类界定指导原则康复类数字疗法软件产品分类界定指导原则等2项医疗器械产品分类界定指导原则的通告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局2025年第27号通告",
+      "published_date": "2025-07-30",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/ylqx/ylqxggtg/20250729140322135.html"
+    },
+    {
+      "title": "上海市公共数据资源授权运营管理办法",
+      "issuer": "上海市人民政府办公厅",
+      "document_no": "沪府办规〔2025〕11号",
+      "published_date": "2025-07-28",
+      "region": "上海",
+      "category": "地方政策",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20250801/e03bd8f1f16b462ba100d3f3d431c874.html"
+    },
+    {
+      "title": "浙江省卫生健康委员会等10部门关于印发浙江省加快推动“人工智能+医疗健康”高质量发展行动计划（2025-2027年）的通知",
+      "issuer": "浙江省卫生健康委员会等10部门",
+      "document_no": "浙卫发〔2025〕13号",
+      "published_date": "2025-07-11",
+      "region": "浙江",
+      "category": "地方政策",
+      "source_url": "https://wsjkw.zj.gov.cn/col/col1229560650/art/2025/art_dcf9024b426f42d09189057fa7636b7f.html"
+    },
+    {
+      "title": "北京市加快推动“人工智能+医药健康”创新发展行动计划（2025-2027年）",
+      "issuer": "北京市科学技术委员会、中关村科技园区管理委员会等",
+      "document_no": "京科发〔2025〕14号",
+      "published_date": "2025-07-03",
+      "region": "北京",
+      "category": "地方政策",
+      "source_url": "https://zyj.beijing.gov.cn/dwjlxxw/zcfg/202508/t20250805_4166655.html"
+    },
+    {
+      "title": "优化全生命周期监管支持高端医疗器械创新发展有关举措",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局公告2025年第63号",
+      "published_date": "2025-07-03",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/yaowen/ypjgyw/ylqxyw/20250703163951182.html"
+    },
+    {
+      "title": "数据出境安全评估申报指南（第三版）",
+      "issuer": "国家互联网信息办公室",
+      "document_no": "无明确文号",
+      "published_date": "2025-06-27",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-06/27/c_1752652339765002.htm"
+    },
+    {
+      "title": "自治区医保局关于规范整合放射检查类医疗服务项目价格的通知",
+      "issuer": "广西壮族自治区医疗保障局",
+      "document_no": "桂医保发〔2025〕22号",
+      "published_date": "2025-06-17",
+      "region": "广西",
+      "category": "地方政策",
+      "source_url": "https://ybj.gxzf.gov.cn/zfxxgkzl/zcfg/zcfg_9912/bmwj/zcfggybf/t22072685.shtml"
+    },
+    {
+      "title": "北京市医疗保障局 北京市人力资源和社会保障局关于规范、调整及新增常规针法等医疗服务价格项目和相关政策的通知",
+      "issuer": "北京市医疗保障局、北京市人力资源和社会保障局",
+      "document_no": "京医保发〔2025〕13号",
+      "published_date": "2025-06-17",
+      "region": "北京",
+      "category": "地方政策",
+      "source_url": "https://ybj.beijing.gov.cn/zwgk/2024zcwj/202506/t20250624_4122163.html"
+    },
+    {
+      "title": "关于公布放射检查类、超声检查类、中医特殊疗法类、中医骨伤类医疗服务项目价格有关事项的通知",
+      "issuer": "赣州市医疗保障局（执行江西省赣医保字〔2025〕28号）",
+      "document_no": "赣医保字〔2025〕28号（省级依据）",
+      "published_date": "2025-05-30",
+      "region": "江西",
+      "category": "地方政策",
+      "source_url": "https://ybj.ganzhou.gov.cn/gzsylbzj/c105393/202505/9fdc2119fce946d69285a6316e0cabd9.shtml"
+    },
+    {
+      "title": "深圳市医疗保障局转发广东省医疗保障局关于公布放射检查类等医疗服务价格项目的通知",
+      "issuer": "深圳市医疗保障局",
+      "document_no": "无单独地方文号（转发粤医保发〔2025〕5号）",
+      "published_date": "2025-04-28",
+      "region": "深圳",
+      "category": "地方政策",
+      "source_url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12149/post_12149938.html?jump=true"
+    },
+    {
+      "title": "工业和信息化部等七部门关于印发医药工业数智化转型实施方案（2025—2030年）的通知",
+      "issuer": "工业和信息化部、商务部、国家卫生健康委、国家医保局、国家数据局、国家中医药局、国家药监局",
+      "document_no": "工信部联消费〔2025〕79号",
+      "published_date": "2025-04-24",
+      "region": "全国",
+      "category": "十五五与产业支持",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202504/content_7020857.htm"
+    },
+    {
+      "title": "关于规范调整本市放射检查类医疗服务价格项目的通知",
+      "issuer": "上海市医疗保障局、上海市卫生健康委员会",
+      "document_no": "沪医保价采发〔2025〕11号",
+      "published_date": "2025-04-18",
+      "region": "上海",
+      "category": "地方政策",
+      "source_url": "https://ybj.sh.gov.cn/qtwj/20250429/f5dd5e766bf54230b98f5c19024f3067.html"
+    },
+    {
+      "title": "深圳市发展和改革委员会 深圳市卫生健康委员会 深圳市市场监督管理局 深圳市医疗保障局关于印发深圳市全链条支持医药和医疗器械发展若干措施的通知",
+      "issuer": "深圳市发展和改革委员会、深圳市卫生健康委员会、深圳市市场监督管理局、深圳市医疗保障局",
+      "document_no": "深发改规〔2025〕3号",
+      "published_date": "2025-04-02",
+      "region": "深圳",
+      "category": "地方政策",
+      "source_url": "https://fgw.sz.gov.cn/zwgk/zcjzcjd/zc/content/post_12822549.html"
+    },
+    {
+      "title": "深圳市南山区公共数据授权运营管理暂行办法",
+      "issuer": "深圳市南山区人民政府办公室",
+      "document_no": "深南府规〔2025〕3号",
+      "published_date": "2025-03-07",
+      "region": "深圳",
+      "category": "地方政策",
+      "source_url": "https://www.szns.gov.cn/ztzl/slh/zcfg/content/post_11974964.html"
+    },
+    {
+      "title": "人工智能生成合成内容标识办法",
+      "issuer": "国家互联网信息办公室、工业和信息化部、公安部、国家广播电视总局",
+      "document_no": "国信办通字〔2025〕2号",
+      "published_date": "2025-03-07",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm"
+    },
+    {
+      "title": "个人信息保护合规审计管理办法",
+      "issuer": "国家互联网信息办公室",
+      "document_no": "国家互联网信息办公室令第18号",
+      "published_date": "2025-02-12",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm"
+    },
+    {
+      "title": "国家发展改革委、国家数据局关于建立公共数据资源授权运营价格形成机制的通知",
+      "issuer": "国家发展改革委、国家数据局",
+      "document_no": "发改价格〔2025〕65号",
+      "published_date": "2025-01-16",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_7000190.htm"
+    },
+    {
+      "title": "国家发展改革委、国家数据局关于印发公共数据资源登记管理暂行办法的通知",
+      "issuer": "国家发展改革委、国家数据局",
+      "document_no": "发改数据规〔2025〕26号",
+      "published_date": "2025-01-08",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/gongbao/2025/issue_11886/202502/content_7007130.html"
+    },
+    {
+      "title": "国家发展改革委、国家数据局关于印发公共数据资源授权运营实施规范（试行）的通知",
+      "issuer": "国家发展改革委、国家数据局",
+      "document_no": "发改数据规〔2025〕27号",
+      "published_date": "2025-01-08",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202501/t20250116_1395726_ext.html"
+    },
+    {
+      "title": "关于完善数据流通安全治理 更好促进数据要素市场化价值化的实施方案",
+      "issuer": "国家发展改革委、国家数据局、中央网信办、工业和信息化部、公安部、市场监管总局",
+      "document_no": "发改数据〔2025〕18号",
+      "published_date": "2025-01-06",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0115/20250115173302396617093_pc.html"
+    },
+    {
+      "title": "国家发展改革委、国家数据局、工业和信息化部关于印发国家数据基础设施建设指引的通知",
+      "issuer": "国家发展改革委、国家数据局、工业和信息化部",
+      "document_no": "发改数据〔2024〕1853号",
+      "published_date": "2024-12-31",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_6996487.htm"
+    },
+    {
+      "title": "浙江省人民政府办公厅关于印发浙江省全链条支持创新药械高质量发展若干举措的通知",
+      "issuer": "浙江省人民政府办公厅",
+      "document_no": "浙政办发〔2024〕44号",
+      "published_date": "2024-12-30",
+      "region": "浙江",
+      "category": "地方政策",
+      "source_url": "https://www.zj.gov.cn/art/2025/2/7/art_1229017139_2544628.html?xxgkFlg=xxg&infoIdEncode=SJtS%2Fs1JjbOQStxv7Bq0F%2BrxnB70mf9ick4uM9oRLB8%3D"
+    },
+    {
+      "title": "关于促进数据产业高质量发展的指导意见",
+      "issuer": "国家发展改革委、国家数据局等部门",
+      "document_no": "发改数据〔2024〕1836号",
+      "published_date": "2024-12-28",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995430.htm"
+    },
+    {
+      "title": "国家数据局等部门关于促进企业数据资源开发利用的意见",
+      "issuer": "国家数据局、中央网信办、工业和信息化部、公安部、国务院国资委",
+      "document_no": "国数资源〔2024〕125号",
+      "published_date": "2024-12-20",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994570.htm"
+    },
+    {
+      "title": "关于进一步推进医疗机构检查检验结果互认的指导意见",
+      "issuer": "国家卫生健康委、国家发展改革委、财政部、国家医保局、国家中医药局、国家疾控局、中央军委后勤保障部卫生局",
+      "document_no": "国卫医政发〔2024〕37号",
+      "published_date": "2024-11-27",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202411/e26dde958ae74bf5b8f4fe97d83253c7.shtml"
+    },
+    {
+      "title": "超声检查类医疗服务价格项目立项指南（试行）",
+      "issuer": "国家医疗保障局",
+      "document_no": "无明确文号",
+      "published_date": "2024-11-26",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/26/art_201_14834.html"
+    },
+    {
+      "title": "放射检查类医疗服务价格项目立项指南（试行）",
+      "issuer": "国家医疗保障局",
+      "document_no": "无明确文号",
+      "published_date": "2024-11-25",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/25/art_201_14760.html"
+    },
+    {
+      "title": "上海市人民政府办公厅关于印发上海市发展医学人工智能工作方案（2025—2027年）的通知",
+      "issuer": "上海市人民政府办公厅",
+      "document_no": "沪府办发〔2024〕21号",
+      "published_date": "2024-11-23",
+      "region": "上海",
+      "category": "地方政策",
+      "source_url": "https://www.shanghai.gov.cn/202424bgtwj/20241226/4e45c8a5c9af4754b36266d83cbd6551.html"
+    },
+    {
+      "title": "国家数据局关于印发可信数据空间发展行动计划（2024—2028年）的通知",
+      "issuer": "国家数据局",
+      "document_no": "国数资源〔2024〕119号",
+      "published_date": "2024-11-21",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/20241122164142182915964_pc.html"
+    },
+    {
+      "title": "综合诊查类医疗服务价格项目立项指南（试行）",
+      "issuer": "国家医疗保障局",
+      "document_no": "无明确文号",
+      "published_date": "2024-11-19",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/19/art_201_14753.html"
+    },
+    {
+      "title": "国家卫生健康委办公厅等三部门关于印发卫生健康行业人工智能应用场景参考指引的通知",
+      "issuer": "国家卫生健康委办公厅、国家中医药局综合司、国家疾控局综合司",
+      "document_no": "国卫办规划函〔2024〕420号",
+      "published_date": "2024-11-14",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202411/3dee425b8dc34f739d63483c4e5c334c.shtml"
+    },
+    {
+      "title": "网络数据安全管理条例",
+      "issuer": "国务院",
+      "document_no": "国务院令第790号",
+      "published_date": "2024-09-30",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm"
+    },
+    {
+      "title": "医疗卫生机构开展研究者发起的临床研究管理办法",
+      "issuer": "国家卫生健康委、国家中医药局、国家疾控局",
+      "document_no": "国卫科教发〔2024〕32号",
+      "published_date": "2024-09-26",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202409/3a3ad0a7b656420d9580b65f2321a623.shtml"
+    },
+    {
+      "title": "中共中央办公厅、国务院办公厅关于加快公共数据资源开发利用的意见",
+      "issuer": "中共中央办公厅、国务院办公厅",
+      "document_no": "无公开文号",
+      "published_date": "2024-09-21",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.gov.cn/zhengce/202410/content_6978910.htm"
+    },
+    {
+      "title": "国家医疗保障局办公室关于印发按病组和病种分值付费2.0版分组方案并深入推进相关工作的通知",
+      "issuer": "国家医疗保障局办公室",
+      "document_no": "医保办发〔2024〕9号",
+      "published_date": "2024-07-17",
+      "region": "全国",
+      "category": "医保支付与服务价格",
+      "source_url": "https://www.nhsa.gov.cn/art/2024/7/23/art_104_13313.html"
+    },
+    {
+      "title": "工业和信息化部等四部门关于印发国家人工智能产业综合标准化体系建设指南（2024版）的通知",
+      "issuer": "工业和信息化部、中央网信办、国家发展改革委、国家标准委",
+      "document_no": "工信部联科〔2024〕113号",
+      "published_date": "2024-07-02",
+      "region": "全国",
+      "category": "十五五与产业支持",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202407/content_6960720.htm"
+    },
+    {
+      "title": "国家药监局关于规范医疗器械产品分类界定工作的公告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局公告2024年第59号",
+      "published_date": "2024-05-11",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20240511175941109.html"
+    },
+    {
+      "title": "北京市人工智能医疗器械生产质量管理规范检查指南（2024版）",
+      "issuer": "北京市药品监督管理局",
+      "document_no": "",
+      "published_date": "2024-04-12",
+      "region": "北京",
+      "category": "地方政策",
+      "source_url": "https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436409716/"
+    },
+    {
+      "title": "促进和规范数据跨境流动规定",
+      "issuer": "国家互联网信息办公室",
+      "document_no": "国家互联网信息办公室令第16号",
+      "published_date": "2024-03-22",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
+    },
+    {
+      "title": "GB/T 43697—2024数据安全技术 数据分类分级规则",
+      "issuer": "国家市场监督管理总局、国家标准化管理委员会",
+      "document_no": "GB/T 43697—2024",
+      "published_date": "2024-03-15",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F0C385EDC38CBF277AEC021F23126ADE"
+    },
+    {
+      "title": "国家数据局等部门关于印发“数据要素×”三年行动计划（2024—2026年）的通知",
+      "issuer": "国家数据局等17部门",
+      "document_no": "国数政策〔2023〕11号",
+      "published_date": "2023-12-31",
+      "region": "全国",
+      "category": "医疗数据利用与流通",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0830/20240830174038137859023_pc.html"
+    },
+    {
+      "title": "医疗机构临床决策支持系统应用管理规范（试行）",
+      "issuer": "国家卫生健康委办公厅",
+      "document_no": "国卫办医政函〔2023〕268号",
+      "published_date": "2023-07-26",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202307/d5239ed63d324aaa8ea85922b5fb1310.shtml"
+    },
+    {
+      "title": "国家卫生健康委等四部门关于印发涉及人的生命科学和医学研究伦理审查办法的通知",
+      "issuer": "国家卫生健康委、教育部、科技部、国家中医药局",
+      "document_no": "国卫科教发〔2023〕4号",
+      "published_date": "2023-02-27",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202302/6b6e447b3edc4338856c9a652a85f44b.shtml"
+    },
+    {
+      "title": "关于印发医疗卫生机构网络安全管理办法的通知",
+      "issuer": "国家卫生健康委、国家中医药局、国家疾控局",
+      "document_no": "国卫规划发〔2022〕29号",
+      "published_date": "2022-08-08",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/2022-08/30/content_5707404.htm"
+    },
+    {
+      "title": "国家卫生健康委办公厅、国家中医药局办公室关于印发互联网诊疗监管细则（试行）的通知",
+      "issuer": "国家卫生健康委办公厅、国家中医药局办公室",
+      "document_no": "国卫办医发〔2022〕2号",
+      "published_date": "2022-03-15",
+      "region": "全国",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202203/2072f0e8988249e59d942e1b2a933916.shtml"
+    },
+    {
+      "title": "医疗器械软件注册审查指导原则（2022年修订版）",
+      "issuer": "国家药监局医疗器械技术审评中心",
+      "document_no": "器审中心2022年第9号通告",
+      "published_date": "2022-03-07",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.cmde.org.cn//flfg/zdyz/zdyzwbk/20220309091706965.html"
+    },
+    {
+      "title": "医疗器械网络安全注册审查指导原则（2022年修订版）",
+      "issuer": "国家药监局医疗器械技术审评中心",
+      "document_no": "器审中心2022年第7号通告",
+      "published_date": "2022-03-07",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.cmde.org.cn/directory/web/cmde/images/0r3Bxsb30LXN+MLnsLLIq9eisuHJ87Lp1ri1vNSt1PKjqDIwMjLE6tDetqmw5qOpo6gyMDIyxOq12je6xaOpLmRvY3g=.docx"
+    },
+    {
+      "title": "人工智能医疗器械注册审查指导原则",
+      "issuer": "国家药监局医疗器械技术审评中心",
+      "document_no": "器审中心2022年第8号通告",
+      "published_date": "2022-03-07",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.cmde.org.cn/flfg/zdyz/zdyzwbk/20220309091014461.html"
+    },
+    {
+      "title": "医疗器械注册与备案管理办法",
+      "issuer": "国家市场监督管理总局",
+      "document_no": "国家市场监督管理总局令第47号",
+      "published_date": "2021-08-26",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.gov.cn/gongbao/content/2021/content_5654783.htm"
+    },
+    {
+      "title": "中华人民共和国个人信息保护法",
+      "issuer": "全国人民代表大会常务委员会",
+      "document_no": "主席令第九十一号",
+      "published_date": "2021-08-20",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"
+    },
+    {
+      "title": "关键信息基础设施安全保护条例",
+      "issuer": "国务院",
+      "document_no": "国务院令第745号",
+      "published_date": "2021-07-30",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.cac.gov.cn/2021-08/17/c_1630785976988160.htm"
+    },
+    {
+      "title": "国家药监局关于发布人工智能医用软件产品分类界定指导原则的通告",
+      "issuer": "国家药品监督管理局",
+      "document_no": "国家药监局2021年第47号通告",
+      "published_date": "2021-07-08",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20210708111147171.html"
+    },
+    {
+      "title": "中华人民共和国数据安全法",
+      "issuer": "全国人民代表大会常务委员会",
+      "document_no": "主席令第八十四号",
+      "published_date": "2021-06-10",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "http://www.npc.gov.cn/c2/c30834/202106/t20210610_311888.html"
+    },
+    {
+      "title": "医疗器械监督管理条例",
+      "issuer": "国务院",
+      "document_no": "国务院令第739号",
+      "published_date": "2021-02-09",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/20250416172904188.html"
+    },
+    {
+      "title": "国家健康医疗大数据标准、安全和服务管理办法（试行）",
+      "issuer": "国家卫生健康委员会",
+      "document_no": "国卫规划发〔2018〕23号",
+      "published_date": "2018-07-12",
+      "region": "全国",
+      "category": "数据安全与跨境",
+      "source_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s8553/201809/742308fad8ed47fb85b9675ee4b6c6eb.shtml"
+    },
+    {
+      "title": "医疗器械分类目录",
+      "issuer": "原国家食品药品监督管理总局",
+      "document_no": "总局公告2017年第104号",
+      "published_date": "2017-08-31",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20170904150301406.html"
     }
   ]
 }
