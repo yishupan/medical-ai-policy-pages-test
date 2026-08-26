@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "name": "国家卫生健康委规范性文件",
+      "url": "https://www.nhc.gov.cn/wjw/gfxwjj/list.shtml",
+      "enabled": false,
+      "disabled_reason": "Automated requests return HTTP 412; retain for manual monitoring.",
+      "issuer": "国家卫生健康委员会",
+      "region": "全国",
+      "allowed_hosts": ["nhc.gov.cn", "www.nhc.gov.cn"],
+      "keywords": ["人工智能", "AI", "大模型", "算法", "医学影像", "辅助诊断", "医疗器械", "医疗数据", "数据安全", "个人信息保护"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "国家医疗保障局政策法规",
+      "url": "https://www.nhsa.gov.cn/col/col104/index.html",
+      "issuer": "国家医疗保障局",
+      "region": "全国",
+      "allowed_hosts": ["nhsa.gov.cn", "www.nhsa.gov.cn"],
+      "keywords": ["人工智能", "AI", "大模型", "算法", "医学影像", "辅助诊断", "医用设备", "医疗服务价格", "场景"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "国家数据局通知公告",
+      "url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/list/index_pc_1.html",
+      "issuer": "国家数据局",
+      "region": "全国",
+      "allowed_hosts": ["nda.gov.cn", "www.nda.gov.cn"],
+      "keywords": ["人工智能", "AI", "大模型", "算法", "高质量数据集", "医疗健康", "卫生健康", "数据安全", "个人信息保护"],
+      "exclude_title_terms": ["课题", "入选", "征集", "大赛", "解读", "图解"]
+    }
+  ]
+}
