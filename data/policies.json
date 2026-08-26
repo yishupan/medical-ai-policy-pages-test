@@ -1,0 +1,76 @@
+{
+  "policies": [
+    {
+      "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
+      "issuer": "全国人民代表大会",
+      "document_no": "无文号",
+      "issue_date": "2026-03-13",
+      "region": "全国",
+      "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062633.htm",
+      "source_label": "中国政府网"
+    },
+    {
+      "title": "关于进一步健全城市社区卫生服务体系 提升服务能力的通知",
+      "issuer": "国家卫生健康委办公厅",
+      "document_no": "国卫办基层发〔2026〕7号",
+      "issue_date": "2026-05-29",
+      "region": "全国",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml",
+      "source_label": "辽宁省卫生健康委转载"
+    },
+    {
+      "title": "WS/T 891—2026《紧密型县域医共体医学影像中心设置标准》",
+      "issuer": "国家卫生健康委员会",
+      "document_no": "WS/T 891—2026",
+      "issue_date": "2026-03-17",
+      "region": "全国",
+      "source_url": "https://www.nhc.gov.cn/wjw/c100309/202603/c201f9460a7a446dadf2896663d93724/files/WST%20891%E2%80%942026-20260331175249901.pdf",
+      "source_label": "国家卫生健康委PDF"
+    },
+    {
+      "title": "紧密型县域医共体医学影像中心建设与服务指南（试行）",
+      "issuer": "国家卫生健康委办公厅",
+      "document_no": "附件未单列文号",
+      "issue_date": "2026-05-27",
+      "region": "全国",
+      "source_url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/1.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf",
+      "source_label": "国家卫生健康委PDF"
+    },
+    {
+      "title": "人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）",
+      "issuer": "国家药品监督管理局医疗器械技术审评中心",
+      "document_no": "不适用（征求意见稿）",
+      "issue_date": "2026-06-17",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/881",
+      "source_label": "长三角分中心"
+    },
+    {
+      "title": "关于推进行业高质量数据集建设行动的实施方案",
+      "issuer": "国家数据局",
+      "document_no": "国数科基〔2026〕25号",
+      "issue_date": "2026-06-03",
+      "region": "全国",
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0608/20260608172117399715004_pc.html",
+      "source_label": "国家数据局"
+    },
+    {
+      "title": "医疗卫生机构数据安全和个人信息保护管理办法（试行）",
+      "issuer": "国家卫生健康委、公安部、国家互联网信息办公室、国家中医药管理局、国家疾病预防控制局",
+      "document_no": "国卫规划发〔2026〕6号",
+      "issue_date": "2026-02-12",
+      "region": "全国",
+      "source_url": "https://www.whcdc.org/yewuzhidao/falvfagui/guizhang/2026-03-13/10924.html",
+      "source_label": "武汉市疾病预防控制中心"
+    },
+    {
+      "title": "浙江省人民政府办公厅关于印发浙江省公共数据资源授权运营管理办法的通知",
+      "issuer": "浙江省人民政府办公厅",
+      "document_no": "浙政办发〔2025〕30号",
+      "issue_date": "2025-10-09",
+      "region": "浙江省",
+      "source_url": "https://www.zj.gov.cn/col/col1229017139/art/2025/art_016b668227be4777a1d18a27e090f3a4.html",
+      "source_label": "浙江省人民政府"
+    }
+  ]
+}
