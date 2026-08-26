@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>医疗AI政策目录 - 部署测试</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#65717e; --line:#d9e0e6; --paper:#fff; --wash:#f4f6f8; --accent:#0b6b53; --warn:#a45912; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:0; }
+    header { background:#132b35; color:#fff; padding:20px 24px; }
+    header h1 { margin:0; font-size:22px; font-weight:650; }
+    header p { margin:5px 0 0; color:#c8d7dc; }
+    main { max-width:1120px; margin:0 auto; padding:20px 24px 36px; }
+    .toolbar { display:flex; gap:12px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
+    input, select { height:38px; border:1px solid var(--line); border-radius:5px; background:#fff; padding:0 11px; color:var(--ink); }
+    input { flex:1; min-width:240px; }
+    .summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-bottom:18px; }
+    .metric { background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:15px; }
+    .metric strong { display:block; font-size:25px; line-height:1.1; }
+    .metric span { color:var(--muted); }
+    .panel { background:var(--paper); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+    .panel-head { display:flex; justify-content:space-between; gap:16px; padding:14px 16px; border-bottom:1px solid var(--line); }
+    .panel-head h2 { margin:0; font-size:16px; }
+    .panel-head span { color:var(--muted); }
+    table { width:100%; border-collapse:collapse; }
+    th, td { padding:11px 13px; border-bottom:1px solid #edf0f2; text-align:left; vertical-align:top; }
+    th { color:#46515c; background:#fafbfc; font-weight:600; }
+    tr:last-child td { border-bottom:0; }
+    a { color:#075e9b; text-underline-offset:2px; }
+    .empty { padding:32px; text-align:center; color:var(--muted); }
+    footer { max-width:1120px; margin:0 auto; padding:0 24px 24px; color:var(--muted); }
+    @media (max-width:720px) { main { padding:16px 12px 28px; } header { padding:17px 14px; } .summary { grid-template-columns:1fr; } .panel { overflow-x:auto; } table { min-width:760px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>医疗AI政策目录</h1>
+    <p>GitHub部署测试版 · 仅展示公开政策事实</p>
+  </header>
+  <main>
+    <section class="summary" aria-label="监测概况">
+      <div class="metric"><strong id="policyCount">-</strong><span>收录文件</span></div>
+      <div class="metric"><strong id="nationalCount">-</strong><span>全国文件</span></div>
+      <div class="metric"><strong id="regionalCount">-</strong><span>地方文件</span></div>
+    </section>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜索政策名称、部门或编号" aria-label="搜索政策">
+    </div>
+    <section class="panel">
+      <div class="panel-head"><h2>政策文件</h2><span id="lastRun">正在读取...</span></div>
+      <table>
+        <thead><tr><th>政策名称</th><th>发文机关</th><th>文号</th><th>发文日期</th><th>地区</th><th>公开来源</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div id="empty" class="empty" hidden>没有匹配记录</div>
+    </section>
+  </main>
+  <footer>本页仅展示公开政策事实；文件内容与效力状态以公开来源原文为准。</footer>
+  <script>
+    let policies = [];
+    const rows = document.querySelector('#rows');
+    const empty = document.querySelector('#empty');
+    const search = document.querySelector('#search');
+
+    function render() {
+      const keyword = search.value.trim().toLowerCase();
+      const shown = policies.filter(item => {
+        const haystack = [item.title, item.issuer, item.document_no, item.region].join(' ').toLowerCase();
+        return !keyword || haystack.includes(keyword);
+      });
+      rows.innerHTML = shown.map(item => `<tr><td>${item.title}</td><td>${item.issuer}</td><td>${item.document_no}</td><td>${item.issue_date}</td><td>${item.region}</td><td><a href="${item.source_url}" target="_blank" rel="noopener noreferrer">${item.source_label}</a></td></tr>`).join('');
+      empty.hidden = shown.length !== 0;
+    }
+
+    Promise.all([
+      fetch('./data/policies.json').then(response => response.json()),
+      fetch('./data/run.json').then(response => response.json()).catch(() => ({ generated_at: '首次部署待生成' }))
+    ]).then(([policyData, runData]) => {
+      policies = policyData.policies;
+      document.querySelector('#policyCount').textContent = policies.length;
+      document.querySelector('#nationalCount').textContent = policies.filter(item => item.region === '全国').length;
+      document.querySelector('#regionalCount').textContent = policies.filter(item => item.region !== '全国').length;
+      document.querySelector('#lastRun').textContent = `最近构建：${runData.generated_at}`;
+      render();
+    }).catch(error => {
+      document.querySelector('#lastRun').textContent = '数据读取失败';
+      empty.hidden = false;
+      empty.textContent = error.message;
+    });
+    search.addEventListener('input', render);
+  </script>
+</body>
+</html>
