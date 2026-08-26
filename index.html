@@ -3,92 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>医疗AI政策目录 - 部署测试</title>
+  <meta name="description" content="医疗AI政策公开事实目录，仅展示政策基本信息与公开来源。">
+  <title>医疗AI政策目录</title>
   <style>
-    :root { color-scheme: light; --ink:#17202a; --muted:#65717e; --line:#d9e0e6; --paper:#fff; --wash:#f4f6f8; --accent:#0b6b53; --warn:#a45912; }
-    * { box-sizing: border-box; }
-    body { margin:0; background:var(--wash); color:var(--ink); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:0; }
-    header { background:#132b35; color:#fff; padding:20px 24px; }
-    header h1 { margin:0; font-size:22px; font-weight:650; }
-    header p { margin:5px 0 0; color:#c8d7dc; }
-    main { max-width:1120px; margin:0 auto; padding:20px 24px 36px; }
-    .toolbar { display:flex; gap:12px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
-    input, select { height:38px; border:1px solid var(--line); border-radius:5px; background:#fff; padding:0 11px; color:var(--ink); }
-    input { flex:1; min-width:240px; }
-    .summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-bottom:18px; }
-    .metric { background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:15px; }
-    .metric strong { display:block; font-size:25px; line-height:1.1; }
+    :root { color-scheme:light; --ink:#172126; --muted:#66747b; --line:#d8e0e3; --paper:#fff; --wash:#f3f6f5; --navy:#12313d; --teal:#0d7568; --blue:#176b95; --focus:#e6f3f0; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif; letter-spacing:0; }
+    header { background:var(--navy); color:#fff; border-bottom:4px solid var(--teal); }
+    .header-inner, main, footer { width:min(1240px,calc(100% - 40px)); margin:0 auto; }
+    .header-inner { padding:26px 0 23px; }
+    .eyebrow { color:#95d6cc; font-size:12px; font-weight:700; text-transform:uppercase; }
+    h1 { margin:4px 0 3px; font-size:28px; line-height:1.25; font-weight:680; }
+    header p { margin:0; color:#cfdddf; }
+    main { padding:22px 0 36px; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border:1px solid var(--line); background:var(--paper); }
+    .metric { min-height:92px; padding:17px 19px; border-right:1px solid var(--line); }
+    .metric:last-child { border-right:0; }
+    .metric strong { display:block; font-size:27px; line-height:1.15; font-variant-numeric:tabular-nums; }
     .metric span { color:var(--muted); }
-    .panel { background:var(--paper); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
-    .panel-head { display:flex; justify-content:space-between; gap:16px; padding:14px 16px; border-bottom:1px solid var(--line); }
-    .panel-head h2 { margin:0; font-size:16px; }
-    .panel-head span { color:var(--muted); }
-    table { width:100%; border-collapse:collapse; }
-    th, td { padding:11px 13px; border-bottom:1px solid #edf0f2; text-align:left; vertical-align:top; }
-    th { color:#46515c; background:#fafbfc; font-weight:600; }
+    .controls { margin-top:16px; padding:15px; border:1px solid var(--line); background:var(--paper); }
+    .control-grid { display:grid; grid-template-columns:minmax(260px,2fr) repeat(2,minmax(170px,1fr)) auto; gap:10px; }
+    input, select, button { min-width:0; height:40px; border:1px solid #c8d2d6; border-radius:5px; background:#fff; color:var(--ink); padding:0 11px; font:inherit; }
+    input:focus, select:focus, button:focus-visible { outline:3px solid #b9ded7; outline-offset:1px; border-color:var(--teal); }
+    button { cursor:pointer; font-weight:600; }
+    button:hover { background:var(--focus); border-color:#8bbeb6; }
+    .quick { display:flex; align-items:center; flex-wrap:wrap; gap:7px; margin-top:11px; }
+    .quick span { color:var(--muted); margin-right:2px; }
+    .quick button { height:30px; padding:0 9px; color:#33515b; background:#f8faf9; }
+    .statusline { display:flex; justify-content:space-between; gap:16px; margin:17px 0 9px; color:var(--muted); }
+    .statusline strong { color:var(--ink); }
+    .table-wrap { border:1px solid var(--line); background:var(--paper); overflow-x:auto; }
+    table { width:100%; min-width:1180px; border-collapse:collapse; }
+    th, td { padding:12px 13px; border-bottom:1px solid #e8edef; text-align:left; vertical-align:top; }
+    th { position:sticky; top:0; background:#f8faf9; color:#425159; font-size:13px; font-weight:650; }
     tr:last-child td { border-bottom:0; }
-    a { color:#075e9b; text-underline-offset:2px; }
-    .empty { padding:32px; text-align:center; color:var(--muted); }
-    footer { max-width:1120px; margin:0 auto; padding:0 24px 24px; color:var(--muted); }
-    @media (max-width:720px) { main { padding:16px 12px 28px; } header { padding:17px 14px; } .summary { grid-template-columns:1fr; } .panel { overflow-x:auto; } table { min-width:760px; } }
+    tbody tr:hover { background:#f7fbfa; }
+    .title-cell { min-width:280px; font-weight:600; }
+    .issuer-cell { min-width:180px; }
+    .date-cell { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    th:nth-child(5), td:nth-child(5), th:nth-child(7), td:nth-child(7) { white-space:nowrap; }
+    th:nth-child(6), td:nth-child(6) { min-width:150px; }
+    .tag { display:inline-block; padding:2px 7px; border:1px solid #c9d9de; border-radius:4px; color:#3e5a64; background:#f6f9fa; font-size:12px; white-space:nowrap; }
+    a { color:var(--blue); text-underline-offset:2px; }
+    .empty { padding:44px 20px; text-align:center; color:var(--muted); }
+    footer { padding:0 0 28px; color:var(--muted); font-size:12px; }
+    footer p { margin:4px 0; }
+    @media (max-width:940px) { .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.control-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.control-grid input{grid-column:1/-1} }
+    @media (max-width:600px) { .header-inner,main,footer{width:min(100% - 24px,1240px)}.header-inner{padding:20px 0 18px}h1{font-size:23px}.metric{min-height:82px;padding:14px}.metric strong{font-size:23px}.control-grid{grid-template-columns:1fr}.control-grid input{grid-column:auto}.statusline{display:block}.statusline>span{display:block;margin-top:3px} }
   </style>
 </head>
 <body>
-  <header>
-    <h1>医疗AI政策目录</h1>
-    <p>GitHub部署测试版 · 仅展示公开政策事实</p>
-  </header>
+  <header><div class="header-inner"><div class="eyebrow">Medical AI Policy Directory</div><h1>医疗AI政策目录</h1><p>公开事实版，只展示政策基本信息与官方来源</p></div></header>
   <main>
-    <section class="summary" aria-label="监测概况">
-      <div class="metric"><strong id="policyCount">-</strong><span>收录文件</span></div>
-      <div class="metric"><strong id="nationalCount">-</strong><span>全国文件</span></div>
-      <div class="metric"><strong id="regionalCount">-</strong><span>地方文件</span></div>
+    <section class="metrics" aria-label="政策概况">
+      <div class="metric"><strong id="policyCount">-</strong><span>政策文件</span></div>
+      <div class="metric"><strong id="nationalCount">-</strong><span>全国及国家层面</span></div>
+      <div class="metric"><strong id="regionalCount">-</strong><span>地方政策</span></div>
+      <div class="metric"><strong id="healthCount">-</strong><span>卫生健康部门相关</span></div>
     </section>
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="搜索政策名称、部门或编号" aria-label="搜索政策">
-    </div>
-    <section class="panel">
-      <div class="panel-head"><h2>政策文件</h2><span id="lastRun">正在读取...</span></div>
-      <table>
-        <thead><tr><th>政策名称</th><th>发文机关</th><th>文号</th><th>发文日期</th><th>地区</th><th>公开来源</th></tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
+    <section class="controls" aria-label="政策筛选">
+      <div class="control-grid">
+        <input id="search" type="search" placeholder="搜索政策名称、部门、文号或地区" aria-label="搜索政策">
+        <select id="category" aria-label="按主题分类筛选"><option value="">全部主题</option></select>
+        <select id="region" aria-label="按地区筛选"><option value="">全部地区</option></select>
+        <button id="reset" type="button">重置</button>
+      </div>
+      <div class="quick" aria-label="常用关键词"><span>常用检索</span><button type="button" data-keyword="医疗AI">医疗AI</button><button type="button" data-keyword="医学影像">医学影像</button><button type="button" data-keyword="检查检验">检查检验</button><button type="button" data-keyword="医疗服务价格">医疗服务价格</button><button type="button" data-keyword="数据安全">数据安全</button></div>
+    </section>
+    <div class="statusline"><strong>检索结果：<span id="resultCount">-</span> 项</strong><span id="lastRun">正在读取公开数据...</span></div>
+    <section class="table-wrap" aria-label="政策文件列表">
+      <table><thead><tr><th>政策名称</th><th>发文机关</th><th>文号</th><th>发布日期</th><th>地区</th><th>主题</th><th>来源</th></tr></thead><tbody id="rows"></tbody></table>
       <div id="empty" class="empty" hidden>没有匹配记录</div>
     </section>
   </main>
-  <footer>本页仅展示公开政策事实；文件内容与效力状态以公开来源原文为准。</footer>
+  <footer><p>本页仅展示政策基本信息与来源链接；正式引用请以发布机关原文为准。</p><p>监测程序每日检查公开来源，新发现文件经来源和字段核验后进入本目录。</p></footer>
   <script>
-    let policies = [];
-    const rows = document.querySelector('#rows');
-    const empty = document.querySelector('#empty');
-    const search = document.querySelector('#search');
-
-    function render() {
-      const keyword = search.value.trim().toLowerCase();
-      const shown = policies.filter(item => {
-        const haystack = [item.title, item.issuer, item.document_no, item.region].join(' ').toLowerCase();
-        return !keyword || haystack.includes(keyword);
-      });
-      rows.innerHTML = shown.map(item => `<tr><td>${item.title}</td><td>${item.issuer}</td><td>${item.document_no}</td><td>${item.issue_date}</td><td>${item.region}</td><td><a href="${item.source_url}" target="_blank" rel="noopener noreferrer">${item.source_label}</a></td></tr>`).join('');
-      empty.hidden = shown.length !== 0;
+    const state = { policies: [] };
+    const elements = { rows:document.querySelector('#rows'), empty:document.querySelector('#empty'), search:document.querySelector('#search'), category:document.querySelector('#category'), region:document.querySelector('#region'), resultCount:document.querySelector('#resultCount'), lastRun:document.querySelector('#lastRun') };
+    function appendTextCell(row,value,className=''){ const cell=row.insertCell(); cell.textContent=value||'—'; if(className) cell.className=className; return cell; }
+    function appendOptions(select,values){ [...new Set(values)].sort((a,b)=>a.localeCompare(b,'zh-CN')).forEach(value=>{ const option=document.createElement('option'); option.value=value; option.textContent=value; select.append(option); }); }
+    function render(){
+      const keyword=elements.search.value.trim().toLocaleLowerCase('zh-CN');
+      const shown=state.policies.filter(item=>{ const haystack=[item.title,item.issuer,item.document_no,item.region,item.category].join(' ').toLocaleLowerCase('zh-CN'); return (!keyword||haystack.includes(keyword))&&(!elements.category.value||item.category===elements.category.value)&&(!elements.region.value||item.region===elements.region.value); });
+      elements.rows.replaceChildren();
+      shown.forEach(item=>{ const row=elements.rows.insertRow(); appendTextCell(row,item.title,'title-cell'); appendTextCell(row,item.issuer,'issuer-cell'); appendTextCell(row,item.document_no); appendTextCell(row,item.published_date,'date-cell'); appendTextCell(row,item.region); appendTextCell(row,item.category); const sourceCell=row.insertCell(); const link=document.createElement('a'); link.href=item.source_url; link.target='_blank'; link.rel='noopener noreferrer'; link.textContent='官方原文'; sourceCell.append(link); });
+      elements.resultCount.textContent=shown.length; elements.empty.hidden=shown.length!==0;
     }
-
-    Promise.all([
-      fetch('./data/policies.json').then(response => response.json()),
-      fetch('./data/run.json').then(response => response.json()).catch(() => ({ generated_at: '首次部署待生成' }))
-    ]).then(([policyData, runData]) => {
-      policies = policyData.policies;
-      document.querySelector('#policyCount').textContent = policies.length;
-      document.querySelector('#nationalCount').textContent = policies.filter(item => item.region === '全国').length;
-      document.querySelector('#regionalCount').textContent = policies.filter(item => item.region !== '全国').length;
-      document.querySelector('#lastRun').textContent = `最近构建：${runData.generated_at}`;
-      render();
-    }).catch(error => {
-      document.querySelector('#lastRun').textContent = '数据读取失败';
-      empty.hidden = false;
-      empty.textContent = error.message;
-    });
-    search.addEventListener('input', render);
+    fetch('./data/policies.json').then(response=>{ if(!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then(data=>{
+      state.policies=data.policies; document.querySelector('#policyCount').textContent=data.policy_count; document.querySelector('#nationalCount').textContent=state.policies.filter(item=>item.region==='全国').length; document.querySelector('#regionalCount').textContent=state.policies.filter(item=>item.region!=='全国').length; document.querySelector('#healthCount').textContent=state.policies.filter(item=>/卫生健康|卫健委/.test(item.issuer)).length; appendOptions(elements.category,state.policies.map(item=>item.category)); appendOptions(elements.region,state.policies.map(item=>item.region)); elements.lastRun.textContent=`数据生成：${data.generated_at}`; render();
+    }).catch(error=>{ elements.lastRun.textContent='公开数据读取失败'; elements.empty.hidden=false; elements.empty.textContent=`暂时无法加载：${error.message}`; });
+    [elements.search,elements.category,elements.region].forEach(control=>control.addEventListener(control.tagName==='INPUT'?'input':'change',render));
+    document.querySelector('#reset').addEventListener('click',()=>{ elements.search.value=''; elements.category.value=''; elements.region.value=''; render(); });
+    document.querySelectorAll('[data-keyword]').forEach(button=>button.addEventListener('click',()=>{ elements.search.value=button.dataset.keyword; render(); }));
   </script>
 </body>
 </html>
