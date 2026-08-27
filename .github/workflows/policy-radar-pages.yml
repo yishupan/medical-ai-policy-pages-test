@@ -19,6 +19,7 @@ on:
       - .github/workflows/policy-radar-pages.yml
   schedule:
     - cron: '30 23 * * *'
+    - cron: '40 4 * * *'
 
 permissions:
   contents: write
@@ -30,7 +31,55 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  guard-schedule:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.decide.outputs.should_run }}
+    steps:
+      - name: Skip duplicate fallback schedule runs
+        id: decide
+        uses: actions/github-script@v7
+        with:
+          script: |
+            if (context.eventName !== 'schedule') {
+              core.setOutput('should_run', 'true');
+              return;
+            }
+
+            const runs = await github.paginate(github.rest.actions.listWorkflowRuns, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: '.github/workflows/policy-radar-pages.yml',
+              event: 'schedule',
+              per_page: 100
+            });
+
+            const currentRunId = Number(process.env.GITHUB_RUN_ID);
+            const previousSuccess = runs
+              .filter((run) => run.id !== currentRunId && run.conclusion === 'success')
+              .sort((a, b) => Date.parse(b.run_started_at ?? b.created_at) - Date.parse(a.run_started_at ?? a.created_at))[0];
+
+            if (!previousSuccess) {
+              core.info('No earlier successful scheduled run found. Proceeding.');
+              core.setOutput('should_run', 'true');
+              return;
+            }
+
+            const previousStartedAt = Date.parse(previousSuccess.run_started_at ?? previousSuccess.created_at);
+            const hoursSincePreviousSuccess = (Date.now() - previousStartedAt) / 3_600_000;
+
+            if (hoursSincePreviousSuccess < 8) {
+              core.info(`Skipping fallback scheduled run because run #${previousSuccess.run_number} succeeded ${hoursSincePreviousSuccess.toFixed(2)} hours ago.`);
+              core.setOutput('should_run', 'false');
+              return;
+            }
+
+            core.info(`Previous successful scheduled run is ${hoursSincePreviousSuccess.toFixed(2)} hours old. Proceeding.`);
+            core.setOutput('should_run', 'true');
+
   validate:
+    needs: guard-schedule
+    if: needs.guard-schedule.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,7 +94,8 @@ jobs:
         run: test -s index.html && test -s data/policies.json && test -s data/sources.json && test -s data/candidates.json
 
   build-and-deploy:
-    if: github.event_name != 'pull_request'
+    needs: guard-schedule
+    if: github.event_name != 'pull_request' && needs.guard-schedule.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
