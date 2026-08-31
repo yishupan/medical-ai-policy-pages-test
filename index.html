@@ -32,7 +32,7 @@
     .quick button { height: 30px; padding: 0 9px; color: #33515b; background: #f8faf9; }
     .statusline { display: flex; justify-content: space-between; gap: 16px; margin: 17px 0 9px; color: var(--muted); }
     .statusline strong { color: var(--ink); }
-    .list-wrap { border: 1px solid var(--line); background: var(--paper); }
+    .list-wrap, .candidate-panel { border: 1px solid var(--line); background: var(--paper); }
     .policy-list { display: grid; gap: 14px; padding: 14px; }
     .policy-card { border: 1px solid #dfe7ea; background: #fbfdfd; padding: 17px 18px 18px; }
     .policy-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
@@ -48,6 +48,25 @@
     .field-value { margin: 0; color: var(--ink); font-size: 14px; line-height: 1.55; font-weight: 560; overflow-wrap: anywhere; word-break: break-word; }
     .field-value.subtle { font-weight: 500; color: #31444b; }
     .source-link { font-weight: 600; }
+    .section-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 18px 18px 0; }
+    .section-head h2 { margin: 0; font-size: 18px; line-height: 1.35; }
+    .section-head p { margin: 6px 0 0; color: var(--muted); }
+    .section-actions, .candidate-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .action-link { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 0 12px; border: 1px solid #c8d2d6; border-radius: 5px; background: #fff; color: var(--ink); font-weight: 600; text-decoration: none; }
+    .action-link:hover { background: var(--focus); border-color: #8bbeb6; }
+    .action-link.primary { background: #f4fbf8; border-color: #9fcac1; }
+    .candidate-panel { margin-top: 18px; }
+    .candidate-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 16px 18px 0; }
+    .candidate-list { display: grid; gap: 12px; padding: 16px 14px 14px; }
+    .candidate-card { border: 1px solid #dfe7ea; background: #fbfdfd; padding: 16px; }
+    .candidate-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .candidate-title { margin: 6px 0 0; font-size: 16px; line-height: 1.5; font-weight: 650; }
+    .status-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; white-space: nowrap; }
+    .status-pending { color: #8a4b00; background: #fff3e0; border: 1px solid #f3c176; }
+    .status-confirmed { color: #0b5d49; background: #ecf9f3; border: 1px solid #9fceb9; }
+    .status-rejected { color: #8a2133; background: #fff1f4; border: 1px solid #f3b1bf; }
+    .candidate-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid #e8edef; }
+    .candidate-note { margin-top: 12px; padding-top: 12px; border-top: 1px dashed #d6e0e3; color: #40555d; }
     body.modal-open { overflow: hidden; }
     .modal-backdrop { position: fixed; inset: 0; z-index: 30; overflow-y: auto; padding: 56px 24px 24px; background: rgba(18, 49, 61, 0.42); }
     .detail-modal { position: relative; width: min(920px, 100%); max-height: none; margin: 0 auto; overflow: auto; border: 1px solid #d4dde0; background: var(--paper); box-shadow: 0 24px 60px rgba(12, 32, 39, 0.18); }
@@ -77,6 +96,7 @@
       .control-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .control-grid input { grid-column: 1 / -1; }
       .policy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .candidate-stats, .candidate-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .modal-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .detail-grid { grid-template-columns: 1fr; }
     }
@@ -95,6 +115,9 @@
       .policy-head { display: block; }
       .toggle-btn { margin-top: 10px; min-width: 104px; }
       .policy-grid { grid-template-columns: 1fr; gap: 12px; }
+      .section-head, .candidate-top { display: block; }
+      .section-actions { margin-top: 10px; }
+      .candidate-stats, .candidate-grid { grid-template-columns: 1fr; }
       .modal-backdrop { padding: 16px 12px 12px; }
       .modal-head, .details-panel { padding-left: 16px; padding-right: 16px; }
       .modal-summary { grid-template-columns: 1fr; padding-left: 16px; padding-right: 16px; }
@@ -141,6 +164,18 @@
       <div id="cards" class="policy-list"></div>
       <div id="empty" class="empty" hidden>没有匹配记录</div>
     </section>
+    <section id="candidatePanel" class="candidate-panel" aria-label="候选政策巡检区" hidden>
+      <div class="section-head">
+        <div>
+          <h2>候选政策巡检区</h2>
+          <p id="candidateGuide">自动巡检发现、但尚未正式入库的候选条目。可直接去 GitHub 修改状态，并继续补写草稿 Markdown。</p>
+        </div>
+        <div id="candidateActions" class="section-actions"></div>
+      </div>
+      <div id="candidateStats" class="candidate-stats"></div>
+      <div id="candidateCards" class="candidate-list"></div>
+      <div id="candidateEmpty" class="empty" hidden>当前没有待人工核验的候选政策。</div>
+    </section>
   </main>
   <footer>
     <p>本页仅展示公开事实、原文摘录与公开可复核的官方解读；正式引用请以发布机关原文为准。</p>
@@ -152,8 +187,8 @@
     </div>
   </div>
   <script>
-    const state = { policies: [], activePolicyId: null };
-    const dataVersion = '20260831-3';
+    const state = { policies: [], candidates: [], candidateReview: null, activePolicyId: null };
+    const dataVersion = '20260831-4';
     const elements = {
       cards: document.querySelector('#cards'),
       empty: document.querySelector('#empty'),
@@ -162,6 +197,12 @@
       region: document.querySelector('#region'),
       resultCount: document.querySelector('#resultCount'),
       lastRun: document.querySelector('#lastRun'),
+      candidatePanel: document.querySelector('#candidatePanel'),
+      candidateGuide: document.querySelector('#candidateGuide'),
+      candidateActions: document.querySelector('#candidateActions'),
+      candidateStats: document.querySelector('#candidateStats'),
+      candidateCards: document.querySelector('#candidateCards'),
+      candidateEmpty: document.querySelector('#candidateEmpty'),
       detailModal: document.querySelector('#detailModal'),
       modalBody: document.querySelector('#modalBody')
     };
@@ -186,6 +227,17 @@
       link.rel = 'noopener noreferrer';
       link.className = className;
       link.textContent = '官方原文';
+      return link;
+    }
+
+    function buildActionLink(url, label, primary = false) {
+      if (!url) return null;
+      const link = document.createElement('a');
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.className = `action-link${primary ? ' primary' : ''}`;
+      link.textContent = label;
       return link;
     }
 
@@ -262,6 +314,13 @@
       span.textContent = textOrDash(value);
       block.append(strong, span);
       return block;
+    }
+
+    function buildStatusBadge(statusLabel, status) {
+      const badge = document.createElement('span');
+      badge.className = `status-badge status-${status}`;
+      badge.textContent = statusLabel;
+      return badge;
     }
 
     function renderModal() {
@@ -362,6 +421,85 @@
       document.body.classList.add('modal-open');
     }
 
+    function buildCandidateCard(item, reviewMeta) {
+      const card = document.createElement('article');
+      card.className = 'candidate-card';
+
+      const top = document.createElement('div');
+      top.className = 'candidate-top';
+
+      const textWrap = document.createElement('div');
+      const meta = document.createElement('div');
+      meta.className = 'policy-meta';
+      meta.append(buildStatusBadge(item.status_label, item.status));
+      const keyTag = document.createElement('span');
+      keyTag.className = 'policy-id';
+      keyTag.textContent = item.candidate_key;
+      meta.append(keyTag);
+
+      const title = document.createElement('div');
+      title.className = 'candidate-title';
+      title.textContent = item.title;
+      textWrap.append(meta, title);
+
+      const actions = document.createElement('div');
+      actions.className = 'candidate-actions';
+      [buildActionLink(item.source_url, '看原文', true), buildActionLink(item.draft_url, '看草稿'), buildActionLink(item.draft_edit_url, '改草稿'), buildActionLink(reviewMeta.status_edit_url, '去确认')].filter(Boolean).forEach((node) => actions.append(node));
+
+      top.append(textWrap, actions);
+
+      const grid = document.createElement('div');
+      grid.className = 'candidate-grid';
+      grid.append(
+        buildField('发文机关', item.issuer),
+        buildField('发布日期', item.issue_date),
+        buildField('地区', item.region),
+        buildField('来源栏目', item.source_label),
+        buildField('建议分区', item.suggested_category_label),
+        buildField('当前状态', item.status_label),
+        buildField('JSON 搜索键', item.candidate_key),
+        buildField('草稿路径', item.draft_path)
+      );
+
+      card.append(top, grid);
+
+      if (item.review_note) {
+        const note = document.createElement('div');
+        note.className = 'candidate-note';
+        note.textContent = `审核备注：${item.review_note}`;
+        card.append(note);
+      }
+
+      return card;
+    }
+
+    function renderCandidates() {
+      const reviewMeta = state.candidateReview;
+      if (!reviewMeta) {
+        elements.candidatePanel.hidden = true;
+        return;
+      }
+
+      elements.candidatePanel.hidden = false;
+      elements.candidateGuide.textContent = '自动巡检发现、但尚未正式入库的候选条目。打开 GitHub 状态文件后，搜索卡片里的 JSON 搜索键，把 status 改成 confirmed 或 rejected；对应草稿 Markdown 已自动生成。';
+
+      elements.candidateActions.replaceChildren();
+      [buildActionLink(reviewMeta.status_edit_url, '打开状态文件', true), buildActionLink(reviewMeta.draft_tree_url, '打开草稿目录')].filter(Boolean).forEach((node) => elements.candidateActions.append(node));
+
+      elements.candidateStats.replaceChildren(
+        buildSummaryCard('候选总数', reviewMeta.candidate_count),
+        buildSummaryCard('待确认', reviewMeta.status_counts.pending),
+        buildSummaryCard('已确认待入库', reviewMeta.status_counts.confirmed),
+        buildSummaryCard('已排除', reviewMeta.status_counts.rejected)
+      );
+
+      elements.candidateCards.replaceChildren();
+      state.candidates.forEach((item) => {
+        elements.candidateCards.append(buildCandidateCard(item, reviewMeta));
+      });
+      elements.candidateEmpty.hidden = state.candidates.length !== 0;
+    }
+
     function getShownPolicies() {
       const keyword = elements.search.value.trim().toLocaleLowerCase('zh-CN');
       return state.policies.filter((item) => {
@@ -402,9 +540,12 @@
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
       }),
-      fetch(`./data/run.json?v=${dataVersion}`, { cache: 'no-store' }).then((response) => (response.ok ? response.json() : null)).catch(() => null)
-    ]).then(([data, runStatus]) => {
+      fetch(`./data/run.json?v=${dataVersion}`, { cache: 'no-store' }).then((response) => (response.ok ? response.json() : null)).catch(() => null),
+      fetch(`./data/candidate_review.json?v=${dataVersion}`, { cache: 'no-store' }).then((response) => (response.ok ? response.json() : null)).catch(() => null)
+    ]).then(([data, runStatus, candidateReview]) => {
       state.policies = data.policies;
+      state.candidateReview = candidateReview;
+      state.candidates = candidateReview && Array.isArray(candidateReview.candidates) ? candidateReview.candidates : [];
       document.querySelector('#policyCount').textContent = data.policy_count;
       document.querySelector('#nationalCount').textContent = state.policies.filter((item) => item.region === '全国' || item.region === '国际').length;
       document.querySelector('#regionalCount').textContent = state.policies.filter((item) => item.region !== '全国' && item.region !== '国际').length;
@@ -420,6 +561,7 @@
         elements.lastRun.textContent = `目录数据更新时间：${data.generated_at}`;
       }
       render();
+      renderCandidates();
     }).catch((error) => {
       elements.lastRun.textContent = '公开数据读取失败';
       elements.empty.hidden = false;
