@@ -38,7 +38,7 @@ jobs:
     steps:
       - name: Skip duplicate fallback schedule runs
         id: decide
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             if (context.eventName !== 'schedule') {
@@ -82,8 +82,8 @@ jobs:
     if: needs.guard-schedule.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Test monitoring parser
@@ -101,8 +101,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Test monitoring parser
@@ -129,10 +129,17 @@ jobs:
           cp index.html site/index.html
           cp data/policies.json data/run.json site/data/
           test ! -e site/policies
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - name: Package GitHub Pages artifact
+        run: |
+          tar --dereference --hard-dereference -cvf github-pages.tar --directory site .
+          gzip -f github-pages.tar
+      - uses: actions/upload-artifact@v7
         with:
-          path: site
+          name: github-pages
+          path: github-pages.tar.gz
+          if-no-files-found: error
+          retention-days: 1
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
