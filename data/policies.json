@@ -1,790 +1,1373 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-26 10:54:43 +08:00",
-  "policy_count": 87,
+  "schema_version": 2,
+  "generated_at": "2026-08-31 09:32:31 +08:00",
+  "policy_count": 89,
   "policies": [
     {
+      "policy_id": "C-015",
+      "title": "GB/T 47941.1—2026人工智能医疗器械 质量要求和评价 第1部分：术语",
+      "issuer": "国家市场监督管理总局、国家标准化管理委员会",
+      "document_no": "GB/T 47941.1—2026",
+      "published_date": "2026-07-30",
+      "region": "全国",
+      "category": "医疗器械注册监管",
+      "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=581F4B90BAFF80E8E06397BE0A0AF9E7",
+      "important_quotes": [
+        "“当前标准 GB/T 47941.1-2026 即将实施”",
+        "“发布日期 2026-07-30；实施日期 2027-08-01；标准计划 20242861-T-464”",
+        "“归口单位 国家药监局；执行单位 国家药监局；主管部门 国家药监局”"
+      ],
+      "official_interpretation": "无。当前未检索到稳定可复核的主管部门专项官方解读；公开可得的补充信息主要来自国家标准计划页，其中载明“拟实施日期：发布后12个月正式实施”。"
+    },
+    {
+      "policy_id": "G-JX-002",
       "title": "赣州市公共数据资源授权运营实施方案",
       "issuer": "赣州市人民政府办公室",
       "document_no": "赣市府办字〔2026〕35号",
       "published_date": "2026-07-22",
       "region": "江西",
       "category": "地方政策",
-      "source_url": "https://www.ganzhou.gov.cn/zfxxgk/c101854/202607/f45a7eec8c9b423f9e70af24ace86df1.shtml"
+      "source_url": "https://www.ganzhou.gov.cn/zfxxgk/c101854/202607/f45a7eec8c9b423f9e70af24ace86df1.shtml",
+      "important_quotes": [
+        "“公共数据资源授权运营是指县级以上人民政府按照法律法规和相关要求，授权符合条件的运营机构对公共数据资源进行开发运营，形成数据产品和服务，并向社会提供的行为。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-011",
       "title": "资产管理 数据资产登记指南（GB/T 47950—2026）",
       "issuer": "国家市场监督管理总局、国家标准化管理委员会",
       "document_no": "GB/T 47950—2026",
       "published_date": "2026-07-02",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=39D486E7240CCAD9F0BE93574CCD2AE7"
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=39D486E7240CCAD9F0BE93574CCD2AE7",
+      "important_quotes": [
+        "“本文件确立了组织开展数据资产登记的总体原则，提供了数据资产登记实施方、登记内容、登记流程及登记保障方面的指导。本文件适用于组织对数据资产进行登记。”",
+        "“数据资产登记：组织对已确认的数据资产，通过数据资产信息卡、资产台账等予以记载的活动。”",
+        "“组织建立健全管理措施，确保数据资产的来源、应用及登记活动全流程合规。”",
+        "“组织采用适宜的技术措施，确保数据资产登记的全生命周期可追溯。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-010",
       "title": "国家数据局综合司关于印发数据产权登记工作指引（试行）的通知",
       "issuer": "国家数据局综合司",
       "document_no": "国数综政策〔2026〕35号",
       "published_date": "2026-07-01",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0703/20260703230745065425855_pc.html"
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0703/20260703230745065425855_pc.html",
+      "important_quotes": [
+        "“本指引所称数据产权，是指权利人对特定数据享有的财产性权利，包括数据持有权、数据使用权、数据经营权等。”",
+        "“委托他人处理数据的，除法律另有规定或合同另有约定外，受托人对委托处理的原始数据、过程数据、结果数据等，不可登记持有权、使用权、经营权。”",
+        "“持有权、使用权、经营权互相独立，同一权利人可全部享有，也可享有其中一项或多项权利。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "B-008",
       "title": "放射诊断实践中放射防护与辐射剂量管理标准",
       "issuer": "国家卫生健康委员会",
       "document_no": "WS/T 908—2026",
       "published_date": "2026-06-26",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/fzs/c100048/202607/985c9a82b46349d38816cdaf1189ba35/files/WST%20908%E2%80%942026.pdf"
+      "source_url": "https://www.nhc.gov.cn/fzs/c100048/202607/985c9a82b46349d38816cdaf1189ba35/files/WST%20908%E2%80%942026.pdf",
+      "important_quotes": [
+        "“本标准规定了放射诊断临床实践中受检者放射防护相关要求和辐射剂量管理要求。”",
+        "“宜配备剂量管理系统，对异常剂量进行分析和管理。”"
+      ],
+      "official_interpretation": "无。该文件为卫生行业标准，对外引用以正式标准文本为准。"
     },
     {
+      "policy_id": "D-001",
       "title": "国家医疗保障局发布“医保影像云”基础规范",
       "issuer": "国家医疗保障局",
       "document_no": "无明确文号",
       "published_date": "2026-06-22",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2026/6/22/art_109_21057.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2026/6/22/art_109_21057.html",
+      "important_quotes": [
+        "“本规范明确了医保影像云业务应用场景、建设要求、建设架构、技术要求及安全规范。适用于各级医保部门、定点医疗机构、健康类人工智能服务机构、第三方技术服务机构，以及健康传感器服务机构开展医保影像云相关业务。”",
+        "“健康类人工智能服务机构：运用人工智能技术为影像检查提供数据处理、分析等服务的专业机构。”",
+        "“用于人工智能训练、大数据分析、科学研究等二次利用的场景，须对个人信息进行不可逆匿名化处理，或依法取得个人同意。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-014",
       "title": "人工智能辅助诊断医疗器械临床评价注册审查指导原则（征求意见稿）",
       "issuer": "国家药监局医疗器械技术审评检查长三角分中心",
       "document_no": "—（征求意见稿）",
       "published_date": "2026-06-17",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.ydcmdei.org.cn/article/881"
+      "source_url": "https://www.ydcmdei.org.cn/article/881",
+      "important_quotes": [
+        "“征求意见稿”阶段的人工智能辅助诊断医疗器械临床评价注册审查要求，拟进一步细化数据代表性、临床评价设计、适用人群和真实使用场景证据等审评关注点。"
+      ],
+      "official_interpretation": "无。该文件当前仅为征求意见稿，不宜作为正式审评依据对外引用。"
     },
     {
+      "policy_id": "E-013",
       "title": "关于推进行业高质量数据集建设行动的实施方案",
       "issuer": "国家数据局",
       "document_no": "国数科基〔2026〕25号",
       "published_date": "2026-06-03",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0608/20260608172117399715004_pc.html"
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0608/20260608172117399715004_pc.html",
+      "important_quotes": [
+        "“行业高质量数据集，是指可直接用于开发和训练人工智能模型、能够有效提升模型性能的行业数据集合。”",
+        "“形成‘场景牵引数据、数据驱动模型、模型赋能应用、应用创造价值’的数据飞轮。”"
+      ],
+      "official_interpretation": "无。当前以实施方案原文为准。"
     },
     {
+      "policy_id": "C-013",
       "title": "国家药监局关于发布医疗器械分类目录动态调整工作程序的公告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局公告2026年第53号",
       "published_date": "2026-06-01",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260601173941178.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260601173941178.html",
+      "important_quotes": [
+        "“为进一步加强医疗器械分类管理，优化《医疗器械分类目录》动态调整工作，制定本程序。”",
+        "“国家药品监督管理局2021年第60号公告同时废止。”"
+      ],
+      "official_interpretation": "无。当前以公告及附件程序原文为准。"
     },
     {
+      "policy_id": "C-012",
       "title": "国家药监局关于医疗器械分类调整有关工作的公告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局公告2026年第52号",
       "published_date": "2026-06-01",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/fgwj/xzhgfxwj/20260601172053198.html"
+      "source_url": "https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/fgwj/xzhgfxwj/20260601172053198.html",
+      "important_quotes": [
+        "“医疗器械管理类别调整后，首次注册申请应当按照调整后的管理类别申报。”",
+        "“已受理但尚未审批的首次注册、延续注册申请，可以按照原管理类别继续审评审批，并在备注栏注明调整后的管理类别。”",
+        "“管理类别由低类别调整为高类别的，相关申请人应当按照调整后的管理类别申请注册。”"
+      ],
+      "official_interpretation": "无。该公告主要明确分类调整后的受理、审评审批和衔接安排。"
     },
     {
+      "policy_id": "B-010",
       "title": "关于进一步健全城市社区卫生服务体系 提升服务能力的通知",
       "issuer": "国家卫生健康委办公厅",
       "document_no": "国卫办基层发〔2026〕7号",
       "published_date": "2026-05-29",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml"
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml",
+      "important_quotes": [
+        "“探索在城市社区卫生服务机构推广应用医学人工智能辅助诊断、处方前置审核、语音病历信息自动采集辅助书写等技术。”"
+      ],
+      "official_interpretation": "当前未确认主管机关专项官方解读。"
     },
     {
+      "policy_id": "B-012",
       "title": "紧密型县域医共体医学影像中心建设与服务指南（试行）",
       "issuer": "国家卫生健康委办公厅",
       "document_no": "未在所收录附件中单列",
       "published_date": "2026-05-27",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/1.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf"
+      "source_url": "https://www.nhc.gov.cn/jws/c100073/202605/54b5f66f86804e939f138868462ae411/files/1.%E7%B4%A7%E5%AF%86%E5%9E%8B%E5%8E%BF%E5%9F%9F%E5%8C%BB%E5%85%B1%E4%BD%93%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89.pdf",
+      "important_quotes": [
+        "“可应用经国家药品监督管理局认证的医学影像人工智能辅助诊断工具，实现智能分析、辅助诊断提示、质控等远程在线应用功能，提升诊断效率与质量。”",
+        "“应实现跨机构远程影像会诊功能……应有完整的数据访问控制体系。”"
+      ],
+      "official_interpretation": "当前未确认主管机关专项官方解读。"
     },
     {
+      "policy_id": "B-013",
+      "title": "世界卫生大会第79届会议决议WHA79.8：精准医学：迈向目标化、个性化与公平照护的路径",
+      "issuer": "世界卫生大会（World Health Assembly）",
+      "document_no": "WHA79.8",
+      "published_date": "2026-05-23",
+      "region": "国际",
+      "category": "医疗AI应用与卫健治理",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_R8-en.pdf",
+      "important_quotes": [
+        "“Recognizing the cross-cutting and enabling role of artificial intelligence in supporting these domains, which collectively underpin precision medicine and have the potential to transform prevention, diagnosis and treatment across the life course;”",
+        "“to strengthen national and regional capacities by investing in laboratory and diagnostic infrastructure, genomic databases, digital health platforms and relevant technologies, including artificial intelligence and biomedical engineering, to support the implementation and integration of precision medicine with the respect of national data sovereignty;”",
+        "“to establish, strengthen or maintain legal, ethical and regulatory frameworks and measures for data governance, privacy, transparency, interoperability, cybersecurity, quality assurance and accountability related to precision medicine;”",
+        "“to submit, pursuant to paragraph 2(1), the global strategy on precision medicine for consideration by the Executive Board at its 164th session, with a view to its submission for adoption to the Eighty-second World Health Assembly in 2029.”"
+      ],
+      "official_interpretation": "有。WHO于2026年5月22日发布配套新闻稿，说明成员国已在第七十九届世界卫生大会支持WHA79.8决议，并将精准医学纳入加强公平、有效和可持续卫生体系的努力之中。正式引用仍以决议PDF为准。",
+      "official_interpretation_url": "https://www.who.int/news/item/22-05-2026-world-health-assembly-endorses-resolution-on-precision-medicine"
+    },
+    {
+      "policy_id": "D-008",
       "title": "国家医疗保障局关于印发医疗保障基金监督检查五年行动计划（2026年—2030年）的通知",
       "issuer": "国家医疗保障局",
       "document_no": "医保发〔2026〕11号",
       "published_date": "2026-05-13",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2026/5/13/art_104_20494.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2026/5/13/art_104_20494.html",
+      "important_quotes": [
+        "“力争用5年时间，形成覆盖医保基金使用全链条、全周期、多维度、多场景的大数据监管模型矩阵。”",
+        "“推进医药机构端事前提醒、经办端事中审核、行政端事后监管‘三道防线’建设，形成梯次拦截违法违规行为的协同效应。”",
+        "“基于医保影像云建设，探索‘人工智能+影像识别’，精准发现植入类耗材异常、虚假检查、虚构病情等违法违规行为；基于全病历数据采集，探索‘人工智能+病例判读’，为过度诊疗、虚假诊疗等问题的监管提供线索支持；基于全国医保政策，探索构建‘人工智能+医保规则’，通过人工智能自动生成监管规则、筛查疑点线索、精准发现问题。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-BJ-002",
       "title": "北京市互联网信息办公室等三部门关于印发中国（北京）自由贸易试验区、国家服务业扩大开放综合示范区数据出境负面清单（2025版）及管理办法的通知",
       "issuer": "北京市互联网信息办公室、北京市商务局、北京市政务服务和数据管理局",
       "document_no": "",
       "published_date": "2026-05-11",
       "region": "北京",
       "category": "地方政策",
-      "source_url": "https://sw.beijing.gov.cn/tzgg/202605/t20260511_4645197.html"
+      "source_url": "https://sw.beijing.gov.cn/tzgg/202605/t20260511_4645197.html",
+      "important_quotes": [
+        "第二条：“北京市‘两区’内开展数据出境负面清单制定审批和使用管理等活动，适用本办法。”",
+        "第三条：“负面清单管理应坚持安全底线、助力产业发展、分批分类管理等原则。”",
+        "第六条：“本市数据跨境服务中心各站点围绕数据出境政策和负面清单适用提供咨询服务，帮助数据处理者高效便利安全开展数据出境活动。”"
+      ],
+      "official_interpretation": "无。当前未单列可稳定复核的专项官方解读；对外引用以管理办法原文为准。"
     },
     {
+      "policy_id": "B-011",
       "title": "WS/T 891—2026紧密型县域医共体医学影像中心设置标准",
       "issuer": "国家卫生健康委员会",
       "document_no": "WS/T 891—2026",
       "published_date": "2026-03-17",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/wjw/c100309/202603/c201f9460a7a446dadf2896663d93724/files/WST%20891%E2%80%942026-20260331175249901.pdf"
+      "source_url": "https://www.nhc.gov.cn/wjw/c100309/202603/c201f9460a7a446dadf2896663d93724/files/WST%20891%E2%80%942026-20260331175249901.pdf",
+      "important_quotes": [
+        "“医学影像中心……承担县域医共体内医学影像的集中诊断、数据管理与共享、远程会诊与协同诊疗、质量控制与管理、教学培训与技术指导等职能。”",
+        "“信息系统应建立数据审计日志，保存记录时间不低于180天，确保医学影像数据的完整性、准确性、安全性和可追溯性。”"
+      ],
+      "official_interpretation": "无。该文件为卫生行业推荐性标准，应按实施日期和适用范围使用。"
     },
     {
+      "policy_id": "A-001",
       "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
       "issuer": "全国人民代表大会",
       "document_no": "不适用（全国人大规划纲要，公开文本未设行政文号）",
       "published_date": "2026-03-13",
       "region": "全国",
       "category": "十五五与产业支持",
-      "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062633.htm"
+      "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7062633.htm",
+      "important_quotes": [
+        "“完善数据标准体系和质量管理体系，加快建设人工智能语料库，面向能源、交通、制造、教育、健康、金融等领域建设高质量数据集，建立人工智能训练数据合理使用制度。”",
+        "“促进人工智能助力教育模式变革，有序推动数智技术在辅助诊疗、精准医疗、健康管理、医保服务、养老助残等场景的应用。”",
+        "“推进全民健康数智化建设，推动检验检查结果共享互认。”",
+        "“积极探索运⽤数智技术提⾼基层医疗服务能⼒、促进教育公平，助⼒基本公共服务均等化。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-001",
       "title": "医疗卫生机构数据安全和个人信息保护管理办法（试行）",
       "issuer": "国家卫生健康委、公安部、国家互联网信息办公室、国家中医药管理局、国家疾病预防控制局",
       "document_no": "国卫规划发〔2026〕6号",
       "published_date": "2026-02-12",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.whcdc.org/yewuzhidao/falvfagui/guizhang/2026-03-13/10924.html"
+      "source_url": "https://www.whcdc.org/yewuzhidao/falvfagui/guizhang/2026-03-13/10924.html",
+      "important_quotes": [
+        "第四条：“医疗卫生机构主要负责人是本单位数据安全和个人信息保护管理第一责任人，分管负责人是直接责任人。”",
+        "第十三条：“鼓励医疗卫生机构通过‘原始数据不出域，数据可用不可见，数据可控可计量’等方式，促进医疗卫生机构数据依法合理有效利用。”",
+        "第二十二条第（七）项：“未经医疗卫生机构网络安全和信息化工作领导小组或领导班子批准，任何部门和个人不得将未对外公开的信息和医疗卫生机构数据传递至医疗卫生机构之外。”",
+        "第二十八条：“医疗卫生机构在使用人工智能等新技术过程中，涉及患者病历等个人信息的，必须确保个人信息安全。”"
+      ],
+      "official_interpretation": "无。当前未单列可稳定复核的主管部门专项官方解读；对外引用以办法原文为准。"
     },
     {
+      "policy_id": "G-GX-002",
       "title": "广西深入实施“人工智能＋”三年行动方案（2026—2028年）",
       "issuer": "广西壮族自治区人民政府办公厅",
       "document_no": "桂政办发〔2025〕61号",
       "published_date": "2026-01-08",
       "region": "广西",
       "category": "地方政策",
-      "source_url": "https://www.gxzf.gov.cn/zfwj/zxwj/t27094468.shtml"
+      "source_url": "https://www.gxzf.gov.cn/zfwj/zxwj/t27094468.shtml",
+      "important_quotes": [
+        "“构建全域智慧健康服务体系，加快发展数智健康、智慧医疗，提升药品、医疗器械临床试验的智能化管理和监管水平。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-011",
       "title": "国家药监局关于调整医疗器械分类目录部分内容的公告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局公告2025年第132号",
       "published_date": "2026-01-04",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260104173409116.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20260104173409116.html",
+      "important_quotes": [
+        "“根据《医疗器械监督管理条例》《医疗器械分类规则》等有关规定，现对《医疗器械分类目录》部分内容进行调整。”",
+        "“本公告自发布之日起施行。”"
+      ],
+      "official_interpretation": "无。当前未确认主管机关就本批目录调整发布专项解读。"
     },
     {
+      "policy_id": "D-006",
       "title": "病理类医疗服务价格项目立项指南（试行）",
       "issuer": "国家医疗保障局",
       "document_no": "无明确文号",
       "published_date": "2025-12-31",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2025/12/31/art_201_19203.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2025/12/31/art_201_19203.html",
+      "important_quotes": [
+        "“规范整合为28项病理类价格项目、3项加收项、2项扩展项。”",
+        "“由各省制定统一价格基准，统筹地区按规定落地执行。”"
+      ],
+      "official_interpretation": "无。当前以立项指南原文和地方落地价格政策为准。"
     },
     {
+      "policy_id": "F-013",
       "title": "中华人民共和国网络安全法",
       "issuer": "全国人民代表大会常务委员会",
       "document_no": "—（2025年修正）",
       "published_date": "2025-12-29",
-      "region": "全国",
+      "region": "全国及法定域外适用情形",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm"
+      "source_url": "https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm",
+      "important_quotes": [
+        "“国家实行网络安全等级保护制度。”",
+        "“关键信息基础设施的运营者在中华人民共和国境内运营中收集和产生的个人信息和重要数据，应当按照法律、行政法规的规定在境内存储。”"
+      ],
+      "official_interpretation": "无。当前以现行修正文本为准。"
     },
     {
+      "policy_id": "D-007",
       "title": "国家医保局关于加快医疗保障领域场景培育和开放 支持新场景大规模应用的通知",
       "issuer": "国家医疗保障局",
       "document_no": "医保发〔2025〕38号",
       "published_date": "2025-12-19",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057134.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057134.htm",
+      "important_quotes": [
+        "“常态化开展场景征集。各级医保部门要系统梳理亟待解决的业务难题和创新需求，重点围绕涉及医疗医药技术进步、便民服务优化、管理能力提质、跨领域协同增效、医保综合价值评价等创新场景，鼓励各地结合实际，广泛征集能够体现医保特色、解决实际难题、具备推广潜力的场景。”",
+        "“择优发布医保领域场景清单。国家医保局甄别成熟场景，分批次推出医保领域场景清单，明确场景目标、应用背景、预期成效，形成场景‘发布—应用—反馈—优化’良性循环。”",
+        "“多模态AI辅助诊疗、医学机器人和健康传感器智能感知、非侵入式脑机接口应用等医保赛事，打造医保领域场景孵化平台。持续做好场景征集、宣传推广工作，建立与创新主体常态化沟通机制，共同营造医保领域场景培育和开放的良好氛围。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-JX-003",
       "title": "江西省人民政府关于印发江西省“人工智能+”行动方案的通知",
       "issuer": "江西省人民政府",
       "document_no": "",
       "published_date": "2025-12-18",
       "region": "江西",
       "category": "地方政策",
-      "source_url": "https://jx.mof.gov.cn/xxgk/zhengcefagui/202512/t20251225_3980167.htm"
+      "source_url": "https://jx.mof.gov.cn/xxgk/zhengcefagui/202512/t20251225_3980167.htm",
+      "important_quotes": [
+        "“健全省基层人工智能辅助智慧医疗系统，推动医疗数据合法合规安全有序利用。鼓励中医药和病理等领域大模型研发。”",
+        "江西（赣州）的价格政策 G-JX-001 已在本节前“六地地方落实速查”江西（赣州）行完整列示；该行不能外推为全省统一价格口径。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-ZJ-001",
       "title": "浙江省医疗保障局关于公布器官移植、临床量表评估、中医及放射检查等9类医疗服务价格项目及医保支付政策的通知",
       "issuer": "浙江省医疗保障局",
       "document_no": "浙医保发〔2025〕31号",
       "published_date": "2025-11-17",
       "region": "浙江",
       "category": "地方政策",
-      "source_url": "https://www.zjszsyy.com/zh/news_detail/17612/5/34"
+      "source_url": "http://ybj.zj.gov.cn/art/2025/11/28/art_1229113757_2579609.html",
+      "important_quotes": [
+        "“对于不能提供符合要求的‘数字影像处理和上传存储服务’的，执行的相关放射检查项目价格减收5元。”"
+      ],
+      "official_interpretation": "无。当前未单列当地医保部门专项官方解读；对外引用以地方价格文件原文为准。"
     },
     {
+      "policy_id": "A-003",
       "title": "国务院办公厅关于加快场景培育和开放推动新场景大规模应用的实施意见",
       "issuer": "国务院办公厅",
       "document_no": "国办发〔2025〕37号",
       "published_date": "2025-11-07",
       "region": "全国",
       "category": "十五五与产业支持",
-      "source_url": "https://www.gov.cn/zhengce/content/202511/content_7047419.htm"
+      "source_url": "https://www.gov.cn/zhengce/content/202511/content_7047419.htm",
+      "important_quotes": [
+        "“医疗卫生领域。推动大数据、物联网、脑机接口等新一代信息技术及医疗机器人等智能设备集成应用，创新健康咨询、问诊指引、辅助诊断、远程医疗、用药审核等医疗应用场景。”",
+        "“促进各类主体公平高效参与场景资源配置和开发利用，不得在地域、业绩、规模、企业性质等方面违规设置限制条件。”",
+        "“发挥政府采购支持作用，推动应用新技术、新产品、新场景。”"
+      ],
+      "official_interpretation": "本条对外沟通仅引用发文机关官方原文；专家解读如需使用，应另行补充主管机关官网可稳定复核的原文链接。"
     },
     {
+      "policy_id": "B-001",
       "title": "关于促进和规范“人工智能+医疗卫生”应用发展的实施意见",
       "issuer": "国家卫生健康委办公厅、国家发展改革委办公厅、工业和信息化部办公厅、国家中医药局综合司、国家疾控局综合司",
       "document_no": "国卫办规划发〔2025〕30号",
       "published_date": "2025-11-04",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202511/d1a42ae835c743b9b3e83ac0253c3e9f.shtml"
+      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202511/d1a42ae835c743b9b3e83ac0253c3e9f.shtml",
+      "important_quotes": [
+        "“到2030年，基层诊疗智能辅助应用基本实现全覆盖，推动实现二级以上医院普遍开展医学影像智能辅助诊断、临床诊疗智能辅助决策等人工智能技术应用，‘人工智能+医疗卫生’应用标准规范体系基本完善，建成一批全球领先的科技创新和人才培养基地。”",
+        "“支持省统筹集约化开展医学影像辅助诊断、报告生成、影像质量评价和提供治疗方案建议等智能辅助服务，鼓励二级及以上医院医学影像智能辅助诊断从单病种向单个器官多病种发展。”",
+        "“建立大模型应用评测验证，从医疗质量安全、个人隐私和数据安全等方面开展穿透式监管，加强动态监测和预警。”"
+      ],
+      "official_interpretation": "本条对外沟通仅引用五部门正式文件；专家观点如需使用，应另行补充主管机关官网或直属机构发布的可稳定复核原文。"
     },
     {
+      "policy_id": "F-007",
       "title": "个人信息出境认证办法",
       "issuer": "国家互联网信息办公室、国家市场监督管理总局",
       "document_no": "国家互联网信息办公室、国家市场监督管理总局令第21号",
       "published_date": "2025-10-14",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-10/17/c_1762449728720008.htm"
+      "source_url": "https://www.cac.gov.cn/2025-10/17/c_1762449728720008.htm",
+      "important_quotes": [
+        "“关键信息基础设施运营者以外的个人信息处理者，自当年1月1日起累计向境外提供10万人以上、不满100万人个人信息或者不满1万人敏感个人信息的，可以依法通过个人信息保护认证。”",
+        "“开展个人信息出境活动，应当依法履行告知、取得个人单独同意、开展个人信息保护影响评估等义务。”"
+      ],
+      "official_interpretation": "无。底库对令号另见不同记载，对外正式引用以官方原文为准。"
     },
     {
+      "policy_id": "G-ZJ-002",
       "title": "浙江省人民政府办公厅关于印发浙江省公共数据资源授权运营管理办法的通知",
       "issuer": "浙江省人民政府办公厅",
       "document_no": "浙政办发〔2025〕30号",
       "published_date": "2025-10-09",
       "region": "浙江",
       "category": "地方政策",
-      "source_url": "https://www.zj.gov.cn/col/col1229017139/art/2025/art_016b668227be4777a1d18a27e090f3a4.html"
+      "source_url": "https://www.zj.gov.cn/col/col1229017139/art/2025/art_016b668227be4777a1d18a27e090f3a4.html",
+      "important_quotes": [
+        "“按照‘原始数据不出域、数据可用不可见’的要求，开展公共数据资源授权运营工作。”",
+        "“本办法自2025年10月1日起施行。《浙江省人民政府办公厅关于印发浙江省公共数据授权运营管理办法（试行）的通知》（浙政办发〔2023〕44号）同时废止。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-GX-003",
       "title": "广西全面深化药品医疗器械监管改革促进医药产业高质量发展行动方案（2025—2027年）",
       "issuer": "广西壮族自治区人民政府",
       "document_no": "",
       "published_date": "2025-09-28",
       "region": "广西",
       "category": "地方政策",
-      "source_url": "http://tzcjj.gxzf.gov.cn/gzdt/t26099170.shtml"
+      "source_url": "http://tzcjj.gxzf.gov.cn/gzdt/t26099170.shtml",
+      "important_quotes": [
+        "“对在不同平台注册的同一人工智能软件的功能，能证明平台等同性的，简化审评要求。”",
+        "广西的价格政策 G-GX-001 已在本节前“六地地方落实速查”广西行完整列示。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-006",
       "title": "国家网络安全事件报告管理办法",
       "issuer": "国家互联网信息办公室",
       "document_no": "国家互联网信息办公室令第20号",
       "published_date": "2025-09-11",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm"
+      "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+      "important_quotes": [
+        "“涉及关键信息基础设施的，网络运营者应当第一时间向保护工作部门、公安机关报告，最迟不得超过1小时。”",
+        "“其他网络运营者应当及时向属地省级网信部门报告，最迟不得超过4小时。”",
+        "“网络运营者应当以合同等形式要求为其提供网络安全、系统运维等服务的组织或个人，及时向其报告监测发现的网络安全事件，并协助其按照本办法规定报告网络安全事件。”",
+        "“对于规定时间内不能判定事发原因、影响或发展趋势等网络安全事件情况的，可先报告第一项、第二项内容，其他情况及时补报。”",
+        "“网络安全事件处置工作结束后，网络运营者应当于30日内对相关事件发生原因、应急处置措施、造成的危害、责任追究、完善整改情况、教训等进行全面分析总结，形成事件处置总结报告按照原渠道上报。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-SH-004",
       "title": "上海市人民政府办公厅关于印发上海市促进高端医疗器械产业全链条发展行动方案的通知",
       "issuer": "上海市人民政府办公厅",
       "document_no": "沪府办发〔2025〕17号",
       "published_date": "2025-09-04",
       "region": "上海",
       "category": "地方政策",
-      "source_url": "https://www.shanghai.gov.cn/202518bgtwj/20250925/5da0a9358ed34c888ebbd01f6ccccbcb.html"
+      "source_url": "https://www.shanghai.gov.cn/202518bgtwj/20250925/5da0a9358ed34c888ebbd01f6ccccbcb.html",
+      "important_quotes": [
+        "“高端人工智能医疗器械。加快智能医学影像诊断软件、手术导航系统等产品迭代升级，推动医学智能体、医疗具身智能机器人等产品研发。”",
+        "上海的价格政策 G-SH-001 已在本节前“六地地方落实速查”上海行完整列示。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "A-002",
       "title": "国务院关于深入实施“人工智能+”行动的意见",
       "issuer": "国务院",
       "document_no": "国发〔2025〕11号",
       "published_date": "2025-08-26",
       "region": "全国",
       "category": "十五五与产业支持",
-      "source_url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
+      "source_url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm",
+      "important_quotes": [
+        "“探索推广人人可享的高水平居民健康助手，有序推动人工智能在辅助诊疗、健康管理、医保服务等场景的应用，大幅提高基层医疗健康服务能力和效率。”",
+        "“推动人工智能驱动的技术研发、工程实现、产品落地一体化协同发展，加速‘从1到N’技术落地和迭代突破。”",
+        "“防范模型的黑箱、幻觉、算法歧视等带来的风险，加强前瞻评估和监测处置，推动人工智能应用合规、透明、可信赖。”",
+        "“一是从历史纵深视角看，要加快释放‘人工智能+’做大存量、应对变量、创造增量三方面效能。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-010",
       "title": "国家药监局关于发布应用纳米材料的医疗器械产品分类界定指导原则康复类数字疗法软件产品分类界定指导原则等2项医疗器械产品分类界定指导原则的通告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局2025年第27号通告",
       "published_date": "2025-07-30",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/ylqx/ylqxggtg/20250729140322135.html"
+      "source_url": "https://www.nmpa.gov.cn/ylqx/ylqxggtg/20250729140322135.html",
+      "important_quotes": [
+        "“《应用纳米材料的医疗器械产品分类界定指导原则》《康复类数字疗法软件产品分类界定指导原则》自发布之日起施行。”",
+        "“申请人应当按照相应指导原则确定产品管理属性和管理类别。”",
+        "“对已经备案、注册的相关医疗器械产品，注册人、备案人应当按照指导原则开展自查；管理类别调整为更高类别的，应当依法申请相应注册。”"
+      ],
+      "official_interpretation": "无。当前以通告及附件指导原则原文为准。"
     },
     {
+      "policy_id": "G-SH-002",
       "title": "上海市公共数据资源授权运营管理办法",
       "issuer": "上海市人民政府办公厅",
       "document_no": "沪府办规〔2025〕11号",
       "published_date": "2025-07-28",
       "region": "上海",
       "category": "地方政策",
-      "source_url": "https://www.shanghai.gov.cn/nw12344/20250801/e03bd8f1f16b462ba100d3f3d431c874.html"
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20250801/e03bd8f1f16b462ba100d3f3d431c874.html",
+      "important_quotes": [
+        "“本办法所称公共数据资源授权运营，是指将本市公共数据资源，按照法律法规和相关要求，授权符合条件的运营机构进行治理、开发，并面向市场公平提供数据产品和服务的活动。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-ZJ-003",
       "title": "浙江省卫生健康委员会等10部门关于印发浙江省加快推动“人工智能+医疗健康”高质量发展行动计划（2025-2027年）的通知",
       "issuer": "浙江省卫生健康委员会等10部门",
       "document_no": "浙卫发〔2025〕13号",
       "published_date": "2025-07-11",
       "region": "浙江",
       "category": "地方政策",
-      "source_url": "https://wsjkw.zj.gov.cn/col/col1229560650/art/2025/art_dcf9024b426f42d09189057fa7636b7f.html"
+      "source_url": "https://wsjkw.zj.gov.cn/col/col1229560650/art/2025/art_dcf9024b426f42d09189057fa7636b7f.html",
+      "important_quotes": [
+        "“建设卫生健康行业可信数据空间，研发数据治理工具和智能引擎。建设省级医学生物信息数据库，共建共享行业高质量数据集、语料库。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-BJ-003",
       "title": "北京市加快推动“人工智能+医药健康”创新发展行动计划（2025-2027年）",
       "issuer": "北京市科学技术委员会、中关村科技园区管理委员会等",
       "document_no": "京科发〔2025〕14号",
       "published_date": "2025-07-03",
       "region": "北京",
       "category": "地方政策",
-      "source_url": "https://zyj.beijing.gov.cn/dwjlxxw/zcfg/202508/t20250805_4166655.html"
+      "source_url": "https://zyj.beijing.gov.cn/dwjlxxw/zcfg/202508/t20250805_4166655.html",
+      "important_quotes": [
+        "“加快北京全民健康信息平台建设，整合影像云平台、医疗健康大数据平台和‘三医’数据底座等，实现医疗健康数据的高效汇集。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-007",
       "title": "优化全生命周期监管支持高端医疗器械创新发展有关举措",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局公告2025年第63号",
       "published_date": "2025-07-03",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/yaowen/ypjgyw/ylqxyw/20250703163951182.html"
+      "source_url": "https://www.nmpa.gov.cn/yaowen/ypjgyw/ylqxyw/20250703163951182.html",
+      "important_quotes": [
+        "“开展医用大模型、人工智能医疗器械、合成生物材料组织工程产品、医学影像前处理、流程优化软件等新功能、新技术、新模态产品的管理属性和类别研究，依据技术发展成熟度及时动态调整产品管理类别。”",
+        "“推动审评重心向高端医疗器械的产品研发阶段前移，加强前置审评工作。”"
+      ],
+      "official_interpretation": "国家药监局“药你知道”五篇系列解读将该政策定位为贯穿研发、审评、检查、生产、上市后监测和退出的全生命周期安排。"
     },
     {
+      "policy_id": "F-008",
       "title": "数据出境安全评估申报指南（第三版）",
       "issuer": "国家互联网信息办公室",
       "document_no": "无明确文号",
       "published_date": "2025-06-27",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-06/27/c_1752652339765002.htm"
+      "source_url": "https://www.cac.gov.cn/2025-06/27/c_1752652339765002.htm",
+      "important_quotes": [
+        "“向境外提供数据，包括将数据传输至境外，以及数据存储在境内但境外机构、组织或者个人可以查询、调取、下载、导出。”",
+        "“数据出境安全评估申报通过线上系统办理。”"
+      ],
+      "official_interpretation": "无。该指南属于实操型申报材料指引。"
     },
     {
+      "policy_id": "G-GX-001",
       "title": "自治区医保局关于规范整合放射检查类医疗服务项目价格的通知",
       "issuer": "广西壮族自治区医疗保障局",
       "document_no": "桂医保发〔2025〕22号",
       "published_date": "2025-06-17",
       "region": "广西",
       "category": "地方政策",
-      "source_url": "https://ybj.gxzf.gov.cn/zfxxgkzl/zcfg/zcfg_9912/bmwj/zcfggybf/t22072685.shtml"
+      "source_url": "https://ybj.gxzf.gov.cn/zfxxgkzl/zcfg/zcfg_9912/bmwj/zcfggybf/t22072685.shtml",
+      "important_quotes": [
+        "“对于不能提供符合要求的‘数字影像处理和上传存储服务’，执行的相关放射检查项目价格减收5元。”"
+      ],
+      "official_interpretation": "无。当前未单列当地医保部门专项官方解读；对外引用以地方价格文件原文为准。"
     },
     {
+      "policy_id": "G-BJ-001",
       "title": "北京市医疗保障局 北京市人力资源和社会保障局关于规范、调整及新增常规针法等医疗服务价格项目和相关政策的通知",
       "issuer": "北京市医疗保障局、北京市人力资源和社会保障局",
       "document_no": "京医保发〔2025〕13号",
       "published_date": "2025-06-17",
       "region": "北京",
       "category": "地方政策",
-      "source_url": "https://ybj.beijing.gov.cn/zwgk/2024zcwj/202506/t20250624_4122163.html"
+      "source_url": "https://ybj.beijing.gov.cn/zwgk/2024zcwj/202506/t20250624_4122163.html",
+      "important_quotes": [
+        "“对于不能提供符合要求的‘数字影像处理和上传存储服务’的，执行的相关放射检查项目价格减收5元。”"
+      ],
+      "official_interpretation": "无。当前未单列当地医保部门专项官方解读；对外引用以地方价格文件原文为准。"
     },
     {
+      "policy_id": "G-JX-001",
       "title": "关于公布放射检查类、超声检查类、中医特殊疗法类、中医骨伤类医疗服务项目价格有关事项的通知",
       "issuer": "赣州市医疗保障局（执行江西省赣医保字〔2025〕28号）",
       "document_no": "赣医保字〔2025〕28号（省级依据）",
       "published_date": "2025-05-30",
       "region": "江西",
       "category": "地方政策",
-      "source_url": "https://ybj.ganzhou.gov.cn/gzsylbzj/c105393/202505/9fdc2119fce946d69285a6316e0cabd9.shtml"
+      "source_url": "https://ybj.ganzhou.gov.cn/gzsylbzj/c105393/202505/9fdc2119fce946d69285a6316e0cabd9.shtml",
+      "important_quotes": [
+        "“放射检查类相关价格已预留了落实相关减收政策的空间，并扣除了实体胶片的因素。无法提供符合要求的‘数字影像处理和上传存储服务’的公立医院，应落实相关影像检查减收5元的价格政策。”"
+      ],
+      "official_interpretation": "无。当前未单列当地医保部门专项官方解读；对外引用以地方价格文件原文为准。"
     },
     {
+      "policy_id": "G-SZ-001",
       "title": "深圳市医疗保障局转发广东省医疗保障局关于公布放射检查类等医疗服务价格项目的通知",
       "issuer": "深圳市医疗保障局",
       "document_no": "无单独地方文号（转发粤医保发〔2025〕5号）",
       "published_date": "2025-04-28",
       "region": "深圳",
       "category": "地方政策",
-      "source_url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12149/post_12149938.html?jump=true"
+      "source_url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12149/post_12149938.html?jump=true",
+      "important_quotes": [
+        "“将‘数字影像处理和上传存储服务’纳入放射检查类项目的价格构成……如无法提供符合要求的‘数字影像处理和上传存储服务’，实行减收5元的价格政策。”"
+      ],
+      "official_interpretation": "有。深圳市医保局发布配套政策解读，明确将“数字影像处理和上传存储服务”纳入放射检查类项目的价格构成；如无法提供符合要求的该项服务，实行减收5元的价格政策。",
+      "official_interpretation_url": "https://hsa.sz.gov.cn/zwgk/zcfgjzcjd/zcjd/content/post_12149808.html"
     },
     {
+      "policy_id": "A-004",
       "title": "工业和信息化部等七部门关于印发医药工业数智化转型实施方案（2025—2030年）的通知",
       "issuer": "工业和信息化部、商务部、国家卫生健康委、国家医保局、国家数据局、国家中医药局、国家药监局",
       "document_no": "工信部联消费〔2025〕79号",
       "published_date": "2025-04-24",
       "region": "全国",
       "category": "十五五与产业支持",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202504/content_7020857.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202504/content_7020857.htm",
+      "important_quotes": [
+        "“到2027年，医药工业数智化转型取得重要进展，以数智技术驱动的医药全产业链竞争力和全生命周期质量管理水平显著提升。在数智化发展基础建设方面，突破一批医药工业数智化关键技术，制修订30项以上医药工业数智技术标准，在智能制药设备、检测仪器和制药工业软件等领域研发推广100款以上高性能产品；在数智化转型推广方面，打造100个以上医药工业数智技术应用典型场景，建成100个以上数智药械工厂，建设50家以上具有引领性的数智化转型卓越企业，推动打造5个医药数智化转型卓越园区；在支撑服务体系建设方面，建设医药工业数智化转型促进中心及分中心，建设10个以上医药大模型创新平台、数智技术应用验证与中试平台，培育30家以上医药工业数智化转型卓越服务商。”",
+        "“鼓励医药企业、医疗机构、科研院所等合作建设医药工业大数据平台，形成研发、生产、临床、大健康等领域高质量数据集。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-SH-001",
       "title": "关于规范调整本市放射检查类医疗服务价格项目的通知",
       "issuer": "上海市医疗保障局、上海市卫生健康委员会",
       "document_no": "沪医保价采发〔2025〕11号",
       "published_date": "2025-04-18",
       "region": "上海",
       "category": "地方政策",
-      "source_url": "https://ybj.sh.gov.cn/qtwj/20250429/f5dd5e766bf54230b98f5c19024f3067.html"
+      "source_url": "https://ybj.sh.gov.cn/qtwj/20250429/f5dd5e766bf54230b98f5c19024f3067.html",
+      "important_quotes": [
+        "“对于能提供符合要求的‘数字影像处理和上传存储服务’的，执行的相关放射检查项目价格可加收5元（核医学项目除外）。”"
+      ],
+      "official_interpretation": "无。当前未单列当地医保部门专项官方解读；对外引用以地方价格文件原文为准。"
     },
     {
+      "policy_id": "G-SZ-003",
       "title": "深圳市发展和改革委员会 深圳市卫生健康委员会 深圳市市场监督管理局 深圳市医疗保障局关于印发深圳市全链条支持医药和医疗器械发展若干措施的通知",
       "issuer": "深圳市发展和改革委员会、深圳市卫生健康委员会、深圳市市场监督管理局、深圳市医疗保障局",
       "document_no": "深发改规〔2025〕3号",
       "published_date": "2025-04-02",
       "region": "深圳",
       "category": "地方政策",
-      "source_url": "https://fgw.sz.gov.cn/zwgk/zcjzcjd/zc/content/post_12822549.html"
+      "source_url": "https://fgw.sz.gov.cn/zwgk/zcjzcjd/zc/content/post_12822549.html",
+      "important_quotes": [
+        "“支持真实世界数据用于临床急需药物、罕见病治疗、AI医疗算法、精准医疗、中医药等领域药械上市前审批注册、已获批药械说明书修改、上市后安全性研究与主动监测的临床评价。”",
+        "深圳的价格政策 G-SZ-001 已在本节前“六地地方落实速查”深圳行完整列示。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "G-SZ-002",
       "title": "深圳市南山区公共数据授权运营管理暂行办法",
       "issuer": "深圳市南山区人民政府办公室",
       "document_no": "深南府规〔2025〕3号",
       "published_date": "2025-03-07",
       "region": "深圳",
       "category": "地方政策",
-      "source_url": "https://www.szns.gov.cn/ztzl/slh/zcfg/content/post_11974964.html"
+      "source_url": "https://www.szns.gov.cn/ztzl/slh/zcfg/content/post_11974964.html",
+      "important_quotes": [
+        "“按照‘原始数据不出域、数据可用不可见’的要求，在维护国家数据安全、保护个人信息和商业秘密前提下，依法有序开展本区公共数据授权运营活动。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-005",
       "title": "人工智能生成合成内容标识办法",
       "issuer": "国家互联网信息办公室、工业和信息化部、公安部、国家广播电视总局",
       "document_no": "国信办通字〔2025〕2号",
       "published_date": "2025-03-07",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm"
+      "source_url": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm",
+      "important_quotes": [
+        "“人工智能生成合成内容标识包括显式标识和隐式标识。”",
+        "“任何组织和个人不得恶意删除、篡改、伪造、隐匿依法添加的生成合成内容标识。”"
+      ],
+      "official_interpretation": "无。当前以办法原文为准。"
     },
     {
+      "policy_id": "F-004",
       "title": "个人信息保护合规审计管理办法",
       "issuer": "国家互联网信息办公室",
       "document_no": "国家互联网信息办公室令第18号",
       "published_date": "2025-02-12",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm"
+      "source_url": "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm",
+      "important_quotes": [
+        "“个人信息处理者自行开展个人信息保护合规审计的，应当由个人信息处理者内部机构或者委托专业机构定期对其处理个人信息遵守法律、行政法规的情况进行合规审计。”",
+        "“处理超过1000万人个人信息的个人信息处理者，应当每两年至少开展一次个人信息保护合规审计。”",
+        "“个人信息处理者在委托处理个人信息前，是否开展个人信息保护影响评估；个人信息处理者与受托人签订的合同，是否与受托人约定了委托处理的目的、期限、方式、个人信息的种类、保护措施以及双方的权利义务等；个人信息处理者是否采取定期检查等方式，对受托人的个人信息处理活动进行监督。”",
+        "“基于个人同意处理个人信息的，处理生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等敏感个人信息，是否事前取得个人的单独同意。”",
+        "“《办法》在合规审计指引部分进一步细化了相关要求，详细列出了二十七个方面的审查重点，包括对个人信息处理活动的合法性基础进行合规审计的重点审查事项，对个人信息处理规则进行合规审计的重点审查事项，对个人信息处理者履行告知个人信息处理规则义务进行合规审计的重点审查事项，对个人信息处理者与其他个人信息处理者共同处理个人信息进行合规审计的重点审查事项，对个人信息处理者委托处理个人信息进行合规审计的重点审查事项，对个人信息处理者利用自动化决策处理个人信息进行合规审计的重点审查事项，对个人信息处理者基于个人同意公开个人信息进行合规审计的重点审查事项等，充分体现了法律法规与政策举措的贯通和衔接。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-006",
       "title": "国家发展改革委、国家数据局关于建立公共数据资源授权运营价格形成机制的通知",
       "issuer": "国家发展改革委、国家数据局",
       "document_no": "发改价格〔2025〕65号",
       "published_date": "2025-01-16",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_7000190.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_7000190.htm",
+      "important_quotes": [
+        "“对用于公共治理、公益事业的，免费提供；用于产业发展、行业发展的，可收取公共数据运营服务费。公共数据运营服务费实行政府指导价管理。”",
+        "“按照‘补偿成本、合理盈利’的原则核定最高准许收入。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-005",
       "title": "国家发展改革委、国家数据局关于印发公共数据资源登记管理暂行办法的通知",
       "issuer": "国家发展改革委、国家数据局",
       "document_no": "发改数据规〔2025〕26号",
       "published_date": "2025-01-08",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/gongbao/2025/issue_11886/202502/content_7007130.html"
+      "source_url": "https://www.gov.cn/gongbao/2025/issue_11886/202502/content_7007130.html",
+      "important_quotes": [
+        "“登记主体在申请登记前应在保障安全的前提下对公共数据资源进行存证，确保来源可查、加工可控。”",
+        "“鼓励经授权开展运营活动的法人组织，对利用被授权的公共数据资源加工形成的数据产品和服务进行登记。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-002",
       "title": "国家发展改革委、国家数据局关于印发公共数据资源授权运营实施规范（试行）的通知",
       "issuer": "国家发展改革委、国家数据局",
       "document_no": "发改数据规〔2025〕27号",
       "published_date": "2025-01-08",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202501/t20250116_1395726_ext.html"
+      "source_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202501/t20250116_1395726_ext.html",
+      "important_quotes": [
+        "第二十一条：“实施机构应建立健全管理制度，强化数据治理，提升数据质量，落实数据分类分级保护制度要求，加强技术支撑保障和数据安全管理，严格管控未依法依规公开的原始公共数据资源直接进入市场，强化对运营机构涉及公共数据资源授权运营的内控审计。”",
+        "第十五条：“实施机构应建立健全安全可控的开发利用环境，充分利用现有信息系统资源，鼓励集约化建设，支持隐私计算等安全可信流通技术应用，确保数据资源开发利用过程可管、可控、可追溯。”",
+        "第二十一条：“运营机构应履行数据安全主体责任，加强内控管理、技术管理和人员管理，不得超授权范围使用公共数据资源，严防数据加工、处理、运营、服务等环节数据安全风险。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-012",
       "title": "关于完善数据流通安全治理 更好促进数据要素市场化价值化的实施方案",
       "issuer": "国家发展改革委、国家数据局、中央网信办、工业和信息化部、公安部、市场监管总局",
       "document_no": "发改数据〔2025〕18号",
       "published_date": "2025-01-06",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0115/20250115173302396617093_pc.html"
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0115/20250115173302396617093_pc.html",
+      "important_quotes": [
+        "“鼓励通过‘原始数据不出域、数据可用不可见、数据可控可计量’等方式，依法依规实现数据价值开发。”"
+      ],
+      "official_interpretation": "无。当前以实施方案原文为准。"
     },
     {
+      "policy_id": "E-007",
       "title": "国家发展改革委、国家数据局、工业和信息化部关于印发国家数据基础设施建设指引的通知",
       "issuer": "国家发展改革委、国家数据局、工业和信息化部",
       "document_no": "发改数据〔2024〕1853号",
       "published_date": "2024-12-31",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_6996487.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202501/content_6996487.htm",
+      "important_quotes": [
+        "“形成横向联通、纵向贯通、协调有力的国家数据基础设施基本格局。”",
+        "“打通数据流通动脉，畅通数据资源循环。”"
+      ],
+      "official_interpretation": "无。当前以通知及附件《国家数据基础设施建设指引》原文为准。"
     },
     {
+      "policy_id": "G-ZJ-004",
       "title": "浙江省人民政府办公厅关于印发浙江省全链条支持创新药械高质量发展若干举措的通知",
       "issuer": "浙江省人民政府办公厅",
       "document_no": "浙政办发〔2024〕44号",
       "published_date": "2024-12-30",
       "region": "浙江",
       "category": "地方政策",
-      "source_url": "https://www.zj.gov.cn/art/2025/2/7/art_1229017139_2544628.html?xxgkFlg=xxg&infoIdEncode=SJtS%2Fs1JjbOQStxv7Bq0F%2BrxnB70mf9ick4uM9oRLB8%3D"
+      "source_url": "https://www.zj.gov.cn/art/2025/2/7/art_1229017139_2544628.html?xxgkFlg=xxg&infoIdEncode=SJtS%2Fs1JjbOQStxv7Bq0F%2BrxnB70mf9ick4uM9oRLB8%3D",
+      "important_quotes": [
+        "“对于初始审查及其复审，牵头机构（主审机构）应在受理后15个工作日以内开展审查并出具意见，采取简易审查程序的参与机构，应在受理后5个工作日以内开展审查并出具意见，争取将伦理审查流程总体时间压缩至4周以内。”",
+        "浙江的价格政策 G-ZJ-001 已在本节前“六地地方落实速查”浙江行完整列示。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-009",
       "title": "关于促进数据产业高质量发展的指导意见",
       "issuer": "国家发展改革委、国家数据局等部门",
       "document_no": "发改数据〔2024〕1836号",
       "published_date": "2024-12-28",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995430.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995430.htm",
+      "important_quotes": [
+        "“数据产业是利用现代信息技术，对数据进行采集汇聚、计算存储、流通交易、开发利用、安全治理，并提供相关产品和服务的活动。”",
+        "“到2029年，数据产业规模年均复合增长率超过15%。”"
+      ],
+      "official_interpretation": "无。当前以指导意见原文和随附重点发展方向附件为准。"
     },
     {
+      "policy_id": "E-008",
       "title": "国家数据局等部门关于促进企业数据资源开发利用的意见",
       "issuer": "国家数据局、中央网信办、工业和信息化部、公安部、国务院国资委",
       "document_no": "国数资源〔2024〕125号",
       "published_date": "2024-12-20",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994570.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994570.htm",
+      "important_quotes": [
+        "“企业对其形成或者合法获取、持有的数据，依法享有法律法规、合同或者行政协议规定的数据权益。”",
+        "“鼓励通过授权使用、分享收益等方式开发利用数据资源。”",
+        "“鼓励采用可信数据空间、区块链、隐私计算、匿名化等技术，促进数据安全可信流通。”"
+      ],
+      "official_interpretation": "无。当前以意见原文为准。"
     },
     {
+      "policy_id": "B-003",
       "title": "关于进一步推进医疗机构检查检验结果互认的指导意见",
       "issuer": "国家卫生健康委、国家发展改革委、财政部、国家医保局、国家中医药局、国家疾控局、中央军委后勤保障部卫生局",
       "document_no": "国卫医政发〔2024〕37号",
       "published_date": "2024-11-27",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202411/e26dde958ae74bf5b8f4fe97d83253c7.shtml"
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202411/e26dde958ae74bf5b8f4fe97d83253c7.shtml",
+      "important_quotes": [
+        "“以保障质量安全为底线，以营造适宜制度环境为重点，以区域信息平台建设为依托，以便利患者为导向，以满足诊疗需求为根本，以接诊医师判断为标准。”",
+        "“通过建立检查检验结果数据库、‘数字影像’或‘影像云’等方式，在保障数据安全的前提下，实现区域内跨机构共享调阅。”"
+      ],
+      "official_interpretation": "国家卫生健康委将实施逻辑概括为制度设计、技术支撑、政策保障和落实机制，强调项目清单、机构清单、负面清单、质量同质化和接诊医师判断共同约束互认。"
     },
     {
+      "policy_id": "D-003",
       "title": "超声检查类医疗服务价格项目立项指南（试行）",
       "issuer": "国家医疗保障局",
       "document_no": "无明确文号",
       "published_date": "2024-11-26",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2024/11/26/art_201_14834.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/26/art_201_14834.html",
+      "important_quotes": [
+        "“13项超声检查类医疗服务价格项目均设立‘人工智能辅助诊断’扩展项。”",
+        "“人工智能辅助诊断不得与主项目同时收费。”"
+      ],
+      "official_interpretation": "无。当前以立项指南原文及各地落地价格文件为准。"
     },
     {
+      "policy_id": "D-002",
       "title": "放射检查类医疗服务价格项目立项指南（试行）",
       "issuer": "国家医疗保障局",
       "document_no": "无明确文号",
       "published_date": "2024-11-25",
-      "region": "全国",
+      "region": "全国（供各省医保局对接落实）",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2024/11/25/art_201_14760.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/25/art_201_14760.html",
+      "important_quotes": [
+        "“本指南所称的‘人工智能辅助诊断’是指应用人工智能技术辅助进行的放射检查诊断，不得与主项目同时收费。”",
+        "“公立医疗机构开展相关放射检查须提供符合要求的‘数字影像处理和上传存储服务’并执行现行放射检查项目价格，实现患者可通过便捷方式阅读本人检查资料、同行可跨地区跨机构调阅检查资料、医保部门可核查已上传的检查资料；对于不能提供符合要求的‘数字影像处理和上传存储服务’的，执行的相关放射检查项目价格减收5元。”"
+      ],
+      "official_interpretation": "国家医保局《医疗服务价格项目立项指南解读辅导（第5期）》明确： > “数字影像处理和上传存储服务，即云影像，是放射检查的应尽事项，是检查行为的完整体现。” > “公立医疗机构无法提供符合要求的‘数字影像处理和上传存储服务’的，所执行的减收政策按照‘部位’减收。” > “放射检查类立项指南已将医学影像快速诊疗等人工智能辅助诊断技术作为扩展项，采用人工智能辅助诊断技术的，可按相应价格项目扩展项收取，不与主项目同时收费。”"
     },
     {
+      "policy_id": "G-SH-003",
       "title": "上海市人民政府办公厅关于印发上海市发展医学人工智能工作方案（2025—2027年）的通知",
       "issuer": "上海市人民政府办公厅",
       "document_no": "沪府办发〔2024〕21号",
       "published_date": "2024-11-23",
       "region": "上海",
       "category": "地方政策",
-      "source_url": "https://www.shanghai.gov.cn/202424bgtwj/20241226/4e45c8a5c9af4754b36266d83cbd6551.html"
+      "source_url": "https://www.shanghai.gov.cn/202424bgtwj/20241226/4e45c8a5c9af4754b36266d83cbd6551.html",
+      "important_quotes": [
+        "“建设人工智能医疗器械评价平台，开展医学人工智能产品型式检验/注册检验、软件质量测评、算法性能测评。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-001",
       "title": "国家数据局关于印发可信数据空间发展行动计划（2024—2028年）的通知",
       "issuer": "国家数据局",
       "document_no": "国数资源〔2024〕119号",
       "published_date": "2024-11-21",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/20241122164142182915964_pc.html"
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/20241122164142182915964_pc.html",
+      "important_quotes": [
+        "“支持可信数据空间运营者构建接入认证体系，保障可信数据空间参与各方身份可信、数据资源管理权责清晰、应用服务安全可靠。引导可信数据空间运营者建立空间资源使用合约和合作规范，利用隐私计算、使用控制、区块链等技术，优化履约机制，提升可信数据空间信任管控能力。”",
+        "“大力培育金融保险、商贸物流、医疗健康、气象服务、时空信息、碳足迹管理类行业可信数据空间，赋能一二三产业融合发展。”",
+        "“组织开展使用控制、数据沙箱、智能合约、隐私计算、高性能密态计算、可信执行环境等可信管控技术攻关，推动数据标识、语义发现、元数据智能识别等数据互通技术集成应用，探索大模型与可信数据空间融合创新。”",
+        "“提升数据跨域管控云服务能力，实现数据可控可管可计量。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "D-005",
       "title": "综合诊查类医疗服务价格项目立项指南（试行）",
       "issuer": "国家医疗保障局",
       "document_no": "无明确文号",
       "published_date": "2024-11-19",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2024/11/19/art_201_14753.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2024/11/19/art_201_14753.html",
+      "important_quotes": [
+        "“将现行综合诊查类项目映射整合为36项。”",
+        "“由各省制定统一价格基准，统筹地区在规定幅度内确定具体执行标准。”"
+      ],
+      "official_interpretation": "无。底库已收录官方发布页，但附件细节仍应以各地正式价格文件复核。"
     },
     {
+      "policy_id": "B-002",
       "title": "国家卫生健康委办公厅等三部门关于印发卫生健康行业人工智能应用场景参考指引的通知",
       "issuer": "国家卫生健康委办公厅、国家中医药局综合司、国家疾控局综合司",
       "document_no": "国卫办规划函〔2024〕420号",
       "published_date": "2024-11-14",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202411/3dee425b8dc34f739d63483c4e5c334c.shtml"
+      "source_url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202411/3dee425b8dc34f739d63483c4e5c334c.shtml",
+      "important_quotes": [
+        "“针对医学影像数据进行智能分析、快速读片、报告生成，实现高效精准的医学影像辅助诊断。”",
+        "“应用场景：在影像检查、报告流程中，利用人工智能多模态影像分析能力，发挥人工智能模型实时、准确、高效的特点，开展全量化、实时化、智能化影像质量评价，识别质量问题，通过人机协同和交互，协助医学影像技师提高影像学检查的图像采集质量。在报告审核阶段，联动解剖学结构、体表投影、器官结构、断层解析、医学诊断术语等信息，验证影像表现与病灶判断之间的逻辑关联，深度解读影像报告，有效筛查出报告中的遗漏、矛盾或误判问题，提高影像诊断报告质量。”",
+        "“利用人工智能、虚拟增强现实和三维建模等技术，智能分析医学影像数据，为临床提供智能辅助治疗方案。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-002",
       "title": "网络数据安全管理条例",
       "issuer": "国务院",
       "document_no": "国务院令第790号",
       "published_date": "2024-09-30",
-      "region": "全国",
+      "region": "全国及法定域外适用情形",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm"
+      "source_url": "https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm",
+      "important_quotes": [
+        "“处理生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等敏感个人信息的，应当取得个人的单独同意。”",
+        "“提供生成式人工智能服务的网络数据处理者应当加强对训练数据和训练数据处理活动的安全管理，采取有效措施防范和处置网络数据安全风险。”",
+        "“网络数据处理者向其他网络数据处理者提供、委托处理个人信息和重要数据的，应当通过合同等与网络数据接收方约定处理目的、方式、范围以及安全保护义务等，并对网络数据接收方履行义务的情况进行监督。”",
+        "“数据安全不是抽象的，而是具体的、全过程的。建立健全网络数据安全管理制度，就意味着数据的收集、存储、使用、加工、传输、提供、公开乃至删除等每一项处理活动和数据处理的每一个环节，都需要落实数据安全管理制度，纳入数据安全的法治轨道。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "B-006",
       "title": "医疗卫生机构开展研究者发起的临床研究管理办法",
       "issuer": "国家卫生健康委、国家中医药局、国家疾控局",
       "document_no": "国卫科教发〔2024〕32号",
       "published_date": "2024-09-26",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202409/3a3ad0a7b656420d9580b65f2321a623.shtml"
+      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202409/3a3ad0a7b656420d9580b65f2321a623.shtml",
+      "important_quotes": [
+        "第五条：“医疗卫生机构是临床研究实施的责任主体，开展临床研究应当遵守有关法律法规、部门规章及有关规范性文件和技术准则、伦理规范的要求，制定切实有效的临床研究管理实施细则，建立健全保障科学、规范、有序开展临床研究的组织体系、质量体系、利益冲突防范机制和研究参与者权益保护机制，加强对临床研究的质量保证和全过程管理。”",
+        "第十一条：“开展干预性研究，研究性干预措施应当符合医学的基本理论和伦理规范、具有扎实的前期研究基础、制定科学规范的研究方案和风险预案、通过科学性审查和伦理审查。”",
+        "第三十九条：“医疗卫生机构应当建立临床研究源数据的管理体系，鼓励集中统一存储，保障临床研究数据在收集、记录、修改、存储、传输、使用和销毁等全生命周期的真实性、准确性、完整性、规范性、保密性，确保数据可查询、可溯源。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "E-003",
       "title": "中共中央办公厅、国务院办公厅关于加快公共数据资源开发利用的意见",
       "issuer": "中共中央办公厅、国务院办公厅",
       "document_no": "无公开文号",
       "published_date": "2024-09-21",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.gov.cn/zhengce/202410/content_6978910.htm"
+      "source_url": "https://www.gov.cn/zhengce/202410/content_6978910.htm",
+      "important_quotes": [
+        "“公共数据是国家重要的基础性战略资源。”",
+        "“要明确授权条件、运营模式、运营期限、退出机制和安全管理责任，严格管控未依法依规公开的原始公共数据直接进入市场。”"
+      ],
+      "official_interpretation": "当前未单列可稳定复核的署名专家解读；对外引用宜直接使用中办、国办文件原文。"
     },
     {
+      "policy_id": "D-004",
       "title": "国家医疗保障局办公室关于印发按病组和病种分值付费2.0版分组方案并深入推进相关工作的通知",
       "issuer": "国家医疗保障局办公室",
       "document_no": "医保办发〔2024〕9号",
       "published_date": "2024-07-17",
       "region": "全国",
       "category": "医保支付与服务价格",
-      "source_url": "https://www.nhsa.gov.cn/art/2024/7/23/art_104_13313.html"
+      "source_url": "https://www.nhsa.gov.cn/art/2024/7/23/art_104_13313.html",
+      "important_quotes": [
+        "“自2025年起，各统筹地区统一使用按病组和病种分值付费2.0版分组方案。”",
+        "“要确保医保结算清单、病案首页等基础数据真实、完整、准确。”",
+        "“对符合条件的新药新技术，可通过特例单议、按项目付费或分值（权重）加成等方式予以支持。”"
+      ],
+      "official_interpretation": "无。当前未确认医保局就2.0版分组方案发布专项解读。"
     },
     {
+      "policy_id": "A-005",
       "title": "工业和信息化部等四部门关于印发国家人工智能产业综合标准化体系建设指南（2024版）的通知",
       "issuer": "工业和信息化部、中央网信办、国家发展改革委、国家标准委",
       "document_no": "工信部联科〔2024〕113号",
       "published_date": "2024-07-02",
       "region": "全国",
       "category": "十五五与产业支持",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/202407/content_6960720.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/202407/content_6960720.htm",
+      "important_quotes": [
+        "“到2026年，新制定国家标准和行业标准50项以上，推动人工智能产业高质量发展的标准体系加快形成。”",
+        "“标准体系包括基础共性、基础支撑、关键技术、智能产品与服务、行业应用、安全与治理等部分，行业应用包括智慧医疗等重点方向。”"
+      ],
+      "official_interpretation": "当前未单列可稳定复核的官方解读；对外引用宜以四部门通知原文为准。"
     },
     {
+      "policy_id": "C-009",
       "title": "国家药监局关于规范医疗器械产品分类界定工作的公告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局公告2024年第59号",
       "published_date": "2024-05-11",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20240511175941109.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20240511175941109.html",
+      "important_quotes": [
+        "“医疗器械产品分类界定，是指依据《医疗器械监督管理条例》《医疗器械注册与备案管理办法》《医疗器械分类规则》《医疗器械分类目录》等，综合判定医疗器械的管理属性和管理类别的活动。”",
+        "“对于新研制且未列入《医疗器械分类目录》的医疗器械，申请人可以直接申请第三类医疗器械产品注册，也可以依据本公告规定申请产品分类界定。”",
+        "“对管理类别存疑的，申请人应当通过分类界定信息系统提出分类界定申请。”"
+      ],
+      "official_interpretation": "无。该公告本身已给出分类界定路径和适用情形。"
     },
     {
+      "policy_id": "G-BJ-004",
       "title": "北京市人工智能医疗器械生产质量管理规范检查指南（2024版）",
       "issuer": "北京市药品监督管理局",
       "document_no": "",
       "published_date": "2024-04-12",
       "region": "北京",
       "category": "地方政策",
-      "source_url": "https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436409716/"
+      "source_url": "https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436409716/",
+      "important_quotes": [
+        "“训练集、调优集、测试集的样本应当两两无交集并通过查重予以验证。”",
+        "北京的价格政策 G-BJ-001 已在本节前“六地地方落实速查”北京行完整列示。"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-003",
       "title": "促进和规范数据跨境流动规定",
       "issuer": "国家互联网信息办公室",
       "document_no": "国家互联网信息办公室令第16号",
       "published_date": "2024-03-22",
-      "region": "全国",
+      "region": "全国及涉及中国境内数据出境的相关主体",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm"
+      "source_url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+      "important_quotes": [
+        "第七条：“数据处理者向境外提供数据，符合下列条件之一的，应当通过所在地省级网信部门向国家网信部门申报数据出境安全评估：（一）关键信息基础设施运营者向境外提供个人信息或者重要数据；（二）关键信息基础设施运营者以外的数据处理者向境外提供重要数据，或者自当年1月1日起累计向境外提供100万人以上个人信息（不含敏感个人信息）或者1万人以上敏感个人信息。”",
+        "第八条：“关键信息基础设施运营者以外的数据处理者自当年1月1日起累计向境外提供10万人以上、不满100万人个人信息（不含敏感个人信息）或者不满1万人敏感个人信息的，应当依法与境外接收方订立个人信息出境标准合同或者通过个人信息保护认证。”",
+        "第十条：“数据处理者向境外提供个人信息的，应当按照法律、行政法规的规定履行告知、取得个人单独同意、进行个人信息保护影响评估等义务。”",
+        "“《规定》的一大亮点是提升了现行数据跨境传输制度的操作性，降低了中小企业数据出境的业务合规难度。《规定》并没有对数据处理者所持有的数据总量作出监管门槛的设定，而是更加侧重对数据环境风险水平的评估。因此，《规定》将风险关注的重心调整至数据出境的规模和类型。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-009",
       "title": "GB/T 43697—2024数据安全技术 数据分类分级规则",
       "issuer": "国家市场监督管理总局、国家标准化管理委员会",
       "document_no": "GB/T 43697—2024",
       "published_date": "2024-03-15",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F0C385EDC38CBF277AEC021F23126ADE"
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F0C385EDC38CBF277AEC021F23126ADE",
+      "important_quotes": [
+        "“本文件规定了数据分类分级的原则、框架、方法和流程。”",
+        "“本文件不适用于国家秘密数据和军事数据。”"
+      ],
+      "official_interpretation": "无。当前以标准信息页和正式标准文本为准。"
     },
     {
+      "policy_id": "E-004",
       "title": "国家数据局等部门关于印发“数据要素×”三年行动计划（2024—2026年）的通知",
       "issuer": "国家数据局等17部门",
       "document_no": "国数政策〔2023〕11号",
       "published_date": "2023-12-31",
       "region": "全国",
       "category": "医疗数据利用与流通",
-      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0830/20240830174038137859023_pc.html"
+      "source_url": "https://www.nda.gov.cn/sjj/zwgk/zcfb/0830/20240830174038137859023_pc.html",
+      "important_quotes": [
+        "“充分发挥数据要素乘数效应，赋能经济社会高质量发展。”",
+        "医疗健康、科研创新和公共服务等场景属于“数据要素×”重点方向。"
+      ],
+      "official_interpretation": "无。底库已提示版本材料存在表述差异，对外引用应以官方发布页及正式附件为准。"
     },
     {
+      "policy_id": "B-004",
       "title": "医疗机构临床决策支持系统应用管理规范（试行）",
       "issuer": "国家卫生健康委办公厅",
       "document_no": "国卫办医政函〔2023〕268号",
       "published_date": "2023-07-26",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202307/d5239ed63d324aaa8ea85922b5fb1310.shtml"
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202307/d5239ed63d324aaa8ea85922b5fb1310.shtml",
+      "important_quotes": [
+        "“CDSS是临床决策的辅助工具，其产生的结果供医务人员参考使用，医务人员结合实际诊疗情况可选择使用。”",
+        "“医疗机构应当建立CDSS使用和不良事件反馈机制，及时总结应用情况，定期对CDSS应用的稳定性、有效性进行质量监测、效果评价、动态调整。”"
+      ],
+      "official_interpretation": "国家卫生健康委医院管理研究所的文件解读将规范归纳为知识来源和更新、信息化基础、应用管理及安全要求。"
     },
     {
+      "policy_id": "B-007",
       "title": "国家卫生健康委等四部门关于印发涉及人的生命科学和医学研究伦理审查办法的通知",
       "issuer": "国家卫生健康委、教育部、科技部、国家中医药局",
       "document_no": "国卫科教发〔2023〕4号",
       "published_date": "2023-02-27",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202302/6b6e447b3edc4338856c9a652a85f44b.shtml"
+      "source_url": "https://www.nhc.gov.cn/qjjys/c100016/202302/6b6e447b3edc4338856c9a652a85f44b.shtml",
+      "important_quotes": [
+        "第三条：“本办法所称涉及人的生命科学和医学研究是指以人为受试者或者使用人（统称研究参与者）的生物样本、信息数据（包括健康记录、行为等）开展的以下研究活动：”",
+        "第十七条第（五）项：“保护隐私权及个人信息。切实保护研究参与者的隐私权，如实将研究参与者个人信息的收集、储存、使用及保密措施情况告知研究参与者并得到许可，未经研究参与者授权不得将研究参与者个人信息向第三方透露；”",
+        "第十八条第（五）、（六）项：“（五）知情同意书；（六）生物样本、信息数据的来源证明；”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-010",
       "title": "关于印发医疗卫生机构网络安全管理办法的通知",
       "issuer": "国家卫生健康委、国家中医药局、国家疾控局",
       "document_no": "国卫规划发〔2022〕29号",
       "published_date": "2022-08-08",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.gov.cn/zhengce/zhengceku/2022-08/30/content_5707404.htm"
+      "source_url": "https://www.gov.cn/zhengce/zhengceku/2022-08/30/content_5707404.htm",
+      "important_quotes": [
+        "“加强远程运维管理，因业务确需通过互联网远程运维的，应进行评估论证，并采取相应的安全管控措施，防止远程端口暴露引发安全事件。”",
+        "“各医疗卫生机构应每年对数据资产进行全面梳理，在落实网络安全等级保护制度的基础上，依据数据的重要程度以及遭到破坏后的危害程度建立本单位数据分类分级标准。数据分类分级应遵循合法合规原则、可执行原则、时效性原则、自主性原则、差异性原则及客观性原则。”",
+        "“数据全生命周期活动应在境内开展，因业务确需向境外提供的，应当按照相关法律法规及有关要求进行安全评估或审核。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "B-005",
       "title": "国家卫生健康委办公厅、国家中医药局办公室关于印发互联网诊疗监管细则（试行）的通知",
       "issuer": "国家卫生健康委办公厅、国家中医药局办公室",
       "document_no": "国卫办医发〔2022〕2号",
       "published_date": "2022-03-15",
       "region": "全国",
       "category": "医疗AI应用与卫健治理",
-      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202203/2072f0e8988249e59d942e1b2a933916.shtml"
+      "source_url": "https://www.nhc.gov.cn/yzygj/c100068/202203/2072f0e8988249e59d942e1b2a933916.shtml",
+      "important_quotes": [
+        "“其他人员、人工智能软件等不得冒用、替代医师本人提供诊疗服务。”",
+        "“医疗机构应当保证互联网诊疗活动全程留痕、可追溯，并向省级监管平台开放数据接口。”",
+        "“处方应由接诊医师本人开具，严禁使用人工智能等自动生成处方。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-004",
       "title": "医疗器械软件注册审查指导原则（2022年修订版）",
       "issuer": "国家药监局医疗器械技术审评中心",
       "document_no": "器审中心2022年第9号通告",
       "published_date": "2022-03-07",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.cmde.org.cn//flfg/zdyz/zdyzwbk/20220309091706965.html"
+      "source_url": "https://www.cmde.org.cn//flfg/zdyz/zdyzwbk/20220309091706965.html",
+      "important_quotes": [
+        "“软件生存周期过程均需开展可追溯性分析活动，详见图2。软件需求分析阶段追溯分析软件需求与产品需求、软件需求与风险分析的关系。软件设计阶段追溯分析软件设计与软件需求、软件设计与风险控制的关系。软件编码阶段追溯分析源代码与软件设计、源代码与测试用例的关系。内部测试阶段追溯分析单元测试、集成测试、系统测试各级测试用例与软件设计，系统测试与软件需求，系统测试与风险管理的关系。用户测试阶段追溯分析用户测试与产品需求、用户测试与风险管理的关系。软件更新亦需开展与之相适宜的软件可追溯性分析活动。”",
+        "“重大软件更新：影响到医疗器械安全性或有效性的增强类更新，即重大增强类软件更新，应申请变更注册。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-005",
       "title": "医疗器械网络安全注册审查指导原则（2022年修订版）",
       "issuer": "国家药监局医疗器械技术审评中心",
       "document_no": "器审中心2022年第7号通告",
       "published_date": "2022-03-07",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.cmde.org.cn/directory/web/cmde/images/0r3Bxsb30LXN+MLnsLLIq9eisuHJ87Lp1ri1vNSt1PKjqDIwMjLE6tDetqmw5qOpo6gyMDIyxOq12je6xaOpLmRvY3g=.docx"
+      "source_url": "https://www.cmde.org.cn/directory/web/cmde/images/0r3Bxsb30LXN+MLnsLLIq9eisuHJ87Lp1ri1vNSt1PKjqDIwMjLE6tDetqmw5qOpo6gyMDIyxOq12je6xaOpLmRvY3g=.docx",
+      "important_quotes": [
+        "“注册申请人应在医疗器械全生命周期中持续关注网络安全问题，包括上市前、上市后等阶段。”",
+        "“注册申请人需明确远程维护与升级的实现方法、所用电子接口情况、设备数据所含内容、设备数据与医疗数据的隔离方法、网络安全保证措施等技术特征。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-003",
       "title": "人工智能医疗器械注册审查指导原则",
       "issuer": "国家药监局医疗器械技术审评中心",
       "document_no": "器审中心2022年第8号通告",
       "published_date": "2022-03-07",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.cmde.org.cn/flfg/zdyz/zdyzwbk/20220309091014461.html"
+      "source_url": "https://www.cmde.org.cn/flfg/zdyz/zdyzwbk/20220309091014461.html",
+      "important_quotes": [
+        "“为保证数据质量和控制数据偏倚，数据收集需考虑数据来源的合规性、充分性和多样性，数据分布的科学性和合理性，数据质控的充分性、有效性和准确性。”",
+        "“训练集、调优集、测试集的样本应两两无交集并通过查重予以验证。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-002",
       "title": "医疗器械注册与备案管理办法",
       "issuer": "国家市场监督管理总局",
       "document_no": "国家市场监督管理总局令第47号",
       "published_date": "2021-08-26",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.gov.cn/gongbao/content/2021/content_5654783.htm"
+      "source_url": "https://www.gov.cn/gongbao/content/2021/content_5654783.htm",
+      "important_quotes": [
+        "第三条：“医疗器械注册是指医疗器械注册申请人（以下简称申请人）依照法定程序和要求提出医疗器械注册申请，药品监督管理部门依据法律法规，基于科学认知，进行安全性、有效性和质量可控性等审查，决定是否同意其申请的活动。”",
+        "第八条：“境内第二类医疗器械由省、自治区、直辖市药品监督管理部门审查，批准后发给医疗器械注册证。境内第三类医疗器械由国家药品监督管理局审查，批准后发给医疗器械注册证。”",
+        "第七十九条：“注册证载明的产品名称、型号、规格、结构及组成、适用范围、产品技术要求、进口医疗器械的生产地址等，属于前款规定的需要办理变更注册的事项。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-015",
       "title": "中华人民共和国个人信息保护法",
       "issuer": "全国人民代表大会常务委员会",
       "document_no": "主席令第九十一号",
       "published_date": "2021-08-20",
-      "region": "全国",
+      "region": "全国及法定域外适用情形",
       "category": "数据安全与跨境",
-      "source_url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"
+      "source_url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+      "important_quotes": [
+        "第二十八条：“医疗健康、金融账户、行踪轨迹等信息属于敏感个人信息。”",
+        "第二十九条：“处理敏感个人信息应当取得个人的单独同意。”",
+        "第二十四条：“个人信息处理者利用个人信息进行自动化决策，应当保证决策的透明度和结果公平、公正。”"
+      ],
+      "official_interpretation": "无。当前以法律正式文本为准。"
     },
     {
+      "policy_id": "F-016",
       "title": "关键信息基础设施安全保护条例",
       "issuer": "国务院",
       "document_no": "国务院令第745号",
       "published_date": "2021-07-30",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.cac.gov.cn/2021-08/17/c_1630785976988160.htm"
+      "source_url": "https://www.cac.gov.cn/2021-08/17/c_1630785976988160.htm",
+      "important_quotes": [
+        "“公共通信和信息服务、能源、交通、水利、金融、公共服务、电子政务、国防科技工业等重要行业和领域的网络设施、信息系统，一旦遭到破坏、丧失功能或者数据泄露，可能严重危害国家安全、国计民生、公共利益的，属于关键信息基础设施。”",
+        "“关键信息基础设施运营者采购网络产品和服务，应当按照国家有关规定与提供者签订安全保密协议，明确安全和保密义务与责任。”"
+      ],
+      "official_interpretation": "当前未单列主管机关署名专家解读；对外引用以条例原文为准。"
     },
     {
+      "policy_id": "C-008",
       "title": "国家药监局关于发布人工智能医用软件产品分类界定指导原则的通告",
       "issuer": "国家药品监督管理局",
       "document_no": "国家药监局2021年第47号通告",
       "published_date": "2021-07-08",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20210708111147171.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20210708111147171.html",
+      "important_quotes": [
+        "“该类产品的管理属性界定应基于其预期用途，结合其处理对象、核心功能等因素进行综合判定。”",
+        "“若软件产品的处理对象为医疗器械数据，且核心功能是对医疗器械数据的处理、测量、模型计算、分析等，并用于医疗用途的，符合《医疗器械监督管理条例》有关医疗器械定义，作为医疗器械管理。”",
+        "“对于算法在医疗应用中成熟度低（指未上市或安全有效性尚未得到充分证实）的人工智能医用软件，若用于辅助决策，如提供病灶特征识别、病变性质判定、用药指导、治疗计划制定等临床诊疗建议，按照第三类医疗器械管理；若用于非辅助决策，如进行数据处理和测量等提供临床参考信息，按照第二类医疗器械管理。”"
+      ],
+      "official_interpretation": "本条对外沟通以国家药监局发布的指导原则原文为准；专家解读如需使用，应另行补充国家药监局或直属机构官网可稳定复核的原文链接。"
     },
     {
+      "policy_id": "F-014",
       "title": "中华人民共和国数据安全法",
       "issuer": "全国人民代表大会常务委员会",
       "document_no": "主席令第八十四号",
       "published_date": "2021-06-10",
-      "region": "全国",
+      "region": "全国及法定域外适用情形",
       "category": "数据安全与跨境",
-      "source_url": "http://www.npc.gov.cn/c2/c30834/202106/t20210610_311888.html"
+      "source_url": "http://www.npc.gov.cn/c2/c30834/202106/t20210610_311888.html",
+      "important_quotes": [
+        "“国家建立数据分类分级保护制度。”",
+        "“各地区、各部门应当按照数据分类分级保护制度，确定本地区、本部门以及相关行业、领域的重要数据具体目录，对列入目录的数据进行重点保护。”"
+      ],
+      "official_interpretation": "无。当前以法律正式文本为准。"
     },
     {
+      "policy_id": "C-001",
       "title": "医疗器械监督管理条例",
       "issuer": "国务院",
       "document_no": "国务院令第739号",
       "published_date": "2021-02-09",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/20250416172904188.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/20250416172904188.html",
+      "important_quotes": [
+        "“医疗器械注册人、备案人应当加强医疗器械全生命周期质量管理，对研制、生产、经营、使用全过程中医疗器械的安全性、有效性依法承担责任。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "F-011",
       "title": "国家健康医疗大数据标准、安全和服务管理办法（试行）",
       "issuer": "国家卫生健康委员会",
       "document_no": "国卫规划发〔2018〕23号",
       "published_date": "2018-07-12",
       "region": "全国",
       "category": "数据安全与跨境",
-      "source_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s8553/201809/742308fad8ed47fb85b9675ee4b6c6eb.shtml"
+      "source_url": "https://www.nhc.gov.cn/mohwsbwstjxxzx/s8553/201809/742308fad8ed47fb85b9675ee4b6c6eb.shtml",
+      "important_quotes": [
+        "第二十二条：“责任单位应当按照《中华人民共和国网络安全法》的要求，严格规范不同等级用户的数据接入和使用权限，并确保数据在授权范围内使用。任何单位和个人不得擅自利用和发布未经授权或超出授权范围的健康医疗大数据，不得使用非法手段获取数据。”",
+        "第三十条：“责任单位应当具备符合国家有关规定要求的数据存储、容灾备份和安全管理条件，加强对健康医疗大数据的存储管理。健康医疗大数据应当存储在境内安全可信的服务器上，因业务需要确需向境外提供的，应当按照相关法律法规及有关要求进行安全评估审核。”",
+        "第三十一条：“责任单位选择健康医疗大数据服务提供商时，应当确保其符合国家和行业规定及要求，具备履行相关法规制度、落实相关标准、确保数据安全的能力，建立数据安全管理、个人隐私保护、应急响应管理等方面管理制度。”",
+        "第三十二条：“责任单位委托有关机构存储、运营健康医疗大数据，委托单位与受托单位共同承担健康医疗大数据的管理和安全责任。受托单位应当严格按照相关法律法规和委托协议做好健康医疗大数据的存储、管理与运营工作。”"
+      ],
+      "official_interpretation": "无。"
     },
     {
+      "policy_id": "C-006",
       "title": "医疗器械分类目录",
       "issuer": "原国家食品药品监督管理总局",
       "document_no": "总局公告2017年第104号",
       "published_date": "2017-08-31",
       "region": "全国",
       "category": "医疗器械注册监管",
-      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20170904150301406.html"
+      "source_url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/20170904150301406.html",
+      "important_quotes": [
+        "“分类目录由子目录、一级产品类别、二级产品类别、产品描述、预期用途、品名举例和管理类别组成。”",
+        "“21医用软件”属于目录重点子目录之一，是软件类医疗器械开展分类判断的基础入口。"
+      ],
+      "official_interpretation": "无。对外沟通以分类目录正文及后续调整公告为准。"
     }
   ]
 }
