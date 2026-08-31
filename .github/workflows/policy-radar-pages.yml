@@ -130,6 +130,7 @@ jobs:
           cp data/policies.json data/run.json site/data/
           test ! -e site/policies
       - uses: actions/configure-pages@v6
+      # Keep the Pages artifact explicit so the deploy step consumes the packaged site tarball.
       - name: Package GitHub Pages artifact
         run: |
           tar --dereference --hard-dereference -cvf github-pages.tar --directory site .
