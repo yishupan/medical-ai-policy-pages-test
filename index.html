@@ -32,31 +32,40 @@
     .quick button { height: 30px; padding: 0 9px; color: #33515b; background: #f8faf9; }
     .statusline { display: flex; justify-content: space-between; gap: 16px; margin: 17px 0 9px; color: var(--muted); }
     .statusline strong { color: var(--ink); }
-    .table-wrap { border: 1px solid var(--line); background: var(--paper); overflow-x: auto; }
-    table { width: 100%; min-width: 1260px; border-collapse: collapse; }
-    th, td { padding: 12px 13px; border-bottom: 1px solid #e8edef; text-align: left; vertical-align: top; }
-    th { position: sticky; top: 0; background: #f8faf9; color: #425159; font-size: 13px; font-weight: 650; z-index: 1; }
-    tbody tr:last-child td { border-bottom: 0; }
-    tbody tr.policy-row:hover { background: #f7fbfa; }
-    .title-cell { min-width: 330px; }
-    .issuer-cell { min-width: 180px; }
-    .date-cell, .region-cell, .category-cell, .document-cell { white-space: nowrap; }
-    .category-cell { min-width: 150px; }
-    .policy-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+    .list-wrap { border: 1px solid var(--line); background: var(--paper); }
+    .policy-list { display: grid; gap: 14px; padding: 14px; }
+    .policy-card { border: 1px solid #dfe7ea; background: #fbfdfd; padding: 17px 18px 18px; }
+    .policy-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
     .policy-text { min-width: 0; }
     .policy-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; }
     .new-badge { display: inline-block; padding: 2px 7px; border: 1px solid #f3b1aa; border-radius: 999px; color: var(--alert); background: var(--alert-wash); font-size: 11px; font-weight: 700; white-space: nowrap; }
     .policy-id { display: inline-block; padding: 2px 7px; border: 1px solid #c9d9de; border-radius: 4px; color: #3e5a64; background: #f6f9fa; font-size: 12px; white-space: nowrap; }
-    .title-main { font-weight: 600; }
-    .toggle-btn { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-width: 96px; width: fit-content; height: 30px; padding: 0 12px; white-space: nowrap; line-height: 1; background: #f8faf9; }
-    .details-row td { padding: 0; background: #fbfdfd; }
-    .details-panel { padding: 16px 18px 18px; border-top: 1px solid #eef3f4; }
-    .detail-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, 1fr); gap: 16px; }
+    .title-main { font-size: 16px; line-height: 1.5; font-weight: 650; }
+    .toggle-btn { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-width: 96px; width: fit-content; height: 32px; padding: 0 12px; white-space: nowrap; line-height: 1; background: #f8faf9; }
+    .policy-grid { display: grid; grid-template-columns: 2.2fr 1.5fr 1fr 0.8fr 1fr 0.8fr; gap: 14px 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid #e8edef; align-items: start; }
+    .field { min-width: 0; }
+    .field-label { margin: 0 0 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .field-value { margin: 0; color: var(--ink); font-size: 14px; line-height: 1.55; font-weight: 560; overflow-wrap: anywhere; word-break: break-word; }
+    .field-value.subtle { font-weight: 500; color: #31444b; }
+    .source-link { font-weight: 600; }
+    body.modal-open { overflow: hidden; }
+    .modal-backdrop { position: fixed; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(18, 49, 61, 0.34); backdrop-filter: blur(2px); }
+    .detail-modal { width: min(920px, 100%); max-height: min(88vh, 920px); overflow: auto; border: 1px solid #d4dde0; background: var(--paper); box-shadow: 0 24px 60px rgba(12, 32, 39, 0.18); }
+    .modal-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; padding: 22px 24px 18px; border-bottom: 1px solid #e8edef; background: #fbfdfd; }
+    .modal-title { margin: 8px 0 0; font-size: 22px; line-height: 1.35; font-weight: 680; }
+    .modal-close { width: 36px; min-width: 36px; height: 36px; padding: 0; font-size: 24px; line-height: 1; font-weight: 500; }
+    .modal-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 18px 24px 0; }
+    .summary-card { padding: 12px 13px; border: 1px solid #e1e8eb; background: #f8faf9; }
+    .summary-card strong { display: block; margin-bottom: 4px; font-size: 12px; color: var(--muted); }
+    .summary-card span { display: block; color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
+    .details-panel { padding: 18px 24px 24px; }
+    .detail-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, 1fr); gap: 18px; }
     .detail-block h2 { margin: 0 0 8px; font-size: 14px; line-height: 1.4; font-weight: 650; }
     .detail-block p { margin: 0; color: #31444b; }
     .quotes-list { margin: 0; padding-left: 18px; color: #31444b; }
     .quotes-list li + li { margin-top: 8px; }
     .detail-link { display: inline-block; margin-top: 8px; }
+    .detail-actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px; }
     a { color: var(--blue); text-underline-offset: 2px; }
     .empty { padding: 44px 20px; text-align: center; color: var(--muted); }
     footer { padding: 0 0 28px; color: var(--muted); font-size: 12px; }
@@ -67,6 +76,8 @@
       .metric:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
       .control-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .control-grid input { grid-column: 1 / -1; }
+      .policy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .modal-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .detail-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 600px) {
@@ -79,8 +90,15 @@
       .control-grid input { grid-column: auto; }
       .statusline { display: block; }
       .statusline > span { display: block; margin-top: 3px; }
+      .policy-list { padding: 10px; gap: 10px; }
+      .policy-card { padding: 14px; }
       .policy-head { display: block; }
       .toggle-btn { margin-top: 10px; min-width: 104px; }
+      .policy-grid { grid-template-columns: 1fr; gap: 12px; }
+      .modal-backdrop { padding: 12px; }
+      .modal-head, .details-panel { padding-left: 16px; padding-right: 16px; }
+      .modal-summary { grid-template-columns: 1fr; padding-left: 16px; padding-right: 16px; }
+      .modal-title { font-size: 19px; }
     }
   </style>
 </head>
@@ -119,21 +137,8 @@
       <strong>检索结果：<span id="resultCount">-</span> 项</strong>
       <span id="lastRun">正在读取公开数据...</span>
     </div>
-    <section class="table-wrap" aria-label="政策文件列表">
-      <table>
-        <thead>
-          <tr>
-            <th>政策名称</th>
-            <th>发文机关</th>
-            <th>文号</th>
-            <th>发布日期</th>
-            <th>地区</th>
-            <th>主题</th>
-            <th>来源</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
+    <section class="list-wrap" aria-label="政策文件列表">
+      <div id="cards" class="policy-list"></div>
       <div id="empty" class="empty" hidden>没有匹配记录</div>
     </section>
   </main>
@@ -141,24 +146,28 @@
     <p>本页仅展示公开事实、原文摘录与公开可复核的官方解读；正式引用请以发布机关原文为准。</p>
     <p>监测程序每日检查公开来源，新发现文件仍需完成人工核验后才会进入目录数据。</p>
   </footer>
+  <div id="detailModal" class="modal-backdrop" hidden>
+    <div class="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <div id="modalBody"></div>
+    </div>
+  </div>
   <script>
-    const state = { policies: [], expanded: new Set() };
-    const dataVersion = '20260831-2';
+    const state = { policies: [], activePolicyId: null };
+    const dataVersion = '20260831-3';
     const elements = {
-      rows: document.querySelector('#rows'),
+      cards: document.querySelector('#cards'),
       empty: document.querySelector('#empty'),
       search: document.querySelector('#search'),
       category: document.querySelector('#category'),
       region: document.querySelector('#region'),
       resultCount: document.querySelector('#resultCount'),
-      lastRun: document.querySelector('#lastRun')
+      lastRun: document.querySelector('#lastRun'),
+      detailModal: document.querySelector('#detailModal'),
+      modalBody: document.querySelector('#modalBody')
     };
 
-    function appendTextCell(row, value, className = '') {
-      const cell = row.insertCell();
-      cell.textContent = value || '—';
-      if (className) cell.className = className;
-      return cell;
+    function textOrDash(value) {
+      return value || '—';
     }
 
     function appendOptions(select, values) {
@@ -170,21 +179,33 @@
       });
     }
 
-    function buildSourceCell(row, item) {
-      const sourceCell = row.insertCell();
+    function buildSourceLink(item, className = 'source-link') {
       const link = document.createElement('a');
       link.href = item.source_url;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
+      link.className = className;
       link.textContent = '官方原文';
-      sourceCell.append(link);
-      return sourceCell;
+      return link;
     }
 
-    function buildTitleCell(row, item) {
-      const cell = row.insertCell();
-      cell.className = 'title-cell';
+    function buildField(label, value, className = 'subtle') {
+      const block = document.createElement('section');
+      block.className = 'field';
+      const heading = document.createElement('p');
+      heading.className = 'field-label';
+      heading.textContent = label;
+      const body = document.createElement('p');
+      body.className = `field-value ${className}`.trim();
+      if (value instanceof Node) body.append(value);
+      else body.textContent = textOrDash(value);
+      block.append(heading, body);
+      return block;
+    }
 
+    function buildPolicyCard(item) {
+      const card = document.createElement('article');
+      card.className = 'policy-card';
       const head = document.createElement('div');
       head.className = 'policy-head';
 
@@ -214,24 +235,86 @@
       button.type = 'button';
       button.className = 'toggle-btn';
       button.dataset.policyId = item.policy_id;
-      button.setAttribute('aria-expanded', state.expanded.has(item.policy_id) ? 'true' : 'false');
-      button.textContent = state.expanded.has(item.policy_id) ? '收起速查' : '展开速查';
+      button.textContent = '查看速查';
 
       head.append(textWrap, button);
-      cell.append(head);
-      return cell;
+      const grid = document.createElement('div');
+      grid.className = 'policy-grid';
+      grid.append(
+        buildField('发文机关', item.issuer),
+        buildField('文号', item.document_no),
+        buildField('发布日期', item.published_date),
+        buildField('地区', item.region),
+        buildField('主题', item.category),
+        buildField('来源', buildSourceLink(item))
+      );
+
+      card.append(head, grid);
+      return card;
     }
 
-    function buildDetailsRow(item) {
-      const row = elements.rows.insertRow();
-      row.className = 'details-row';
-      row.hidden = !state.expanded.has(item.policy_id);
-      const cell = row.insertCell();
-      cell.colSpan = 7;
+    function buildSummaryCard(label, value) {
+      const block = document.createElement('div');
+      block.className = 'summary-card';
+      const strong = document.createElement('strong');
+      strong.textContent = label;
+      const span = document.createElement('span');
+      span.textContent = textOrDash(value);
+      block.append(strong, span);
+      return block;
+    }
+
+    function renderModal() {
+      const item = state.policies.find((policy) => policy.policy_id === state.activePolicyId);
+      elements.modalBody.replaceChildren();
+      if (!item) {
+        elements.detailModal.hidden = true;
+        document.body.classList.remove('modal-open');
+        return;
+      }
+
+      const head = document.createElement('div');
+      head.className = 'modal-head';
+
+      const headText = document.createElement('div');
+      const meta = document.createElement('div');
+      meta.className = 'policy-meta';
+      if (item.is_new_today) {
+        const newTag = document.createElement('span');
+        newTag.className = 'new-badge';
+        newTag.textContent = 'NEW';
+        meta.append(newTag);
+      }
+      const idTag = document.createElement('span');
+      idTag.className = 'policy-id';
+      idTag.textContent = item.policy_id;
+      meta.append(idTag);
+
+      const modalTitle = document.createElement('h2');
+      modalTitle.id = 'detailTitle';
+      modalTitle.className = 'modal-title';
+      modalTitle.textContent = item.title;
+      headText.append(meta, modalTitle);
+
+      const closeButton = document.createElement('button');
+      closeButton.type = 'button';
+      closeButton.className = 'modal-close';
+      closeButton.id = 'closeDetail';
+      closeButton.setAttribute('aria-label', '关闭速查');
+      closeButton.textContent = '×';
+      head.append(headText, closeButton);
+
+      const summary = document.createElement('div');
+      summary.className = 'modal-summary';
+      summary.append(
+        buildSummaryCard('发文机关', item.issuer),
+        buildSummaryCard('文号', item.document_no),
+        buildSummaryCard('发布日期', item.published_date),
+        buildSummaryCard('地区 / 主题', `${textOrDash(item.region)} / ${textOrDash(item.category)}`)
+      );
 
       const panel = document.createElement('div');
       panel.className = 'details-panel';
-
       const grid = document.createElement('div');
       grid.className = 'detail-grid';
 
@@ -241,7 +324,8 @@
       quotesTitle.textContent = '重要原文';
       const quotesList = document.createElement('ul');
       quotesList.className = 'quotes-list';
-      item.important_quotes.forEach((quote) => {
+      const quotes = Array.isArray(item.important_quotes) && item.important_quotes.length ? item.important_quotes : ['无。'];
+      quotes.forEach((quote) => {
         const quoteItem = document.createElement('li');
         quoteItem.textContent = quote;
         quotesList.append(quoteItem);
@@ -266,36 +350,51 @@
         interpretationBlock.append(interpretationLink);
       }
 
+      const actions = document.createElement('div');
+      actions.className = 'detail-actions';
+      actions.append(buildSourceLink(item));
+      quotesBlock.append(actions);
+
       grid.append(quotesBlock, interpretationBlock);
       panel.append(grid);
-      cell.append(panel);
+      elements.modalBody.append(head, summary, panel);
+      elements.detailModal.hidden = false;
+      document.body.classList.add('modal-open');
     }
 
-    function render() {
+    function getShownPolicies() {
       const keyword = elements.search.value.trim().toLocaleLowerCase('zh-CN');
-      const shown = state.policies.filter((item) => {
+      return state.policies.filter((item) => {
         const haystack = [item.policy_id, item.title, item.issuer, item.document_no, item.region, item.category].join(' ').toLocaleLowerCase('zh-CN');
         return (!keyword || haystack.includes(keyword)) &&
           (!elements.category.value || item.category === elements.category.value) &&
           (!elements.region.value || item.region === elements.region.value);
       });
+    }
 
-      elements.rows.replaceChildren();
+    function render() {
+      const shown = getShownPolicies();
+      elements.cards.replaceChildren();
       shown.forEach((item) => {
-        const row = elements.rows.insertRow();
-        row.className = 'policy-row';
-        buildTitleCell(row, item);
-        appendTextCell(row, item.issuer, 'issuer-cell');
-        appendTextCell(row, item.document_no, 'document-cell');
-        appendTextCell(row, item.published_date, 'date-cell');
-        appendTextCell(row, item.region, 'region-cell');
-        appendTextCell(row, item.category, 'category-cell');
-        buildSourceCell(row, item);
-        buildDetailsRow(item);
+        elements.cards.append(buildPolicyCard(item));
       });
 
       elements.resultCount.textContent = shown.length;
       elements.empty.hidden = shown.length !== 0;
+      if (!shown.some((item) => item.policy_id === state.activePolicyId)) {
+        state.activePolicyId = null;
+      }
+      renderModal();
+    }
+
+    function openPolicy(policyId) {
+      state.activePolicyId = policyId;
+      renderModal();
+    }
+
+    function closePolicy() {
+      state.activePolicyId = null;
+      renderModal();
     }
 
     Promise.all([
@@ -338,13 +437,16 @@
       elements.search.value = button.dataset.keyword;
       render();
     }));
-    elements.rows.addEventListener('click', (event) => {
+    elements.cards.addEventListener('click', (event) => {
       const button = event.target.closest('[data-policy-id]');
       if (!button) return;
-      const policyId = button.dataset.policyId;
-      if (state.expanded.has(policyId)) state.expanded.delete(policyId);
-      else state.expanded.add(policyId);
-      render();
+      openPolicy(button.dataset.policyId);
+    });
+    elements.detailModal.addEventListener('click', (event) => {
+      if (event.target.id === 'closeDetail' || event.target === elements.detailModal) closePolicy();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && state.activePolicyId) closePolicy();
     });
   </script>
 </body>
