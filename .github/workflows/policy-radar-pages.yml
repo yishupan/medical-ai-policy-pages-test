@@ -86,12 +86,23 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+      - name: Sync candidate review artifacts
+        run: python3 scripts/sync_candidate_review.py
       - name: Test monitoring parser
         run: python3 -m unittest discover -s tests -v
       - name: Test public data boundary
         run: ruby tests/test_public_data.rb
       - name: Validate required files
-        run: test -s index.html && test -s data/policies.json && test -s data/sources.json && test -s data/candidates.json
+        run: |
+          test -s index.html
+          test -s data/policies.json
+          test -s data/sources.json
+          test -s data/candidates.json
+          test -s data/candidate_status.json
+          test -s data/candidate_review.json
+          test -d pending_markdown
+      - name: Validate generated candidate review artifacts are committed
+        run: git diff --exit-code -- data/candidate_status.json data/candidate_review.json pending_markdown
 
   build-and-deploy:
     needs: guard-schedule
@@ -117,14 +128,16 @@ jobs:
           python3 -m playwright install --with-deps chromium
       - name: Fetch official monitoring sources
         run: python3 scripts/monitor_sources.py
-      - name: Commit changed candidate facts
+      - name: Sync candidate review artifacts
+        run: python3 scripts/sync_candidate_review.py
+      - name: Commit changed monitored artifacts
         run: |
-          if git diff --quiet -- data/candidates.json; then
+          if git diff --quiet -- data/candidates.json data/candidate_status.json data/candidate_review.json pending_markdown; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/candidates.json
+          git add data/candidates.json data/candidate_status.json data/candidate_review.json pending_markdown
           git commit -m "data: refresh monitored policy candidates"
           git push
       - name: Generate run status
@@ -134,6 +147,7 @@ jobs:
           mkdir -p site
           cp index.html site/index.html
           test -s site/data/policies.json
+          test -s site/data/candidate_review.json
           test -s site/data/run.json
           test ! -e site/policies
       - uses: actions/configure-pages@v6
