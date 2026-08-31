@@ -25,3 +25,5 @@ Not published:
 - internal analysis sections such as `内部研判` or non-public applicability advice
 
 The scheduled monitor writes newly discovered links to `data/candidates.json`. A candidate is not displayed on the public site until its official source and factual metadata have been reviewed and it has been added to `data/policies.json`.
+
+The public site may render those approved fields as `important_quotes` and `official_interpretation` blocks so users can read public-source excerpts and linked official explanations directly on the page.
