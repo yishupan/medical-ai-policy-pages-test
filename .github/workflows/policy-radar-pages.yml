@@ -102,6 +102,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v7
         with:
           node-version: 22
@@ -109,6 +111,10 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Test public data boundary
         run: ruby tests/test_public_data.rb
+      - name: Install browser runtime for JS-protected sources
+        run: |
+          python3 -m pip install --disable-pip-version-check "playwright>=1.55,<2"
+          python3 -m playwright install --with-deps chromium
       - name: Fetch official monitoring sources
         run: python3 scripts/monitor_sources.py
       - name: Commit changed candidate facts
@@ -125,9 +131,10 @@ jobs:
         run: node scripts/build-run.mjs
       - name: Prepare public-only site
         run: |
-          mkdir -p site/data
+          mkdir -p site
           cp index.html site/index.html
-          cp data/policies.json data/run.json site/data/
+          test -s site/data/policies.json
+          test -s site/data/run.json
           test ! -e site/policies
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5

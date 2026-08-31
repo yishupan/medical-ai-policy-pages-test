@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import argparse
 import json
-import re
 import subprocess
 import sys
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -11,7 +11,12 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE_RE = re.compile(r"(20\d{2})[年./-](\d{1,2})[月./-](\d{1,2})日?")
+COMPACT_DATE_RE = re.compile(r"(?<!\d)(20\d{2})(\d{2})(\d{2})(?!\d)")
 SPACE_RE = re.compile(r"\s+")
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+)
 
 
 def clean_text(value, limit=220):
@@ -55,9 +60,13 @@ class LinkParser(HTMLParser):
 
 def normalize_date(value):
     match = DATE_RE.search(value)
-    if not match:
-        return ""
-    year, month, day = map(int, match.groups())
+    if match:
+        year, month, day = map(int, match.groups())
+    else:
+        compact_match = COMPACT_DATE_RE.search(value)
+        if not compact_match:
+            return ""
+        year, month, day = map(int, compact_match.groups())
     if not 1 <= month <= 12 or not 1 <= day <= 31:
         return ""
     return f"{year:04d}-{month:02d}-{day:02d}"
@@ -86,9 +95,9 @@ def extract_candidates(html, source):
         if any(term in title for term in excluded):
             continue
         url = urljoin(source["url"], link["href"])
-        if not url.startswith("https://") or not host_allowed(url, source["allowed_hosts"]):
+        if urlparse(url).scheme not in {"http", "https"} or not host_allowed(url, source["allowed_hosts"]):
             continue
-        issue_date = normalize_date(title + " " + "".join(link["context_parts"]))
+        issue_date = normalize_date(title + " " + "".join(link["context_parts"]) + " " + url)
         if not issue_date or url in seen:
             continue
         seen.add(url)
@@ -104,7 +113,7 @@ def extract_candidates(html, source):
     return candidates
 
 
-def fetch_source(source, timeout=25):
+def fetch_source_http(source, timeout=25):
     request = Request(source["url"], headers={
         "User-Agent": "medical-ai-policy-monitor/0.1 (+https://github.com/yishupan/medical-ai-policy-pages-test)",
         "Accept": "text/html,application/xhtml+xml",
@@ -124,6 +133,80 @@ def fetch_source(source, timeout=25):
             message = result.stderr.decode("utf-8", errors="replace").strip()
             raise RuntimeError(f"{primary_error}; curl fallback: {message}") from primary_error
         return result.stdout.decode("utf-8", errors="replace")
+
+
+def wait_for_rendered_links(page, source, timeout_ms):
+    minimum_links = int(source.get("browser_min_links", 5))
+    allowed_hosts = [host.lower() for host in source["allowed_hosts"]]
+    page.wait_for_function(
+        """
+        ({ allowedHosts, minimumLinks }) => {
+          const matchesAllowedHost = (href) => {
+            try {
+              const host = new URL(href || "", location.href).hostname.toLowerCase();
+              return allowedHosts.some((allowed) => host === allowed || host.endsWith("." + allowed));
+            } catch (error) {
+              return false;
+            }
+          };
+          const linkCount = Array.from(document.querySelectorAll("a")).filter((anchor) => {
+            const text = (anchor.textContent || "").replace(/\\s+/g, " ").trim();
+            const href = anchor.href || anchor.getAttribute("href") || "";
+            return text.length >= 8 && matchesAllowedHost(href);
+          }).length;
+          return linkCount >= minimumLinks;
+        }
+        """,
+        arg={"allowedHosts": allowed_hosts, "minimumLinks": minimum_links},
+        timeout=timeout_ms,
+    )
+
+
+def fetch_source_browser(source, timeout=25):
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as error:
+        raise RuntimeError(
+            "browser fetch mode requires the Python 'playwright' package and an installed Chromium runtime"
+        ) from error
+
+    navigation_timeout_ms = int(source.get("browser_navigation_timeout_ms", timeout * 1000))
+    wait_timeout_ms = int(source.get("browser_wait_timeout_ms", max(15000, timeout * 1000)))
+    parsed_url = urlparse(source["url"])
+    referer = f"{parsed_url.scheme}://{parsed_url.netloc}/"
+
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless=True)
+        try:
+            context = browser.new_context(
+                user_agent=BROWSER_USER_AGENT,
+                locale="zh-CN",
+                extra_http_headers={
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                    "Referer": referer,
+                },
+            )
+            page = context.new_page()
+            page.goto(source["url"], wait_until="domcontentloaded", timeout=navigation_timeout_ms)
+            try:
+                page.wait_for_load_state("networkidle", timeout=min(wait_timeout_ms, 15000))
+            except PlaywrightTimeoutError:
+                pass
+            wait_for_rendered_links(page, source, wait_timeout_ms)
+            return page.content()
+        finally:
+            browser.close()
+
+
+def fetch_source(source, timeout=25):
+    mode = source.get("fetch_mode", "http")
+    if mode == "browser":
+        return fetch_source_browser(source, timeout=timeout)
+    if mode == "http":
+        return fetch_source_http(source, timeout=timeout)
+    raise ValueError(f"unsupported fetch_mode for {source['name']}: {mode}")
 
 
 def load_json(path):

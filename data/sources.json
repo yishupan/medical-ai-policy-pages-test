@@ -3,13 +3,16 @@
     {
       "name": "国家卫生健康委规范性文件",
       "url": "https://www.nhc.gov.cn/wjw/gfxwjj/list.shtml",
-      "enabled": false,
-      "disabled_reason": "Automated requests return HTTP 412; retain for manual monitoring.",
+      "enabled": true,
+      "fetch_mode": "browser",
+      "browser_min_links": 15,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
       "issuer": "国家卫生健康委员会",
       "region": "全国",
       "allowed_hosts": ["nhc.gov.cn", "www.nhc.gov.cn"],
       "keywords": ["人工智能", "AI", "大模型", "算法", "医学影像", "辅助诊断", "医疗器械", "医疗数据", "数据安全", "个人信息保护"],
-      "exclude_title_terms": ["解读", "图解", "答记者问"]
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
     },
     {
       "name": "国家医疗保障局政策法规",
@@ -18,7 +21,7 @@
       "region": "全国",
       "allowed_hosts": ["nhsa.gov.cn", "www.nhsa.gov.cn"],
       "keywords": ["人工智能", "AI", "大模型", "算法", "医学影像", "辅助诊断", "医用设备", "医疗服务价格", "场景"],
-      "exclude_title_terms": ["解读", "图解", "答记者问"]
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
     },
     {
       "name": "国家数据局通知公告",
@@ -27,7 +30,269 @@
       "region": "全国",
       "allowed_hosts": ["nda.gov.cn", "www.nda.gov.cn"],
       "keywords": ["人工智能", "AI", "大模型", "算法", "高质量数据集", "医疗健康", "卫生健康", "数据安全", "个人信息保护"],
-      "exclude_title_terms": ["课题", "入选", "征集", "大赛", "解读", "图解"]
+      "exclude_title_terms": ["课题", "入选", "征集", "大赛", "解读", "图解", "一图读懂"]
+    },
+    {
+      "name": "国务院政策文件",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "issuer": "国务院",
+      "region": "全国",
+      "allowed_hosts": ["gov.cn", "www.gov.cn"],
+      "keywords": ["人工智能", "AI", "大模型", "算法", "医学影像", "辅助诊断", "医疗器械", "卫生健康", "医保", "数据安全", "个人信息保护", "公共数据", "精准医学"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
+    },
+    {
+      "name": "国务院要闻列表",
+      "url": "https://www.gov.cn/yaowen/liebiao/index.htm",
+      "issuer": "国务院",
+      "region": "全国",
+      "allowed_hosts": ["gov.cn", "www.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "医疗器械", "卫生健康", "医保", "数据安全", "个人信息保护", "公共数据", "精准医学"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
+    },
+    {
+      "name": "中央网信办政策法规",
+      "url": "https://www.cac.gov.cn/wxzw/zcfg/A093703index_1.htm",
+      "issuer": "国家互联网信息办公室",
+      "region": "全国",
+      "allowed_hosts": ["cac.gov.cn", "www.cac.gov.cn"],
+      "keywords": ["人工智能", "AI", "算法", "数据安全", "个人信息保护", "医疗"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂", "问答"]
+    },
+    {
+      "name": "中央网信办数据治理",
+      "url": "https://www.cac.gov.cn/wxzw/sjzl/A093708index_1.htm",
+      "issuer": "国家互联网信息办公室",
+      "region": "全国",
+      "allowed_hosts": ["cac.gov.cn", "www.cac.gov.cn"],
+      "keywords": ["人工智能", "AI", "算法", "数据安全", "个人信息保护", "医疗"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂", "问答"]
+    },
+    {
+      "name": "国家药监局医疗器械公告",
+      "url": "https://www.nmpa.gov.cn/xxgk/ggtg/ylqxggtg/ylqxqtggtg/index.html",
+      "fetch_mode": "browser",
+      "browser_min_links": 10,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "国家药品监督管理局",
+      "region": "全国",
+      "allowed_hosts": ["nmpa.gov.cn", "www.nmpa.gov.cn"],
+      "keywords": ["人工智能", "AI", "医学影像", "辅助诊断", "医疗器械", "软件", "注册", "分类"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
+    },
+    {
+      "name": "国家药监局法规文件",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/index.html",
+      "fetch_mode": "browser",
+      "browser_min_links": 10,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "国家药品监督管理局",
+      "region": "全国",
+      "allowed_hosts": ["nmpa.gov.cn", "www.nmpa.gov.cn"],
+      "keywords": ["人工智能", "AI", "医学影像", "辅助诊断", "医疗器械", "软件", "注册", "分类"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
+    },
+    {
+      "name": "器审中心指导原则",
+      "url": "https://www.cmde.org.cn/flfg/zdyz/index.html",
+      "fetch_mode": "browser",
+      "browser_min_links": 6,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "国家药品监督管理局医疗器械技术审评中心",
+      "region": "全国",
+      "allowed_hosts": ["cmde.org.cn", "www.cmde.org.cn"],
+      "keywords": ["人工智能", "医学影像", "软件", "网络安全", "医疗器械"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "器械长三角分中心指导原则征求意见稿",
+      "url": "https://www.ydcmdei.org.cn/article/category/opinions",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "region": "全国",
+      "allowed_hosts": ["ydcmdei.org.cn", "www.ydcmdei.org.cn"],
+      "keywords": ["人工智能", "辅助诊断", "临床评价", "指导原则"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "培训", "招聘"]
+    },
+    {
+      "name": "国家发展改革委规划和规范性文件",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/",
+      "issuer": "国家发展和改革委员会",
+      "region": "全国",
+      "allowed_hosts": ["ndrc.gov.cn", "www.ndrc.gov.cn"],
+      "keywords": ["人工智能", "医疗", "卫生健康", "公共数据", "数据"],
+      "exclude_title_terms": ["解读", "图解", "答记者问", "一图读懂"]
+    },
+    {
+      "name": "全国人大法律",
+      "url": "http://www.npc.gov.cn/npc/c30834/index.html",
+      "issuer": "全国人民代表大会常务委员会",
+      "region": "全国",
+      "allowed_hosts": ["npc.gov.cn", "www.npc.gov.cn"],
+      "keywords": ["数据安全", "个人信息保护", "人工智能", "医疗卫生", "网络安全"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "北京市商务局通知公告",
+      "url": "https://sw.beijing.gov.cn/tzgg/index.html",
+      "issuer": "北京市商务局",
+      "region": "北京",
+      "allowed_hosts": ["sw.beijing.gov.cn"],
+      "keywords": ["人工智能", "医药健康", "医疗", "数据"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "北京市医疗保障局政策文件",
+      "url": "https://ybj.beijing.gov.cn/zwgk/2024zcwj/",
+      "issuer": "北京市医疗保障局",
+      "region": "北京",
+      "allowed_hosts": ["ybj.beijing.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "影像", "放射", "超声", "病理"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "北京市中医药管理局政策文件",
+      "url": "https://zyj.beijing.gov.cn/dwjlxxw/zcfg/index.html",
+      "issuer": "北京市中医药管理局",
+      "region": "北京",
+      "allowed_hosts": ["zyj.beijing.gov.cn"],
+      "keywords": ["人工智能", "医药健康"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "北京市药监局检查指南",
+      "url": "https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/index.html",
+      "issuer": "北京市药品监督管理局",
+      "region": "北京",
+      "allowed_hosts": ["yjj.beijing.gov.cn"],
+      "keywords": ["人工智能", "医疗器械", "检查指南", "软件", "生产质量管理规范"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "辽宁卫健委国家级文件",
+      "url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/index.shtml",
+      "issuer": "辽宁省卫生健康委员会",
+      "region": "辽宁",
+      "allowed_hosts": ["wsjk.ln.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "卫生健康", "医疗"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "上海市人民政府办公厅文件",
+      "url": "https://www.shanghai.gov.cn/202518bgtwj/index.html",
+      "issuer": "上海市人民政府办公厅",
+      "region": "上海",
+      "allowed_hosts": ["shanghai.gov.cn", "www.shanghai.gov.cn"],
+      "keywords": ["人工智能", "医疗器械", "医药", "数据"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "上海市人民政府政策文件",
+      "url": "https://www.shanghai.gov.cn/nw12344/index.html",
+      "issuer": "上海市人民政府",
+      "region": "上海",
+      "allowed_hosts": ["shanghai.gov.cn", "www.shanghai.gov.cn"],
+      "keywords": ["人工智能", "公共数据", "医疗", "医药", "卫生健康"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "上海市医疗保障局其他文件",
+      "url": "https://ybj.sh.gov.cn/qtwj/index.html",
+      "issuer": "上海市医疗保障局",
+      "region": "上海",
+      "allowed_hosts": ["ybj.sh.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "影像", "放射", "超声", "病理"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "深圳市医疗保障局政策文件",
+      "url": "https://hsa.sz.gov.cn/gkmlpt/index",
+      "fetch_mode": "browser",
+      "browser_min_links": 5,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "深圳市医疗保障局",
+      "region": "深圳",
+      "allowed_hosts": ["hsa.sz.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "影像", "放射", "超声", "病理"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "深圳市发展改革委政策",
+      "url": "https://fgw.sz.gov.cn/zwgk/zcjzcjd/zc/",
+      "issuer": "深圳市发展和改革委员会",
+      "region": "深圳",
+      "allowed_hosts": ["fgw.sz.gov.cn"],
+      "keywords": ["人工智能", "医疗", "卫生健康", "数据", "医疗器械", "医药"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "深圳市南山区政策文件",
+      "url": "https://www.szns.gov.cn/ztzl/slh/zcfg/",
+      "issuer": "深圳市南山区人民政府",
+      "region": "深圳",
+      "allowed_hosts": ["szns.gov.cn", "www.szns.gov.cn"],
+      "keywords": ["人工智能", "公共数据", "医疗", "数据"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "浙江省人民政府办公厅文件",
+      "url": "https://www.zj.gov.cn/col/col1229017139/index.html",
+      "fetch_mode": "browser",
+      "browser_min_links": 6,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "浙江省人民政府办公厅",
+      "region": "浙江",
+      "allowed_hosts": ["zj.gov.cn", "www.zj.gov.cn"],
+      "keywords": ["人工智能", "公共数据", "医药", "医疗器械", "卫生健康"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "浙江省医疗保障局行政规范性文件",
+      "url": "http://ybj.zj.gov.cn/col/col1229113757/index.html?number=A030201",
+      "fetch_mode": "browser",
+      "browser_min_links": 5,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "浙江省医疗保障局",
+      "region": "浙江",
+      "allowed_hosts": ["ybj.zj.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "影像", "放射", "超声", "病理"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "浙江省卫生健康委政策文件",
+      "url": "https://wsjkw.zj.gov.cn/col/col1229560650/index.html",
+      "fetch_mode": "browser",
+      "browser_min_links": 5,
+      "browser_navigation_timeout_ms": 45000,
+      "browser_wait_timeout_ms": 45000,
+      "issuer": "浙江省卫生健康委员会",
+      "region": "浙江",
+      "allowed_hosts": ["wsjkw.zj.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "卫生健康", "医疗"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "广西壮族自治区人民政府最新文件",
+      "url": "http://www.gxzf.gov.cn/zfwj/zxwj/",
+      "issuer": "广西壮族自治区人民政府",
+      "region": "广西",
+      "allowed_hosts": ["gxzf.gov.cn", "www.gxzf.gov.cn"],
+      "keywords": ["人工智能", "医疗", "医药", "医疗器械", "数据"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
+    },
+    {
+      "name": "广西壮族自治区医保局发文",
+      "url": "http://ybj.gxzf.gov.cn/zfxxgkzl/zcfg/zcfg_9912/bmwj/zcfggybf/",
+      "issuer": "广西壮族自治区医疗保障局",
+      "region": "广西",
+      "allowed_hosts": ["ybj.gxzf.gov.cn"],
+      "keywords": ["人工智能", "医学影像", "影像", "放射", "超声", "病理"],
+      "exclude_title_terms": ["解读", "图解", "答记者问"]
     }
   ]
 }
