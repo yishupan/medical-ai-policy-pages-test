@@ -2,9 +2,11 @@ import { execFileSync } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const POLICY_PATH = 'data/policies.json';
+const CANDIDATE_REVIEW_PATH = 'data/candidate_review.json';
 const RUN_PATH = 'data/run.json';
 const SITE_DATA_DIR = 'site/data';
 const SITE_POLICY_PATH = `${SITE_DATA_DIR}/policies.json`;
+const SITE_CANDIDATE_REVIEW_PATH = `${SITE_DATA_DIR}/candidate_review.json`;
 const SITE_RUN_PATH = `${SITE_DATA_DIR}/run.json`;
 const TIME_ZONE = 'Asia/Shanghai';
 
@@ -67,6 +69,7 @@ function collectNewPolicyUrls(currentPayload) {
 
 const now = new Date();
 const currentPolicies = JSON.parse(await readFile(POLICY_PATH, 'utf8'));
+const candidateReview = JSON.parse(await readFile(CANDIDATE_REVIEW_PATH, 'utf8'));
 const { newPolicyUrls, latestPolicyCommitAt } = collectNewPolicyUrls(currentPolicies);
 const sitePolicies = {
   ...currentPolicies,
@@ -90,3 +93,4 @@ const runJson = JSON.stringify(runPayload, null, 2) + '\n';
 await writeFile(RUN_PATH, runJson);
 await writeFile(SITE_RUN_PATH, runJson);
 await writeFile(SITE_POLICY_PATH, JSON.stringify(sitePolicies, null, 2) + '\n');
+await writeFile(SITE_CANDIDATE_REVIEW_PATH, JSON.stringify(candidateReview, null, 2) + '\n');
