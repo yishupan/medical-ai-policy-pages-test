@@ -5,7 +5,11 @@ on:
   pull_request:
     paths:
       - index.html
+      - data/candidates.json
+      - data/candidate_status.json
+      - data/candidate_review.json
       - data/**
+      - pending_markdown/**
       - scripts/**
       - .github/workflows/policy-radar-pages.yml
   push:
@@ -14,6 +18,10 @@ on:
       - index.html
       - data/policies.json
       - data/sources.json
+      - data/candidates.json
+      - data/candidate_status.json
+      - data/candidate_review.json
+      - pending_markdown/**
       - scripts/**
       - tests/**
       - .github/workflows/policy-radar-pages.yml
