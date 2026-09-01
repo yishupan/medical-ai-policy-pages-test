@@ -76,6 +76,10 @@ records = Dir.glob(File.join(source_dir, "*_原文解析.md")).sort.each_with_ob
     "important_quotes" => quotes,
     "official_interpretation" => interpretation
   }
+  effective_date = source["effective_date"].to_s.strip
+  record["effective_date"] = effective_date unless effective_date.empty?
+  status = source["status"].to_s.strip
+  record["status"] = status unless status.empty?
   interpretation_url = enrichment["official_interpretation_url"].to_s.strip
   record["official_interpretation_url"] = interpretation_url unless interpretation_url.empty?
   public_records << record
