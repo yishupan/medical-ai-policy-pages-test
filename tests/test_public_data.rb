@@ -13,6 +13,8 @@ class PublicDataTest < Minitest::Test
     issuer
     document_no
     published_date
+    effective_date
+    status
     region
     category
     source_url
@@ -32,6 +34,14 @@ class PublicDataTest < Minitest::Test
       assert_match(%r{\Ahttps?://}, record.fetch("source_url"))
       if record.key?("official_interpretation_url")
         assert_match(%r{\Ahttps?://}, record.fetch("official_interpretation_url"))
+      end
+      if record.key?("effective_date")
+        assert_kind_of(String, record.fetch("effective_date"))
+        refute_empty(record.fetch("effective_date").strip)
+      end
+      if record.key?("status")
+        assert_kind_of(String, record.fetch("status"))
+        refute_empty(record.fetch("status").strip)
       end
       assert_match(/\A[A-Z0-9-]+\z/, record.fetch("policy_id"))
       assert_kind_of(Array, record.fetch("important_quotes"))
