@@ -22,6 +22,12 @@
     .metric strong { display: block; font-size: 27px; line-height: 1.15; font-variant-numeric: tabular-nums; }
     .metric span { color: var(--muted); }
     .controls { margin-top: 16px; padding: 15px; border: 1px solid var(--line); background: var(--paper); }
+    .mode-switch { display: inline-flex; align-items: center; gap: 0; margin-bottom: 12px; padding: 3px; border: 1px solid #c8d2d6; border-radius: 7px; background: #f7faf9; }
+    .mode-btn { min-width: 108px; height: 34px; border: 0; border-radius: 5px; background: transparent; color: #445861; font-weight: 700; }
+    .mode-btn:hover { background: #edf5f3; border-color: transparent; }
+    .mode-btn.active { background: #ffffff; color: var(--navy); box-shadow: inset 0 0 0 1px #9fcac1; }
+    .controls.candidate-mode .filter-only-formal { opacity: 0.55; }
+    .controls.candidate-mode .filter-only-formal select { background: #f6f8f8; color: #7a8a90; }
     .control-grid { display: grid; grid-template-columns: minmax(260px, 2fr) repeat(2, minmax(170px, 1fr)) auto; gap: 10px; }
     input, select, button { min-width: 0; height: 40px; border: 1px solid #c8d2d6; border-radius: 5px; background: #fff; color: var(--ink); padding: 0 11px; font: inherit; }
     input:focus, select:focus, button:focus-visible { outline: 3px solid #b9ded7; outline-offset: 1px; border-color: var(--teal); }
@@ -95,6 +101,8 @@
       .metric:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
       .control-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .control-grid input { grid-column: 1 / -1; }
+      .mode-switch { display: flex; width: 100%; }
+      .mode-btn { flex: 1 1 0; min-width: 0; }
       .policy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .candidate-stats, .candidate-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .modal-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -141,10 +149,18 @@
       <div class="metric"><strong id="healthCount">-</strong><span>卫生健康部门相关</span></div>
     </section>
     <section class="controls" aria-label="政策筛选">
+      <div class="mode-switch" role="tablist" aria-label="政策列表切换">
+        <button id="modeFormal" class="mode-btn active" type="button" role="tab" aria-selected="true">正式政策</button>
+        <button id="modeCandidate" class="mode-btn" type="button" role="tab" aria-selected="false">候选政策</button>
+      </div>
       <div class="control-grid">
         <input id="search" type="search" placeholder="搜索编号、政策名称、部门、文号或地区" aria-label="搜索政策">
-        <select id="category" aria-label="按主题分类筛选"><option value="">全部主题</option></select>
-        <select id="region" aria-label="按地区筛选"><option value="">全部地区</option></select>
+        <div class="filter-only-formal">
+          <select id="category" aria-label="按主题分类筛选"><option value="">全部主题</option></select>
+        </div>
+        <div class="filter-only-formal">
+          <select id="region" aria-label="按地区筛选"><option value="">全部地区</option></select>
+        </div>
         <button id="reset" type="button">重置</button>
       </div>
       <div class="quick" aria-label="常用关键词">
@@ -187,12 +203,16 @@
     </div>
   </div>
   <script>
-    const state = { policies: [], candidates: [], candidateReview: null, activePolicyId: null };
+    const state = { policies: [], candidates: [], candidateReview: null, activePolicyId: null, viewMode: 'formal' };
     const dataVersion = '20260831-4';
     const elements = {
       cards: document.querySelector('#cards'),
       empty: document.querySelector('#empty'),
+      listWrap: document.querySelector('.list-wrap'),
       search: document.querySelector('#search'),
+      controls: document.querySelector('.controls'),
+      modeFormal: document.querySelector('#modeFormal'),
+      modeCandidate: document.querySelector('#modeCandidate'),
       category: document.querySelector('#category'),
       region: document.querySelector('#region'),
       resultCount: document.querySelector('#resultCount'),
@@ -209,6 +229,35 @@
 
     function textOrDash(value) {
       return value || '—';
+    }
+
+    function parseDateValue(value) {
+      if (!value || typeof value !== 'string') return null;
+      const normalized = value.trim().replace(/[./]/g, '-').replace(/年/g, '-').replace(/月/g, '-').replace(/日/g, '');
+      const match = normalized.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+      if (!match) return null;
+      const [, year, month, day] = match;
+      const date = new Date(Number(year), Number(month) - 1, Number(day));
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function startOfWeek(date) {
+      const result = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      const day = result.getDay();
+      const delta = day === 0 ? -6 : 1 - day;
+      result.setDate(result.getDate() + delta);
+      result.setHours(0, 0, 0, 0);
+      return result;
+    }
+
+    function isCurrentWeek(value) {
+      const date = parseDateValue(value);
+      if (!date) return false;
+      const now = new Date();
+      const weekStart = startOfWeek(now);
+      const nextWeekStart = new Date(weekStart);
+      nextWeekStart.setDate(nextWeekStart.getDate() + 7);
+      return date >= weekStart && date < nextWeekStart;
     }
 
     function appendOptions(select, values) {
@@ -266,7 +315,7 @@
 
       const meta = document.createElement('div');
       meta.className = 'policy-meta';
-      if (item.is_new_today) {
+      if (isCurrentWeek(item.published_date)) {
         const newTag = document.createElement('span');
         newTag.className = 'new-badge';
         newTag.textContent = 'NEW';
@@ -338,7 +387,7 @@
       const headText = document.createElement('div');
       const meta = document.createElement('div');
       meta.className = 'policy-meta';
-      if (item.is_new_today) {
+      if (isCurrentWeek(item.published_date)) {
         const newTag = document.createElement('span');
         newTag.className = 'new-badge';
         newTag.textContent = 'NEW';
@@ -431,6 +480,12 @@
       const textWrap = document.createElement('div');
       const meta = document.createElement('div');
       meta.className = 'policy-meta';
+      if (isCurrentWeek(item.issue_date)) {
+        const newTag = document.createElement('span');
+        newTag.className = 'new-badge';
+        newTag.textContent = 'NEW';
+        meta.append(newTag);
+      }
       meta.append(buildStatusBadge(item.status_label, item.status));
       const keyTag = document.createElement('span');
       keyTag.className = 'policy-id';
@@ -473,7 +528,25 @@
       return card;
     }
 
-    function renderCandidates() {
+    function getShownCandidates() {
+      const keyword = elements.search.value.trim().toLocaleLowerCase('zh-CN');
+      return state.candidates.filter((item) => {
+        const haystack = [
+          item.candidate_key,
+          item.title,
+          item.issuer,
+          item.region,
+          item.source_label,
+          item.suggested_category_label,
+          item.status_label,
+          item.draft_path,
+          item.review_note
+        ].join(' ').toLocaleLowerCase('zh-CN');
+        return !keyword || haystack.includes(keyword);
+      });
+    }
+
+    function renderCandidates(shownCandidates = getShownCandidates()) {
       const reviewMeta = state.candidateReview;
       if (!reviewMeta) {
         elements.candidatePanel.hidden = true;
@@ -494,10 +567,10 @@
       );
 
       elements.candidateCards.replaceChildren();
-      state.candidates.forEach((item) => {
+      shownCandidates.forEach((item) => {
         elements.candidateCards.append(buildCandidateCard(item, reviewMeta));
       });
-      elements.candidateEmpty.hidden = state.candidates.length !== 0;
+      elements.candidateEmpty.hidden = shownCandidates.length !== 0;
     }
 
     function getShownPolicies() {
@@ -510,8 +583,38 @@
       });
     }
 
+    function setViewMode(mode) {
+      state.viewMode = mode;
+      const candidateMode = mode === 'candidate';
+      elements.modeFormal.classList.toggle('active', !candidateMode);
+      elements.modeCandidate.classList.toggle('active', candidateMode);
+      elements.modeFormal.setAttribute('aria-selected', String(!candidateMode));
+      elements.modeCandidate.setAttribute('aria-selected', String(candidateMode));
+      elements.controls.classList.toggle('candidate-mode', candidateMode);
+      elements.category.disabled = candidateMode;
+      elements.region.disabled = candidateMode;
+      elements.search.placeholder = candidateMode
+        ? '搜索候选编号、标题、部门、地区、来源栏目或草稿路径'
+        : '搜索编号、政策名称、部门、文号或地区';
+      render();
+    }
+
     function render() {
+      const candidateMode = state.viewMode === 'candidate';
+      if (candidateMode) {
+        const shownCandidates = getShownCandidates();
+        elements.cards.replaceChildren();
+        elements.listWrap.hidden = true;
+        elements.empty.hidden = true;
+        elements.resultCount.textContent = shownCandidates.length;
+        renderCandidates(shownCandidates);
+        state.activePolicyId = null;
+        renderModal();
+        return;
+      }
+
       const shown = getShownPolicies();
+      elements.listWrap.hidden = false;
       elements.cards.replaceChildren();
       shown.forEach((item) => {
         elements.cards.append(buildPolicyCard(item));
@@ -522,6 +625,7 @@
       if (!shown.some((item) => item.policy_id === state.activePolicyId)) {
         state.activePolicyId = null;
       }
+      elements.candidatePanel.hidden = true;
       renderModal();
     }
 
@@ -561,7 +665,6 @@
         elements.lastRun.textContent = `目录数据更新时间：${data.generated_at}`;
       }
       render();
-      renderCandidates();
     }).catch((error) => {
       elements.lastRun.textContent = '公开数据读取失败';
       elements.empty.hidden = false;
@@ -569,6 +672,8 @@
     });
 
     [elements.search, elements.category, elements.region].forEach((control) => control.addEventListener(control.tagName === 'INPUT' ? 'input' : 'change', render));
+    elements.modeFormal.addEventListener('click', () => setViewMode('formal'));
+    elements.modeCandidate.addEventListener('click', () => setViewMode('candidate'));
     document.querySelector('#reset').addEventListener('click', () => {
       elements.search.value = '';
       elements.category.value = '';
