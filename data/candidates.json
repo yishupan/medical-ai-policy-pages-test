@@ -1,6 +1,15 @@
 {
   "policies": [
     {
+      "title": "国务院新闻办9月4日举行“开局起步‘十五五’”系列主题新闻发布会，介绍推进医保高质量发展有关情况。",
+      "issuer": "国务院",
+      "document_no": "",
+      "issue_date": "2026-09-05",
+      "region": "全国",
+      "source_url": "https://www.gov.cn/zhengce/202609/content_7080253.htm",
+      "source_label": "国务院政策文件"
+    },
+    {
       "title": "关于公开征求《负压源压力源吸引器注册审查指导原则（征求意见稿）》等59项第二类有源医疗器械注册审查指导原则意见的通知",
       "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
       "document_no": "",
@@ -277,15 +286,6 @@
       "issue_date": "2026-04-15",
       "region": "上海",
       "source_url": "https://ybj.sh.gov.cn/qtwj/20260629/67348c255e2243d3b7fb9ed6e62c5e75.html",
-      "source_label": "上海市医疗保障局其他文件"
-    },
-    {
-      "title": "关于规范调整本市超声检查类医疗服务价格项目的通知",
-      "issuer": "上海市医疗保障局",
-      "document_no": "",
-      "issue_date": "2026-01-22",
-      "region": "上海",
-      "source_url": "https://ybj.sh.gov.cn/qtwj/20260122/e02f157f6a084c9fabd62b21a8f299d9.html",
       "source_label": "上海市医疗保障局其他文件"
     },
     {

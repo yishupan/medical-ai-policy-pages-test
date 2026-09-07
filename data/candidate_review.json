@@ -11,6 +11,24 @@
   "draft_tree_url": "https://github.com/yishupan/medical-ai-policy-pages-test/tree/main/pending_markdown",
   "candidates": [
     {
+      "candidate_key": "CAND-36F2F3DB",
+      "source_url": "https://www.gov.cn/zhengce/202609/content_7080253.htm",
+      "title": "国务院新闻办9月4日举行“开局起步‘十五五’”系列主题新闻发布会，介绍推进医保高质量发展有关情况。",
+      "issuer": "国务院",
+      "issue_date": "2026-09-05",
+      "region": "全国",
+      "source_label": "国务院政策文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "D_医保支付与服务价格",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-05_国务院_国务院新闻办9月4日举行开局起步十五五系列主题新闻发布会介绍推进医保高质量发展有关情_36f2f3db.md",
+      "status_label": "待确认",
+      "suggested_category_label": "医保支付与服务价格",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-05_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%96%B0%E9%97%BB%E5%8A%9E9%E6%9C%884%E6%97%A5%E4%B8%BE%E8%A1%8C%E5%BC%80%E5%B1%80%E8%B5%B7%E6%AD%A5%E5%8D%81%E4%BA%94%E4%BA%94%E7%B3%BB%E5%88%97%E4%B8%BB%E9%A2%98%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BB%8B%E7%BB%8D%E6%8E%A8%E8%BF%9B%E5%8C%BB%E4%BF%9D%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E6%9C%89%E5%85%B3%E6%83%85_36f2f3db.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-05_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%96%B0%E9%97%BB%E5%8A%9E9%E6%9C%884%E6%97%A5%E4%B8%BE%E8%A1%8C%E5%BC%80%E5%B1%80%E8%B5%B7%E6%AD%A5%E5%8D%81%E4%BA%94%E4%BA%94%E7%B3%BB%E5%88%97%E4%B8%BB%E9%A2%98%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BB%8B%E7%BB%8D%E6%8E%A8%E8%BF%9B%E5%8C%BB%E4%BF%9D%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E6%9C%89%E5%85%B3%E6%83%85_36f2f3db.md"
+    },
+    {
       "candidate_key": "CAND-7ABA41E9",
       "source_url": "https://www.ydcmdei.org.cn/article/962",
       "title": "关于公开征求《放射性粒籽植入防护产品注册审查指导原则（征求意见稿）》等55项第二类无源医疗器械注册审查指导原则意见的通知",
@@ -513,24 +531,6 @@
       "suggested_category_label": "地方政策",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-04-15_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%B8%82%E8%AE%BE%E7%AB%8B%E5%BF%83%E8%85%94%E5%86%85%E8%B6%85%E5%A3%B0%E5%BF%83%E5%8A%A8%E5%9B%BE%E6%A3%80%E6%9F%A5%E8%B4%B9%E7%AD%89%E9%83%A8%E5%88%86%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_b8ccee77.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-04-15_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%B8%82%E8%AE%BE%E7%AB%8B%E5%BF%83%E8%85%94%E5%86%85%E8%B6%85%E5%A3%B0%E5%BF%83%E5%8A%A8%E5%9B%BE%E6%A3%80%E6%9F%A5%E8%B4%B9%E7%AD%89%E9%83%A8%E5%88%86%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_b8ccee77.md"
-    },
-    {
-      "candidate_key": "CAND-F5D8A28E",
-      "source_url": "https://ybj.sh.gov.cn/qtwj/20260122/e02f157f6a084c9fabd62b21a8f299d9.html",
-      "title": "关于规范调整本市超声检查类医疗服务价格项目的通知",
-      "issuer": "上海市医疗保障局",
-      "issue_date": "2026-01-22",
-      "region": "上海",
-      "source_label": "上海市医疗保障局其他文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "G_地方试点",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-01-22_上海市医疗保障局_关于规范调整本市超声检查类医疗服务价格项目的通知_f5d8a28e.md",
-      "status_label": "待确认",
-      "suggested_category_label": "地方政策",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-01-22_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E8%B0%83%E6%95%B4%E6%9C%AC%E5%B8%82%E8%B6%85%E5%A3%B0%E6%A3%80%E6%9F%A5%E7%B1%BB%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_f5d8a28e.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-01-22_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E8%B0%83%E6%95%B4%E6%9C%AC%E5%B8%82%E8%B6%85%E5%A3%B0%E6%A3%80%E6%9F%A5%E7%B1%BB%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_f5d8a28e.md"
     },
     {
       "candidate_key": "CAND-CE13F9F7",
