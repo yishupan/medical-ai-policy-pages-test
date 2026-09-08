@@ -23,6 +23,20 @@
       "draft_path": "pending_markdown/2026-09-05_国务院_国务院新闻办9月4日举行开局起步十五五系列主题新闻发布会介绍推进医保高质量发展有关情_36f2f3db.md"
     },
     {
+      "candidate_key": "CAND-7D410C1C",
+      "source_url": "https://www.ydcmdei.org.cn/article/971",
+      "title": "关于公开征求《伽玛射束立体定向放射治疗系统注册审查指导原则（征求意见稿）》等6项注册审查指导原则意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "issue_date": "2026-09-04",
+      "region": "全国",
+      "source_label": "器械长三角分中心指导原则征求意见稿",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "C_医疗器械注册监管",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-04_国家药品监督管理局医疗器械技术审评检_关于公开征求《伽玛射束立体定向放射治疗系统注册审查指导原则（征求意见稿）》等6项注册_7d410c1c.md"
+    },
+    {
       "candidate_key": "CAND-7ABA41E9",
       "source_url": "https://www.ydcmdei.org.cn/article/962",
       "title": "关于公开征求《放射性粒籽植入防护产品注册审查指导原则（征求意见稿）》等55项第二类无源医疗器械注册审查指导原则意见的通知",
@@ -371,20 +385,6 @@
       "suggested_category": "G_地方试点",
       "suggested_policy_id": "",
       "draft_path": "pending_markdown/2026-06-03_上海市医疗保障局_关于规范调整本市病理类医疗服务价格项目的通知_1c15dbd8.md"
-    },
-    {
-      "candidate_key": "CAND-6259289C",
-      "source_url": "https://www.ydcmdei.org.cn/article/859",
-      "title": "关于公开征求《吻合口加固片注册审查指导原则（征求意见稿）》意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "issue_date": "2026-05-12",
-      "region": "全国",
-      "source_label": "器械长三角分中心指导原则征求意见稿",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "C_医疗器械注册监管",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-05-12_国家药品监督管理局医疗器械技术审评检_关于公开征求《吻合口加固片注册审查指导原则（征求意见稿）》意见的通知_6259289c.md"
     },
     {
       "candidate_key": "CAND-DA4B8B44",
