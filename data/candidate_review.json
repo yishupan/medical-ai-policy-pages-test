@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "candidate_count": 45,
+  "candidate_count": 44,
   "status_counts": {
-    "pending": 45,
+    "pending": 44,
     "confirmed": 0,
     "rejected": 0
   },
@@ -10,6 +10,24 @@
   "status_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/data/candidate_status.json",
   "draft_tree_url": "https://github.com/yishupan/medical-ai-policy-pages-test/tree/main/pending_markdown",
   "candidates": [
+    {
+      "candidate_key": "CAND-8BE79CBA",
+      "source_url": "https://www.ydcmdei.org.cn/article/973",
+      "title": "关于公开征求《腹腔内窥镜手术系统注册审查指导原则第6部分：软件》等2项指导原则意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "issue_date": "2026-09-08",
+      "region": "全国",
+      "source_label": "器械长三角分中心指导原则征求意见稿",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "C_医疗器械注册监管",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-08_国家药品监督管理局医疗器械技术审评检_关于公开征求《腹腔内窥镜手术系统注册审查指导原则第6部分软件》等2项指导原则意见的通_8be79cba.md",
+      "status_label": "待确认",
+      "suggested_category_label": "医疗器械注册监管",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-08_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E8%85%B9%E8%85%94%E5%86%85%E7%AA%A5%E9%95%9C%E6%89%8B%E6%9C%AF%E7%B3%BB%E7%BB%9F%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E7%AC%AC6%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E3%80%8B%E7%AD%892%E9%A1%B9%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A_8be79cba.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-08_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E8%85%B9%E8%85%94%E5%86%85%E7%AA%A5%E9%95%9C%E6%89%8B%E6%9C%AF%E7%B3%BB%E7%BB%9F%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E7%AC%AC6%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E3%80%8B%E7%AD%892%E9%A1%B9%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A_8be79cba.md"
+    },
     {
       "candidate_key": "CAND-36F2F3DB",
       "source_url": "https://www.gov.cn/zhengce/202609/content_7080253.htm",
@@ -207,24 +225,6 @@
       "suggested_category_label": "地方政策",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-07-28_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E5%8D%92%E4%B8%AD%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E7%AE%A1_290516b0.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-07-28_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E5%8D%92%E4%B8%AD%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E7%AE%A1_290516b0.md"
-    },
-    {
-      "candidate_key": "CAND-DB23D264",
-      "source_url": "https://www.cac.gov.cn/2026-07/24/c_1786638889704872.htm",
-      "title": "小型个人信息处理者个人信息保护简化措施规定",
-      "issuer": "国家互联网信息办公室",
-      "issue_date": "2026-07-24",
-      "region": "全国",
-      "source_label": "中央网信办政策法规",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "F_数据安全与跨境",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-07-24_国家互联网信息办公室_小型个人信息处理者个人信息保护简化措施规定_db23d264.md",
-      "status_label": "待确认",
-      "suggested_category_label": "数据安全与跨境",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-07-24_%E5%9B%BD%E5%AE%B6%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4_%E5%B0%8F%E5%9E%8B%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E8%80%85%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4%E7%AE%80%E5%8C%96%E6%8E%AA%E6%96%BD%E8%A7%84%E5%AE%9A_db23d264.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-07-24_%E5%9B%BD%E5%AE%B6%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4_%E5%B0%8F%E5%9E%8B%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E8%80%85%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4%E7%AE%80%E5%8C%96%E6%8E%AA%E6%96%BD%E8%A7%84%E5%AE%9A_db23d264.md"
     },
     {
       "candidate_key": "CAND-187B3558",
@@ -459,24 +459,6 @@
       "suggested_category_label": "地方政策",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-06-08_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%912026%E5%B9%B4%E7%BA%A0%E6%AD%A3%E5%8C%BB%E8%8D%AF%E8%B4%AD%E9%94%80%E9%A2%86%E5%9F%9F%E5%92%8C%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%B8%AD%E4%B8%8D%E6%AD%A3%E4%B9%8B%E9%A3%8E%E5%B7%A5_d8408bdf.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-06-08_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%912026%E5%B9%B4%E7%BA%A0%E6%AD%A3%E5%8C%BB%E8%8D%AF%E8%B4%AD%E9%94%80%E9%A2%86%E5%9F%9F%E5%92%8C%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%B8%AD%E4%B8%8D%E6%AD%A3%E4%B9%8B%E9%A3%8E%E5%B7%A5_d8408bdf.md"
-    },
-    {
-      "candidate_key": "CAND-476B3D2D",
-      "source_url": "https://www.ydcmdei.org.cn/article/862",
-      "title": "关于公开征求《射频消融设备注册审查指导原则（征求意见稿）》等4项医疗器械注册审查指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "issue_date": "2026-06-03",
-      "region": "全国",
-      "source_label": "器械长三角分中心指导原则征求意见稿",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "C_医疗器械注册监管",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-06-03_国家药品监督管理局医疗器械技术审评检_关于公开征求《射频消融设备注册审查指导原则（征求意见稿）》等4项医疗器械注册审查指导_476b3d2d.md",
-      "status_label": "待确认",
-      "suggested_category_label": "医疗器械注册监管",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-06-03_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E5%B0%84%E9%A2%91%E6%B6%88%E8%9E%8D%E8%AE%BE%E5%A4%87%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89%E3%80%8B%E7%AD%894%E9%A1%B9%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC_476b3d2d.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-06-03_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E5%B0%84%E9%A2%91%E6%B6%88%E8%9E%8D%E8%AE%BE%E5%A4%87%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89%E3%80%8B%E7%AD%894%E9%A1%B9%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC_476b3d2d.md"
     },
     {
       "candidate_key": "CAND-1C15DBD8",
