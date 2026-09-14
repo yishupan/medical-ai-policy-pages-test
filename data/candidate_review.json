@@ -11,6 +11,24 @@
   "draft_tree_url": "https://github.com/yishupan/medical-ai-policy-pages-test/tree/main/pending_markdown",
   "candidates": [
     {
+      "candidate_key": "CAND-CB2C0709",
+      "source_url": "https://www.gov.cn/zhengce/202609/content_7080805.htm",
+      "title": "算力网是人工智能发展的基础支撑。9月11日召开的国务院常务会议，研究算力网建设有关工作。",
+      "issuer": "国务院",
+      "issue_date": "2026-09-12",
+      "region": "全国",
+      "source_label": "国务院政策文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "A_十五五与产业支持",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-12_国务院_算力网是人工智能发展的基础支撑9月11日召开的国务院常务会议研究算力网建设有关工作_cb2c0709.md",
+      "status_label": "待确认",
+      "suggested_category_label": "十五五与产业支持",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-12_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E7%AE%97%E5%8A%9B%E7%BD%91%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%91%E5%B1%95%E7%9A%84%E5%9F%BA%E7%A1%80%E6%94%AF%E6%92%919%E6%9C%8811%E6%97%A5%E5%8F%AC%E5%BC%80%E7%9A%84%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%B8%B8%E5%8A%A1%E4%BC%9A%E8%AE%AE%E7%A0%94%E7%A9%B6%E7%AE%97%E5%8A%9B%E7%BD%91%E5%BB%BA%E8%AE%BE%E6%9C%89%E5%85%B3%E5%B7%A5%E4%BD%9C_cb2c0709.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-12_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E7%AE%97%E5%8A%9B%E7%BD%91%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%91%E5%B1%95%E7%9A%84%E5%9F%BA%E7%A1%80%E6%94%AF%E6%92%919%E6%9C%8811%E6%97%A5%E5%8F%AC%E5%BC%80%E7%9A%84%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%B8%B8%E5%8A%A1%E4%BC%9A%E8%AE%AE%E7%A0%94%E7%A9%B6%E7%AE%97%E5%8A%9B%E7%BD%91%E5%BB%BA%E8%AE%BE%E6%9C%89%E5%85%B3%E5%B7%A5%E4%BD%9C_cb2c0709.md"
+    },
+    {
       "candidate_key": "CAND-8BE79CBA",
       "source_url": "https://www.ydcmdei.org.cn/article/973",
       "title": "关于公开征求《腹腔内窥镜手术系统注册审查指导原则第6部分：软件》等2项指导原则意见的通知",
@@ -27,24 +45,6 @@
       "suggested_category_label": "医疗器械注册监管",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-08_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E8%85%B9%E8%85%94%E5%86%85%E7%AA%A5%E9%95%9C%E6%89%8B%E6%9C%AF%E7%B3%BB%E7%BB%9F%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E7%AC%AC6%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E3%80%8B%E7%AD%892%E9%A1%B9%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A_8be79cba.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-08_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E8%85%B9%E8%85%94%E5%86%85%E7%AA%A5%E9%95%9C%E6%89%8B%E6%9C%AF%E7%B3%BB%E7%BB%9F%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E7%AC%AC6%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E3%80%8B%E7%AD%892%E9%A1%B9%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A_8be79cba.md"
-    },
-    {
-      "candidate_key": "CAND-36F2F3DB",
-      "source_url": "https://www.gov.cn/zhengce/202609/content_7080253.htm",
-      "title": "国务院新闻办9月4日举行“开局起步‘十五五’”系列主题新闻发布会，介绍推进医保高质量发展有关情况。",
-      "issuer": "国务院",
-      "issue_date": "2026-09-05",
-      "region": "全国",
-      "source_label": "国务院政策文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "D_医保支付与服务价格",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-09-05_国务院_国务院新闻办9月4日举行开局起步十五五系列主题新闻发布会介绍推进医保高质量发展有关情_36f2f3db.md",
-      "status_label": "待确认",
-      "suggested_category_label": "医保支付与服务价格",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-05_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%96%B0%E9%97%BB%E5%8A%9E9%E6%9C%884%E6%97%A5%E4%B8%BE%E8%A1%8C%E5%BC%80%E5%B1%80%E8%B5%B7%E6%AD%A5%E5%8D%81%E4%BA%94%E4%BA%94%E7%B3%BB%E5%88%97%E4%B8%BB%E9%A2%98%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BB%8B%E7%BB%8D%E6%8E%A8%E8%BF%9B%E5%8C%BB%E4%BF%9D%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E6%9C%89%E5%85%B3%E6%83%85_36f2f3db.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-05_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%96%B0%E9%97%BB%E5%8A%9E9%E6%9C%884%E6%97%A5%E4%B8%BE%E8%A1%8C%E5%BC%80%E5%B1%80%E8%B5%B7%E6%AD%A5%E5%8D%81%E4%BA%94%E4%BA%94%E7%B3%BB%E5%88%97%E4%B8%BB%E9%A2%98%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BB%8B%E7%BB%8D%E6%8E%A8%E8%BF%9B%E5%8C%BB%E4%BF%9D%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E6%9C%89%E5%85%B3%E6%83%85_36f2f3db.md"
     },
     {
       "candidate_key": "CAND-7D410C1C",
