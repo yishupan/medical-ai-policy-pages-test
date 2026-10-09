@@ -1,6 +1,33 @@
 {
   "policies": [
     {
+      "title": "关于公开征求《植入式神经刺激器注册审查指导原则（征求意见稿）》意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "document_no": "",
+      "issue_date": "2026-09-30",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/983",
+      "source_label": "器械长三角分中心指导原则征求意见稿"
+    },
+    {
+      "title": "关于公开征求《医疗器械磁共振环境安全评价指导原则（征求意见稿）》意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "document_no": "",
+      "issue_date": "2026-09-30",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/982",
+      "source_label": "器械长三角分中心指导原则征求意见稿"
+    },
+    {
+      "title": "关于公开征求《α-氰基丙烯酸酯类医用粘合剂注册审查指导原则(2026年修订版)（征求意见稿）》等4项医疗器械注册审查指导原则意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "document_no": "",
+      "issue_date": "2026-09-24",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/981",
+      "source_label": "器械长三角分中心指导原则征求意见稿"
+    },
+    {
       "title": "关于公开征求《结核分枝杆菌复合群耐药基因突变检测试剂注册审查指导原则（2026年修订版）（征求意见稿）》意见的通知",
       "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
       "document_no": "",
@@ -61,33 +88,6 @@
       "issue_date": "2026-09-04",
       "region": "全国",
       "source_url": "https://www.ydcmdei.org.cn/article/971",
-      "source_label": "器械长三角分中心指导原则征求意见稿"
-    },
-    {
-      "title": "关于公开征求《负压源压力源吸引器注册审查指导原则（征求意见稿）》等59项第二类有源医疗器械注册审查指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "document_no": "",
-      "issue_date": "2026-09-01",
-      "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/964",
-      "source_label": "器械长三角分中心指导原则征求意见稿"
-    },
-    {
-      "title": "关于公开征求《甲状旁腺激素测定试剂注册审查指导原则（征求意见稿）》等16项第二类体外诊断试剂医疗器械注册审查指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "document_no": "",
-      "issue_date": "2026-09-01",
-      "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/963",
-      "source_label": "器械长三角分中心指导原则征求意见稿"
-    },
-    {
-      "title": "关于公开征求《放射性粒籽植入防护产品注册审查指导原则（征求意见稿）》等55项第二类无源医疗器械注册审查指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "document_no": "",
-      "issue_date": "2026-09-01",
-      "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/962",
       "source_label": "器械长三角分中心指导原则征求意见稿"
     },
     {
