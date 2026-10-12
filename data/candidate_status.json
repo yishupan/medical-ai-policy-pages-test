@@ -51,6 +51,34 @@
       "draft_path": "pending_markdown/2026-09-24_国家药品监督管理局医疗器械技术审评检_关于公开征求《α-氰基丙烯酸酯类医用粘合剂注册审查指导原则(2026年修订版)（征求_1887b6fd.md"
     },
     {
+      "candidate_key": "CAND-2FB3260A",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214493564009/index.shtml",
+      "title": "国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-22",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-22_辽宁省卫生健康委员会_国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康_2fb3260a.md"
+    },
+    {
+      "candidate_key": "CAND-09082422",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214371879926/index.shtml",
+      "title": "关于印发《关于加强卫生健康监督规范化建设的指导意见》...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-21",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-21_辽宁省卫生健康委员会_关于印发《关于加强卫生健康监督规范化建设的指导意见》_09082422.md"
+    },
+    {
       "candidate_key": "CAND-E56F216E",
       "source_url": "https://www.ydcmdei.org.cn/article/977",
       "title": "关于公开征求《人工智能多病种辅助决策医疗器械临床评价注册审查指导原则（征求意见稿）》等2项指导原则意见的通知",
@@ -93,6 +121,20 @@
       "draft_path": "pending_markdown/2026-09-15_国家药品监督管理局医疗器械技术审评检_关于公开征求《栓塞颗粒注册审查指导原则（征求意见稿）》意见的通知_87702368.md"
     },
     {
+      "candidate_key": "CAND-F8B69F7F",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214471891049/index.shtml",
+      "title": "国家卫生健康委办公厅关于加强托育综合服务中心有关工作...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-15",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-15_辽宁省卫生健康委员会_国家卫生健康委办公厅关于加强托育综合服务中心有关工作_f8b69f7f.md"
+    },
+    {
       "candidate_key": "CAND-C11E1165",
       "source_url": "https://www.ydcmdei.org.cn/article/975",
       "title": "关于公开征求《人工智能医疗器械注册审查指导原则（2026年修订版）（征求意见稿）》意见的通知",
@@ -119,6 +161,20 @@
       "suggested_category": "C_医疗器械注册监管",
       "suggested_policy_id": "",
       "draft_path": "pending_markdown/2026-09-14_国家药品监督管理局医疗器械技术审评检_关于公开征求《有源医疗器械使用期限注册审查指导原则（2026年修订版）（征求意见稿）_8176c163.md"
+    },
+    {
+      "candidate_key": "CAND-45E98AE2",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214455563243/index.shtml",
+      "title": "关于印发医疗机构麻醉药品和精神药品管理规定的通知",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-09",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-09_辽宁省卫生健康委员会_关于印发医疗机构麻醉药品和精神药品管理规定的通知_45e98ae2.md"
     },
     {
       "candidate_key": "CAND-8BE79CBA",
@@ -371,20 +427,6 @@
       "suggested_category": "G_地方试点",
       "suggested_policy_id": "",
       "draft_path": "pending_markdown/2026-06-03_上海市医疗保障局_关于规范调整本市病理类医疗服务价格项目的通知_1c15dbd8.md"
-    },
-    {
-      "candidate_key": "CAND-DA4B8B44",
-      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026052920584335863/index.shtml",
-      "title": "国家卫生健康委关于印发生物医学新技术临床转化应用审批...",
-      "issuer": "辽宁省卫生健康委员会",
-      "issue_date": "2026-04-30",
-      "region": "辽宁",
-      "source_label": "辽宁卫健委国家级文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "G_地方试点",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-04-30_辽宁省卫生健康委员会_国家卫生健康委关于印发生物医学新技术临床转化应用审批_da4b8b44.md"
     },
     {
       "candidate_key": "CAND-B8CCEE77",

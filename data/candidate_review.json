@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "candidate_count": 44,
+  "candidate_count": 47,
   "status_counts": {
-    "pending": 44,
+    "pending": 47,
     "confirmed": 0,
     "rejected": 0
   },
@@ -65,6 +65,42 @@
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-24_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%CE%B1-%E6%B0%B0%E5%9F%BA%E4%B8%99%E7%83%AF%E9%85%B8%E9%85%AF%E7%B1%BB%E5%8C%BB%E7%94%A8%E7%B2%98%E5%90%88%E5%89%82%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%282026%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%29%EF%BC%88%E5%BE%81%E6%B1%82_1887b6fd.md"
     },
     {
+      "candidate_key": "CAND-2FB3260A",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214493564009/index.shtml",
+      "title": "国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-22",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-22_辽宁省卫生健康委员会_国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康_2fb3260a.md",
+      "status_label": "待确认",
+      "suggested_category_label": "地方政策",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-22_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E5%84%BF%E7%AB%A5%E5%B9%B2%E9%A2%84%E5%BA%B7_2fb3260a.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-22_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E5%84%BF%E7%AB%A5%E5%B9%B2%E9%A2%84%E5%BA%B7_2fb3260a.md"
+    },
+    {
+      "candidate_key": "CAND-09082422",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214371879926/index.shtml",
+      "title": "关于印发《关于加强卫生健康监督规范化建设的指导意见》...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-21",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-21_辽宁省卫生健康委员会_关于印发《关于加强卫生健康监督规范化建设的指导意见》_09082422.md",
+      "status_label": "待确认",
+      "suggested_category_label": "地方政策",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-21_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%BC%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E7%9B%91%E7%9D%A3%E8%A7%84%E8%8C%83%E5%8C%96%E5%BB%BA%E8%AE%BE%E7%9A%84%E6%8C%87%E5%AF%BC%E6%84%8F%E8%A7%81%E3%80%8B_09082422.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-21_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%BC%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E7%9B%91%E7%9D%A3%E8%A7%84%E8%8C%83%E5%8C%96%E5%BB%BA%E8%AE%BE%E7%9A%84%E6%8C%87%E5%AF%BC%E6%84%8F%E8%A7%81%E3%80%8B_09082422.md"
+    },
+    {
       "candidate_key": "CAND-E56F216E",
       "source_url": "https://www.ydcmdei.org.cn/article/977",
       "title": "关于公开征求《人工智能多病种辅助决策医疗器械临床评价注册审查指导原则（征求意见稿）》等2项指导原则意见的通知",
@@ -119,6 +155,24 @@
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-15_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E6%A0%93%E5%A1%9E%E9%A2%97%E7%B2%92%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89%E3%80%8B%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A%E7%9F%A5_87702368.md"
     },
     {
+      "candidate_key": "CAND-F8B69F7F",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214471891049/index.shtml",
+      "title": "国家卫生健康委办公厅关于加强托育综合服务中心有关工作...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-15",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-15_辽宁省卫生健康委员会_国家卫生健康委办公厅关于加强托育综合服务中心有关工作_f8b69f7f.md",
+      "status_label": "待确认",
+      "suggested_category_label": "地方政策",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-15_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%BC%BA%E6%89%98%E8%82%B2%E7%BB%BC%E5%90%88%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%E6%9C%89%E5%85%B3%E5%B7%A5%E4%BD%9C_f8b69f7f.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-15_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8A%A0%E5%BC%BA%E6%89%98%E8%82%B2%E7%BB%BC%E5%90%88%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%E6%9C%89%E5%85%B3%E5%B7%A5%E4%BD%9C_f8b69f7f.md"
+    },
+    {
       "candidate_key": "CAND-C11E1165",
       "source_url": "https://www.ydcmdei.org.cn/article/975",
       "title": "关于公开征求《人工智能医疗器械注册审查指导原则（2026年修订版）（征求意见稿）》意见的通知",
@@ -153,6 +207,24 @@
       "suggested_category_label": "医疗器械注册监管",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-14_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E6%9C%89%E6%BA%90%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E4%BD%BF%E7%94%A8%E6%9C%9F%E9%99%90%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%EF%BC%882026%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89_8176c163.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-14_%E5%9B%BD%E5%AE%B6%E8%8D%AF%E5%93%81%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%8A%80%E6%9C%AF%E5%AE%A1%E8%AF%84%E6%A3%80_%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E5%BE%81%E6%B1%82%E3%80%8A%E6%9C%89%E6%BA%90%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E4%BD%BF%E7%94%A8%E6%9C%9F%E9%99%90%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%9F%A5%E6%8C%87%E5%AF%BC%E5%8E%9F%E5%88%99%EF%BC%882026%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89_8176c163.md"
+    },
+    {
+      "candidate_key": "CAND-45E98AE2",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214455563243/index.shtml",
+      "title": "关于印发医疗机构麻醉药品和精神药品管理规定的通知",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-09-09",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-09-09_辽宁省卫生健康委员会_关于印发医疗机构麻醉药品和精神药品管理规定的通知_45e98ae2.md",
+      "status_label": "待确认",
+      "suggested_category_label": "地方政策",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-09-09_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E9%BA%BB%E9%86%89%E8%8D%AF%E5%93%81%E5%92%8C%E7%B2%BE%E7%A5%9E%E8%8D%AF%E5%93%81%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5_45e98ae2.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-09-09_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E9%BA%BB%E9%86%89%E8%8D%AF%E5%93%81%E5%92%8C%E7%B2%BE%E7%A5%9E%E8%8D%AF%E5%93%81%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5_45e98ae2.md"
     },
     {
       "candidate_key": "CAND-8BE79CBA",
@@ -477,24 +549,6 @@
       "suggested_category_label": "地方政策",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-06-03_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E8%B0%83%E6%95%B4%E6%9C%AC%E5%B8%82%E7%97%85%E7%90%86%E7%B1%BB%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_1c15dbd8.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-06-03_%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%8C%BB%E7%96%97%E4%BF%9D%E9%9A%9C%E5%B1%80_%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E8%B0%83%E6%95%B4%E6%9C%AC%E5%B8%82%E7%97%85%E7%90%86%E7%B1%BB%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1%E4%BB%B7%E6%A0%BC%E9%A1%B9%E7%9B%AE%E7%9A%84%E9%80%9A%E7%9F%A5_1c15dbd8.md"
-    },
-    {
-      "candidate_key": "CAND-DA4B8B44",
-      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026052920584335863/index.shtml",
-      "title": "国家卫生健康委关于印发生物医学新技术临床转化应用审批...",
-      "issuer": "辽宁省卫生健康委员会",
-      "issue_date": "2026-04-30",
-      "region": "辽宁",
-      "source_label": "辽宁卫健委国家级文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "G_地方试点",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-04-30_辽宁省卫生健康委员会_国家卫生健康委关于印发生物医学新技术临床转化应用审批_da4b8b44.md",
-      "status_label": "待确认",
-      "suggested_category_label": "地方政策",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-04-30_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E6%96%B0%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E8%BD%AC%E5%8C%96%E5%BA%94%E7%94%A8%E5%AE%A1%E6%89%B9_da4b8b44.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-04-30_%E8%BE%BD%E5%AE%81%E7%9C%81%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A_%E5%9B%BD%E5%AE%B6%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E6%96%B0%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E8%BD%AC%E5%8C%96%E5%BA%94%E7%94%A8%E5%AE%A1%E6%89%B9_da4b8b44.md"
     },
     {
       "candidate_key": "CAND-B8CCEE77",
