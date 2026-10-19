@@ -1,6 +1,24 @@
 {
   "policies": [
     {
+      "title": "关于公开征求《一次性使用动静脉插管注册审查指导原则（征求意见稿）》意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "document_no": "",
+      "issue_date": "2026-10-19",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/985",
+      "source_label": "器械长三角分中心指导原则征求意见稿"
+    },
+    {
+      "title": "关于公开征求《心脏电生理三维标测系统注册审查指导原则》意见的通知",
+      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
+      "document_no": "",
+      "issue_date": "2026-10-16",
+      "region": "全国",
+      "source_url": "https://www.ydcmdei.org.cn/article/984",
+      "source_label": "器械长三角分中心指导原则征求意见稿"
+    },
+    {
       "title": "关于公开征求《植入式神经刺激器注册审查指导原则（征求意见稿）》意见的通知",
       "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
       "document_no": "",
@@ -107,24 +125,6 @@
       "region": "辽宁",
       "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026101214455563243/index.shtml",
       "source_label": "辽宁卫健委国家级文件"
-    },
-    {
-      "title": "关于公开征求《腹腔内窥镜手术系统注册审查指导原则第6部分：软件》等2项指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "document_no": "",
-      "issue_date": "2026-09-08",
-      "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/973",
-      "source_label": "器械长三角分中心指导原则征求意见稿"
-    },
-    {
-      "title": "关于公开征求《伽玛射束立体定向放射治疗系统注册审查指导原则（征求意见稿）》等6项注册审查指导原则意见的通知",
-      "issuer": "国家药品监督管理局医疗器械技术审评检查长三角分中心",
-      "document_no": "",
-      "issue_date": "2026-09-04",
-      "region": "全国",
-      "source_url": "https://www.ydcmdei.org.cn/article/971",
-      "source_label": "器械长三角分中心指导原则征求意见稿"
     },
     {
       "title": "关于规范医疗机构特殊医学用途配方食品使用的指导意见",
