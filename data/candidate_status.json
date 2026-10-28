@@ -9,6 +9,20 @@
   },
   "candidates": [
     {
+      "candidate_key": "CAND-519E179F",
+      "source_url": "https://www.cac.gov.cn/2026-10/28/c_1794942554784626.htm",
+      "title": "通过个人信息保护合规审计服务认证的专业机构名单（第三批）",
+      "issuer": "国家互联网信息办公室",
+      "issue_date": "2026-10-28",
+      "region": "全国",
+      "source_label": "中央网信办数据治理",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "F_数据安全与跨境",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-10-28_国家互联网信息办公室_通过个人信息保护合规审计服务认证的专业机构名单（第三批）_519e179f.md"
+    },
+    {
       "candidate_key": "CAND-2175552D",
       "source_url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm",
       "title": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
@@ -441,20 +455,6 @@
       "suggested_category": "G_地方试点",
       "suggested_policy_id": "",
       "draft_path": "pending_markdown/2026-06-03_上海市医疗保障局_关于规范调整本市病理类医疗服务价格项目的通知_1c15dbd8.md"
-    },
-    {
-      "candidate_key": "CAND-B8CCEE77",
-      "source_url": "https://ybj.sh.gov.cn/qtwj/20260629/67348c255e2243d3b7fb9ed6e62c5e75.html",
-      "title": "关于本市设立心腔内超声心动图检查费等部分医疗服务价格项目的通知",
-      "issuer": "上海市医疗保障局",
-      "issue_date": "2026-04-15",
-      "region": "上海",
-      "source_label": "上海市医疗保障局其他文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "G_地方试点",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-04-15_上海市医疗保障局_关于本市设立心腔内超声心动图检查费等部分医疗服务价格项目的通知_b8ccee77.md"
     },
     {
       "candidate_key": "CAND-CE13F9F7",

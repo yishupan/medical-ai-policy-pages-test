@@ -1,6 +1,15 @@
 {
   "policies": [
     {
+      "title": "通过个人信息保护合规审计服务认证的专业机构名单（第三批）",
+      "issuer": "国家互联网信息办公室",
+      "document_no": "",
+      "issue_date": "2026-10-28",
+      "region": "全国",
+      "source_url": "https://www.cac.gov.cn/2026-10/28/c_1794942554784626.htm",
+      "source_label": "中央网信办数据治理"
+    },
+    {
       "title": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "issuer": "国务院",
       "document_no": "",
@@ -287,15 +296,6 @@
       "region": "辽宁",
       "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214121557093/index.shtml",
       "source_label": "辽宁卫健委国家级文件"
-    },
-    {
-      "title": "关于本市设立心腔内超声心动图检查费等部分医疗服务价格项目的通知",
-      "issuer": "上海市医疗保障局",
-      "document_no": "",
-      "issue_date": "2026-04-15",
-      "region": "上海",
-      "source_url": "https://ybj.sh.gov.cn/qtwj/20260629/67348c255e2243d3b7fb9ed6e62c5e75.html",
-      "source_label": "上海市医疗保障局其他文件"
     },
     {
       "title": "上海市人民政府办公厅关于印发《上海市促进高端医疗器械产业全链条发展行动方案》的通知",
