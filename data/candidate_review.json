@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "candidate_count": 48,
+  "candidate_count": 49,
   "status_counts": {
-    "pending": 48,
+    "pending": 49,
     "confirmed": 0,
     "rejected": 0
   },
@@ -10,6 +10,24 @@
   "status_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/data/candidate_status.json",
   "draft_tree_url": "https://github.com/yishupan/medical-ai-policy-pages-test/tree/main/pending_markdown",
   "candidates": [
+    {
+      "candidate_key": "CAND-FE85B804",
+      "source_url": "http://www.npc.gov.cn/npc/c30834/c2/c30834/202611/t20261103_458272.html",
+      "title": "重庆建立健全全流程数据安全管理制度",
+      "issuer": "全国人民代表大会常务委员会",
+      "issue_date": "2026-11-03",
+      "region": "全国",
+      "source_label": "全国人大法律",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "E_医疗数据利用与流通",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-11-03_全国人民代表大会常务委员会_重庆建立健全全流程数据安全管理制度_fe85b804.md",
+      "status_label": "待确认",
+      "suggested_category_label": "医疗数据利用与流通",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-11-03_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A_%E9%87%8D%E5%BA%86%E5%BB%BA%E7%AB%8B%E5%81%A5%E5%85%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6_fe85b804.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-11-03_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A_%E9%87%8D%E5%BA%86%E5%BB%BA%E7%AB%8B%E5%81%A5%E5%85%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6_fe85b804.md"
+    },
     {
       "candidate_key": "CAND-519E179F",
       "source_url": "https://www.cac.gov.cn/2026-10/28/c_1794942554784626.htm",
