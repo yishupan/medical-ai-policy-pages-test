@@ -107,6 +107,20 @@
       "draft_path": "pending_markdown/2026-10-16_国家药品监督管理局医疗器械技术审评检_关于公开征求《心脏电生理三维标测系统注册审查指导原则》意见的通知_35b83598.md"
     },
     {
+      "candidate_key": "CAND-336BAE06",
+      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026110611221172994/index.shtml",
+      "title": "国家中医药管理局关于印发《中医医疗质量控制中心管理规...",
+      "issuer": "辽宁省卫生健康委员会",
+      "issue_date": "2026-10-14",
+      "region": "辽宁",
+      "source_label": "辽宁卫健委国家级文件",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "G_地方试点",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-10-14_辽宁省卫生健康委员会_国家中医药管理局关于印发《中医医疗质量控制中心管理规_336bae06.md"
+    },
+    {
       "candidate_key": "CAND-71B729A2",
       "source_url": "https://www.ydcmdei.org.cn/article/982",
       "title": "关于公开征求《医疗器械磁共振环境安全评价指导原则（征求意见稿）》意见的通知",
@@ -427,20 +441,6 @@
       "suggested_category": "F_数据安全与跨境",
       "suggested_policy_id": "",
       "draft_path": "pending_markdown/2026-06-12_国家互联网信息办公室_国家互联网信息办公室发布《中国个人信息保护报告（2025年）》_a52ed28e.md"
-    },
-    {
-      "candidate_key": "CAND-D8408BDF",
-      "source_url": "https://wsjk.ln.gov.cn/wsjk/zfxxgk/zc/gjjwj/2026070214560780237/index.shtml",
-      "title": "关于印发2026年纠正医药购销领域和医疗服务中不正之风工...",
-      "issuer": "辽宁省卫生健康委员会",
-      "issue_date": "2026-06-08",
-      "region": "辽宁",
-      "source_label": "辽宁卫健委国家级文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "G_地方试点",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-06-08_辽宁省卫生健康委员会_关于印发2026年纠正医药购销领域和医疗服务中不正之风工_d8408bdf.md"
     },
     {
       "candidate_key": "CAND-1C15DBD8",
