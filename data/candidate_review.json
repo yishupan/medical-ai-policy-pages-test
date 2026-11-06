@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "candidate_count": 48,
+  "candidate_count": 49,
   "status_counts": {
-    "pending": 48,
+    "pending": 49,
     "confirmed": 0,
     "rejected": 0
   },
@@ -10,6 +10,24 @@
   "status_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/data/candidate_status.json",
   "draft_tree_url": "https://github.com/yishupan/medical-ai-policy-pages-test/tree/main/pending_markdown",
   "candidates": [
+    {
+      "candidate_key": "CAND-2E0356A0",
+      "source_url": "http://www.npc.gov.cn/npc/c30834/c2/c30834/202611/t20261106_458551.html",
+      "title": "全国人民代表大会常务委员会关于批准《关于成立世界人工智能合作组织的协定》的决定",
+      "issuer": "全国人民代表大会常务委员会",
+      "issue_date": "2026-11-06",
+      "region": "全国",
+      "source_label": "全国人大法律",
+      "status": "pending",
+      "review_note": "",
+      "suggested_category": "A_十五五与产业支持",
+      "suggested_policy_id": "",
+      "draft_path": "pending_markdown/2026-11-06_全国人民代表大会常务委员会_全国人民代表大会常务委员会关于批准《关于成立世界人工智能合作组织的协定》的决定_2e0356a0.md",
+      "status_label": "待确认",
+      "suggested_category_label": "十五五与产业支持",
+      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-11-06_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%B3%E4%BA%8E%E6%89%B9%E5%87%86%E3%80%8A%E5%85%B3%E4%BA%8E%E6%88%90%E7%AB%8B%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%E7%9A%84%E5%8D%8F%E5%AE%9A%E3%80%8B%E7%9A%84%E5%86%B3%E5%AE%9A_2e0356a0.md",
+      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-11-06_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A_%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%B3%E4%BA%8E%E6%89%B9%E5%87%86%E3%80%8A%E5%85%B3%E4%BA%8E%E6%88%90%E7%AB%8B%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%E7%9A%84%E5%8D%8F%E5%AE%9A%E3%80%8B%E7%9A%84%E5%86%B3%E5%AE%9A_2e0356a0.md"
+    },
     {
       "candidate_key": "CAND-519E179F",
       "source_url": "https://www.cac.gov.cn/2026-10/28/c_1794942554784626.htm",
