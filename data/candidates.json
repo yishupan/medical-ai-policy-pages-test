@@ -1,15 +1,6 @@
 {
   "policies": [
     {
-      "title": "全国人民代表大会常务委员会关于批准《关于成立世界人工智能合作组织的协定》的决定",
-      "issuer": "全国人民代表大会常务委员会",
-      "document_no": "",
-      "issue_date": "2026-11-06",
-      "region": "全国",
-      "source_url": "http://www.npc.gov.cn/npc/c30834/c2/c30834/202611/t20261106_458551.html",
-      "source_label": "全国人大法律"
-    },
-    {
       "title": "通过个人信息保护合规审计服务认证的专业机构名单（第三批）",
       "issuer": "国家互联网信息办公室",
       "document_no": "",
