@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "candidate_count": 48,
+  "candidate_count": 47,
   "status_counts": {
-    "pending": 48,
+    "pending": 47,
     "confirmed": 0,
     "rejected": 0
   },
@@ -27,24 +27,6 @@
       "suggested_category_label": "数据安全与跨境",
       "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-10-28_%E5%9B%BD%E5%AE%B6%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4_%E9%80%9A%E8%BF%87%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4%E5%90%88%E8%A7%84%E5%AE%A1%E8%AE%A1%E6%9C%8D%E5%8A%A1%E8%AE%A4%E8%AF%81%E7%9A%84%E4%B8%93%E4%B8%9A%E6%9C%BA%E6%9E%84%E5%90%8D%E5%8D%95%EF%BC%88%E7%AC%AC%E4%B8%89%E6%89%B9%EF%BC%89_519e179f.md",
       "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-10-28_%E5%9B%BD%E5%AE%B6%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4_%E9%80%9A%E8%BF%87%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4%E5%90%88%E8%A7%84%E5%AE%A1%E8%AE%A1%E6%9C%8D%E5%8A%A1%E8%AE%A4%E8%AF%81%E7%9A%84%E4%B8%93%E4%B8%9A%E6%9C%BA%E6%9E%84%E5%90%8D%E5%8D%95%EF%BC%88%E7%AC%AC%E4%B8%89%E6%89%B9%EF%BC%89_519e179f.md"
-    },
-    {
-      "candidate_key": "CAND-2175552D",
-      "source_url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm",
-      "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "issuer": "国务院",
-      "issue_date": "2026-10-23",
-      "region": "全国",
-      "source_label": "国务院政策文件",
-      "status": "pending",
-      "review_note": "",
-      "suggested_category": "A_十五五与产业支持",
-      "suggested_policy_id": "",
-      "draft_path": "pending_markdown/2026-10-23_国务院_国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见_2175552d.md",
-      "status_label": "待确认",
-      "suggested_category_label": "十五五与产业支持",
-      "draft_url": "https://github.com/yishupan/medical-ai-policy-pages-test/blob/main/pending_markdown/2026-10-23_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%9E%E5%85%B3%E4%BA%8E%E9%80%82%E5%BA%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E5%8A%A9%E5%8A%9B%E6%9E%84%E5%BB%BA%E5%B0%B1%E4%B8%9A%E5%8F%8B%E5%A5%BD%E5%9E%8B%E5%8F%91%E5%B1%95%E6%96%B9%E5%BC%8F%E7%9A%84%E6%84%8F%E8%A7%81_2175552d.md",
-      "draft_edit_url": "https://github.com/yishupan/medical-ai-policy-pages-test/edit/main/pending_markdown/2026-10-23_%E5%9B%BD%E5%8A%A1%E9%99%A2_%E5%9B%BD%E5%8A%9E%E5%85%B3%E4%BA%8E%E9%80%82%E5%BA%94%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E5%8A%A9%E5%8A%9B%E6%9E%84%E5%BB%BA%E5%B0%B1%E4%B8%9A%E5%8F%8B%E5%A5%BD%E5%9E%8B%E5%8F%91%E5%B1%95%E6%96%B9%E5%BC%8F%E7%9A%84%E6%84%8F%E8%A7%81_2175552d.md"
     },
     {
       "candidate_key": "CAND-1DA59C26",
